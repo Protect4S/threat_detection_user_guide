@@ -6,20 +6,20 @@ description: A walkthrough to create a system within Protect4S Threat Detection
 
 To create system, open the System Fiori application.
 
-Click on create ![](<../../../../.gitbook/assets/image (60).png>)
+Click on create ![](<../../../../.gitbook/assets/image (71).png>)
 
 You should get a new screen displayed like below:
 
 On the left side the System Attributes are defined (System Role, System Description, Business Relevance, Data Sensitivity). All these information will be parsed to the Security Information and Event Management (SIEM) system depending on which you have linked Threat Detection to.\
 For this reason it is important to be thoughtful how these should be defined.
 
-![Configuring a new system](<../../../../.gitbook/assets/image (51).png>)
+![Configuring a new system](<../../../../.gitbook/assets/image (61).png>)
 
 On the right hand side the Threat Detection settings can be defined specifically how you want the Protect4S Threat Solution to behave for this particular system.
 
 For each system you setup you can define their own Threat Detection Settings. The proposed initial values can be changed per your needs.
 
-![Threat Detection Settings](<../../../../.gitbook/assets/image (37).png>)
+![Threat Detection Settings](<../../../../.gitbook/assets/image (42).png>)
 
 **Threat Detection Interval in Seconds**
 

@@ -12,7 +12,7 @@ Copy the \<sid>adm user record in both the /etc/passwd and /etc/shadow files to 
 
 **2. In the /etc/passwd file, change the login shell for the new user into: /sbin/nologin and save**
 
-![Cloned user smcadm](<../../../.gitbook/assets/image (24).png>)
+![Cloned user smcadm](<../../../.gitbook/assets/image (27).png>)
 
 ​In the example above, the smdadm user record was copied to a new user called smcadm and the login shell was changed to: /sbin/nologin.
 
@@ -76,15 +76,24 @@ Also on all local instance exe directories (DVEBMGSxx, Dxx and ASCSxx):
 
 For SAP HANA Databases also do the above for the HDB executable directory (e.g. /usr/sap/\<HANA SID>/SYS/exe/hdb).
 
-Documentation from SAP can be found in SAP note [927637.](https://launchpad.support.sap.com/#/notes/927637)​
+Documentation from SAP can be found in SAP note [927637.](https://launchpad.support.sap.com/#/notes/927637)
 
-**8. Add the following 2 lines to the DEFAULT.PFL of the SAP satellite system (and also for the ASCS instance profile and HANA DB instance if applicable)**service/protectedwebmethods = SDEFAULTservice/admin\_users = \<os-user>
+​
+
+**8. Add the following 2 lines to the DEFAULT.PFL of the SAP satellite system (and also for the ASCS instance profile and HANA DB instance if applicable)**
+
+service/protectedwebmethods = SDEFAULT
+
+service/admin\_users = \<os-user>
 
 * **On Unix** : service/admin\_users = **<**user1> \<user2>
 * **On Windows**: service/admin\_users = domain\\\<user1> domain\\\<user2>
 
-where \<user1> is the normal \<sid>adm user and \<user2> is the user that was created, separated by space, and restart the SAP satellite system on a suitable moment to activate these settings.\
+where \<user1> is the normal \<sid>adm user and \<user2> is the user that was created, separated by space, and restart the SAP satellite system on a suitable moment to activate these settings.
+
 For HANA Databases do the above in the DEFAULT.PFL in directory /usr/sap/\<HANA SID>/SYS/profile​
+
+
 
 **9. Re-Start SAP Control service for all instances (DVEBMGSxx, Dxx, (A)SCSxx)**
 
@@ -95,11 +104,10 @@ For HANA Databases do the above in the DEFAULT.PFL in directory /usr/sap/\<HANA 
 **10. (Re)create the SAPControl connections using the Systems menu**\
 ****The connection will not turn green (as is the case with the \<sid>adm user), but yellow instead. This is OK. When you hover your cursor over the yellow icon it will show as:
 
-\
 **11. Verify that SAP Control works ok**\
 ****In the Systems **overview select** the SAP satellite system concerned, perform a connection test and inspect the SAP Control context. It should now be filled for all instances:
 
-![SAPControl connection with alternative OS-user](<../../../.gitbook/assets/image (49).png>)
+![SAPControl connection with alternative OS-user](<../../../.gitbook/assets/image (57).png>)
 
 \
 **Procedure for Windows:**

@@ -4,5 +4,5 @@ Protect4S Threat Detection is delivered as a removable SAP Add-On. The solution 
 
 
 
-![Protect4S Threat Detection architecture](<../../.gitbook/assets/image (61).png>)
+![Protect4S Threat Detection architecture](<../../.gitbook/assets/image (72).png>)
 

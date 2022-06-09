@@ -22,29 +22,29 @@ This will show you the relevant information of the Protect4S TD system (System n
 
 When the "Open e-mail" option is chosen, a mail will be created for Protect4S support containing the relevant information for us to generate your license file:
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (33).png>)
 
 Then, send the mail to us and we will generate a license file for you. Should you have lost this file or never received it, please contact the Protect4S support team.
 
 #### Uploading the license file
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 This will start up a new screen in which you can upload and save the license key file:
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 After uploading and saving the license key file, you will be able to see the license in the overview in the License Administration:
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 After having installed the license: select **Yes**.
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (68).png>)
 
 Next inspect and update the Application settings:
 
-![](<../../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 You must supply data for generic settings and for SIEM specific settings.
 
@@ -58,7 +58,7 @@ Depending on the type of SIEM you operate, some SIEM specific settings need to b
 
 For Microsoft Sentinel you need to provide these settings:
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 * **Customer ID**: This value can be retrieved in Microsoft Sentinel under "Log Analytics Workspaces" --> "Agents Management" --> "Workspace ID".
 * **Security Key**: This value can be retrieved in Microsoft Sentinel under "Log Analytics Workspaces" --> "Agents Management" --> "Primary Key".

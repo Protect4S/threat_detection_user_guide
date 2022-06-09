@@ -4,7 +4,7 @@ description: Adding and managing systems in Protect4S Threat Detection solution
 
 # System configuration - Fiori application
 
-![System configuration application](<../../../.gitbook/assets/image (31).png>)
+![System configuration application](<../../../.gitbook/assets/image (36).png>)
 
 In order to monitor the events, it is mandatory to add systems in the Threat Detection solution.\
 For this activity, you will need the technical configurator or the administrator role to proceed.
@@ -17,7 +17,7 @@ This should not be confused with SAP SID. With this, you can add the same system
 
 Once opened you will see the following screen below.
 
-![System application of Protect4S Threat Detection solution](<../../../.gitbook/assets/image (23).png>)
+![System application of Protect4S Threat Detection solution](<../../../.gitbook/assets/image (26).png>)
 
 This list should be empty if this is your first time using this solution or you haven't added any systems yet.
 

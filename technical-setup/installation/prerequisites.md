@@ -36,13 +36,13 @@ Make sure that on all SAP systems in your landscape the setting of time is synch
 
 Make sure that at least one HTTPS service is active using transaction SMICM before continuing with the next step.See transaction: SMICM, Goto, Services \<Shift-F1>:
 
-![SMICM HTTPS Service should be active](<../../.gitbook/assets/image (48).png>)
+![SMICM HTTPS Service should be active](<../../.gitbook/assets/image (56).png>)
 
 ### Enable SAP Gateway & Fiori Launchpad
 
 Make sure that the SAP Gateway and Fiori Launchpad are activated. This can be tested by starting the transaction `/n/ui2/flp`. The output should be an empty Fiori Launchpad like below or the same screen containing some tiles:
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 If the above is not the case the use transaction STC01 to activate the below two tasks:
 

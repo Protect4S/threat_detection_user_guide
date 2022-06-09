@@ -6,8 +6,8 @@ To enable parallel processing and avoid overloading the Protect4S TD central sys
 
 Create a Logon Group in transaction RZ12 by pressing the button "Create assignment" and supply a name ("Protect4S"). Assign the needed resources to this Logon Group for one or more instances,  make sure to leave some free work-processes for other activities in the system.
 
-![RZ12 Creating a Server group](<../../.gitbook/assets/image (30).png>)
+![RZ12 Creating a Server group](<../../.gitbook/assets/image (35).png>)
 
 In the Protect4S TD Application Settings you can then select this server group.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (3).png>)

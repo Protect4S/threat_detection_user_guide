@@ -2,7 +2,7 @@
 
 Before you proceed adding systems to Threat Detection, please make sure that the SAP Secure Store of the Threat Detection system itself is properly protected. The Secure store key phrase should not set to the default key. This can be checked using SAP transaction SECSTORE:
 
-![Checking to see if the Secure Store has a default key](<../../.gitbook/assets/image (21).png>)
+![Checking to see if the Secure Store has a default key](<../../.gitbook/assets/image (24).png>)
 
 **Transaction SECSTORE default Key warning**
 
