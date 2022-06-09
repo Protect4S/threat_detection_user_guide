@@ -1,38 +1,28 @@
 # Prerequisites
 
-### Protect4S TD Central System s**oftware version requirements**&#x20;
+### Protect4S TD Central System s**oftware version requirements**
 
 There are minimal software version requirements for the central Protect4S Threat Detection system. Below mentioned software components should be installed on at least the version and Support Package level indicated (a higher version or support package is supported, not lower):
 
-
-
 \| **Software Component** | **Version** | **Support Package** |
 
-\| SAP\_BASIS                   |        752 |                       0005 |&#x20;
+\| SAP\_BASIS | 752 | 0005 |
 
-\| SAP\_UI                          |        754 |                       0000 |
+\| SAP\_UI | 754 | 0000 |
 
-\| SPAM/SAINT                |        752 |                        0078 |
+\| SPAM/SAINT | 752 | 0078 |
 
+The SAPUI component has been tested and is supported as of SAPUI 7.54 Support Package 0007 and higher, but might also work on lower support package levels within the 7.54 version. In case of issues though, we recommend to install at least the above mentioned version of the SAPUI component.
 
-
-The SAPUI component has been tested and is supported as of SAPUI 7.54 Support Package 0007 and higher, but might also work on lower support package levels within the 7.54 version. In case of issues though, we recommend to install at least the above mentioned version of the SAPUI component.&#x20;
-
-
-
-### Monitored SAP systems s**oftware version requirements**&#x20;
+### Monitored SAP systems s**oftware version requirements**
 
 The to be monitored SAP systems should be running on SAP Netweaver release 7.40 or higher. Apart from that there are no specific software version requirements.
-
-
 
 ### Time settings
 
 Make sure that on all SAP systems in your landscape the setting of time is synchronised with a central time server (e.g. via the NTP protocol) and that the other Operating System time-settings (e.g. Daylight Saving Time settings) are set to the default settings. We don't take into account the parameter _`zdate/DSTswitch_contloctime`_.
 
-
-
-### Check  active HTTPS service <a href="#check-that-http-s-service-is-active" id="check-that-http-s-service-is-active"></a>
+### Check active HTTPS service <a href="#check-that-http-s-service-is-active" id="check-that-http-s-service-is-active"></a>
 
 Make sure that at least one HTTPS service is active using transaction SMICM before continuing with the next step.See transaction: SMICM, Goto, Services \<Shift-F1>:
 
@@ -49,3 +39,4 @@ If the above is not the case the use transaction STC01 to activate the below two
 * SAP\_GATEWAY\_BASIC\_CONFIG
 * SAP\_FIORI\_LAUNCHPAD\_INIT\_SETUP
 
+<mark style="background-color:blue;">Also activate the SICF service:</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**/sap/public/bc/uics/whitelist**</mark>
