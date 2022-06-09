@@ -13,7 +13,7 @@ You should get a new screen displayed like below:
 On the left side the System Attributes are defined (System Role, System Description, Business Relevance, Data Sensitivity). All these information will be parsed to the Security Information and Event Management (SIEM) system depending on which you have linked Threat Detection to.\
 For this reason it is important to be thoughtful how these should be defined.
 
-![Configuring a new system](<../../../../.gitbook/assets/image (61).png>)
+![Configuring a new system](<../../../../.gitbook/assets/image (61) (1).png>)
 
 On the right hand side the Threat Detection settings can be defined specifically how you want the Protect4S Threat Solution to behave for this particular system.
 
@@ -32,8 +32,6 @@ This parameter is used to define the time Threat Detection looks back during the
 **Data Source Max. Seconds per Part**
 
 This parameter is used to split reading large amounts of data. It defines the maximum amount of time in seconds that a Threat Detection read uses to retrieve data from the satellite system. This is used to avoid large sum data being collected at once which is especially noticeable if the "Data Source Max. Read History in Seconds" is set to a high value or in combination of many events occurred during the time in which the system became unreachable.
-
-
 
 **Example:**
 
