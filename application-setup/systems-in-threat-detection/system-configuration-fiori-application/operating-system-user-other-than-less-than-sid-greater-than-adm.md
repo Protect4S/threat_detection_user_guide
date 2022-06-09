@@ -12,7 +12,7 @@ Copy the \<sid>adm user record in both the /etc/passwd and /etc/shadow files to 
 
 **2. In the /etc/passwd file, change the login shell for the new user into: /sbin/nologin and save**
 
-![Cloned user smcadm](<../../../../.gitbook/assets/image (27).png>)
+![Cloned user smcadm](<../../../.gitbook/assets/image (27).png>)
 
 ​In the example above, the smdadm user record was copied to a new user called smcadm and the login shell was changed to: /sbin/nologin.
 
@@ -105,7 +105,7 @@ For HANA Databases do the above in the DEFAULT.PFL in directory /usr/sap/\<HANA 
 **11. Verify that SAP Control works ok**\
 \*\*\*\*In the Systems **overview select** the SAP satellite system concerned, perform a connection test and inspect the SAP Control context. It should now be filled for all instances:
 
-![SAPControl connection with alternative OS-user](<../../../../.gitbook/assets/image (57).png>)
+![SAPControl connection with alternative OS-user](<../../../.gitbook/assets/image (57).png>)
 
 \
 **Procedure for Windows:**
