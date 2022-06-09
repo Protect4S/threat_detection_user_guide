@@ -1,3 +1,7 @@
+---
+description: Use Case Selection configuration
+---
+
 # Use Case Selection
 
 ![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63).png>)
