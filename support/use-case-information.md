@@ -6,4 +6,4 @@ In case information is needed on a specific use case, you can make use of the Us
 
 This application provides metadata as well as descriptions and classifications of each use case.
 
-![](<../.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (63) (1).png>)
