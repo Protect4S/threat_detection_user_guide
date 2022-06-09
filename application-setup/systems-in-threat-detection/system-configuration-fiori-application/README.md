@@ -9,7 +9,7 @@ description: Adding and managing systems in Protect4S Threat Detection solution
 In order to monitor the events, it is mandatory to add systems in the Threat Detection solution.\
 For this activity, you will need the technical configurator or the administrator role to proceed.
 
-Threat Detection Solution uses its own System ID which is numeric. Which is the same way use din our other Solution "_Protect4S - Vulnerability Management_".
+Threat Detection Solution uses its own System ID which is numeric. Which is the same way used in our other Solution "_Protect4S - Vulnerability Management_".
 
 The System ID is an unique number and belongs to the set of System configured in Threat Detection. During any analysis and investigation you will need this System ID to know from which system the event or threat is triggered from.
 
