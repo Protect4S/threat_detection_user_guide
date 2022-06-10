@@ -4,7 +4,7 @@ The HTTPURLLOC table is used to reroute HTTP(S) traffic based on the used URL's.
 
 A valid entry in the table specifically might look like this:
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (74) (1).png>)
 
 Where the PORT (443 in this case) is the ABAP port as defined in transaction SMICM --> Services and the HOST is the hostname of the Protect4S system.
 

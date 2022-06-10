@@ -32,6 +32,6 @@ Enter here the OS user to sapcontrol, you may enter \<sid>adm or a different use
 
 Review and confirm the list of all the applications applicable for your system. If there is a system missing confirm whether the system is reachable.
 
-![Total overview of the to be created RFCs.](<../../../../.gitbook/assets/image (73).png>)
+![Total overview of the to be created RFCs.](<../../../../.gitbook/assets/image (73) (1).png>)
 
 This screen is a confirmation of all the connections that will be created, in our example we have skipped the database connection because it is not mandatory.

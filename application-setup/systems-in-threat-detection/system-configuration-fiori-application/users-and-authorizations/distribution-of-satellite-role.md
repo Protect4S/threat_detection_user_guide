@@ -26,7 +26,7 @@ Confirm the popup:
 
 Select a location for the role on your workstation and save the file. In this tutorial we will save this in our Temp directory:
 
-![Choose a path to save the role](<../../../../.gitbook/assets/image (31) (1) (1) (1).png>)
+![Choose a path to save the role](<../../../../.gitbook/assets/image (31) (1) (1) (1) (1).png>)
 
 You may repeat this step for roles **TDWO\_SATELLITE\_PUSH** if you use the automatic distribution of Protect4S satellite user roles.
 

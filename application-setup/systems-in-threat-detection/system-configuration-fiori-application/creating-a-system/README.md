@@ -13,7 +13,7 @@ You should get a new screen displayed like below:
 On the left side the System Attributes are defined (System Role, System Description, Business Relevance, Data Sensitivity). All these information will be parsed to the Security Information and Event Management (SIEM) system depending on which you have linked Threat Detection to.\
 For this reason it is important to be thoughtful how these should be defined.
 
-![Configuring a new system](<../../../../.gitbook/assets/image (61) (1) (1).png>)
+![Configuring a new system](<../../../../.gitbook/assets/image (61) (1) (1) (1).png>)
 
 On the right hand side the Threat Detection settings can be defined specifically how you want the Protect4S Threat Solution to behave for this particular system.
 

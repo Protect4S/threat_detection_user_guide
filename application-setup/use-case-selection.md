@@ -4,7 +4,7 @@ description: Use Case Selection configuration
 
 # !Use Case Selection
 
-![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63).png>)
+![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63) (1).png>)
 
 It is possible that in certain case that you do not need or would like to have only certain checks to be performed and want to exclude other policies for a system. You may switch the Use Cases On or Off clicking on "Set Inactive" to deactivate or "Set active" to Activate.
 
@@ -16,7 +16,7 @@ To get the details about what a Use Case does, you can see it in the Use Case In
 
 If you have the been granted to security configurator role or the administrator role, you can either access "Use Case Selection" Fiori Tile. Please visit [this](systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
-
+### Using the Use Case Selection
 
 Upon opening this Fiori application, you will get the following screen (depending on how many systems you have connected):
 
@@ -28,7 +28,7 @@ This is a list of all the Use Cases there are currently in the system, On the le
 
 Click on the Use Case for the system you want to change, the system is identified by System number known in Threat Detection solution.
 
-![Use Case settings](<../.gitbook/assets/image (61) (1).png>)
+![Use Case settings](<../.gitbook/assets/image (61) (1) (1).png>)
 
 On the top right you can set the Use Case to Inactive to disable the use case so that this won't be checked for this particular system or switch it back on if you wish to do so.
 

@@ -22,17 +22,17 @@ This will show you the relevant information of the Protect4S TD system (System n
 
 When the "Open e-mail" option is chosen, a mail will be created for Protect4S support containing the relevant information for us to generate your license file:
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (33) (1).png>)
 
 Then, send the mail to us and we will generate a license file for you. Should you have lost this file or never received it, please contact the Protect4S support team.
 
 #### Uploading the license file
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 This will start up a new screen in which you can upload and save the license key file:
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
 
 After uploading and saving the license key file, you will be able to see the license in the overview in the License Administration:
 

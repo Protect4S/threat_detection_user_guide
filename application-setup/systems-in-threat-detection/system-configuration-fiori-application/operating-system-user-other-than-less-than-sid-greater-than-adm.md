@@ -78,8 +78,6 @@ For SAP HANA Databases also do the above for the HDB executable directory (e.g. 
 
 Documentation from SAP can be found in SAP note [927637.](https://launchpad.support.sap.com/#/notes/927637)
 
-​
-
 **8. Add the following 2 lines to the DEFAULT.PFL of the SAP satellite system (and also for the ASCS instance profile and HANA DB instance if applicable)**
 
 service/protectedwebmethods = SDEFAULT
