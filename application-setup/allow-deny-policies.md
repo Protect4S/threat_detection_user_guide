@@ -25,7 +25,7 @@ Each attribute have their own importance depending on the policy it applies for.
 
 | Attribute name:  | Description:                                                                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Policy ID        | This is the the unique identifier number for the policy, Allow policies starts with 1000, Deny policies starts with 2000                                                                           |
+| Policy ID        | This is the the unique identifier number for the policy, Allow policies starts with 1000; Deny policies starts with 2000                                                                           |
 | Restriction Type | This attribute indicates whether the policy is an allow or deny policy                                                                                                                             |
 | Technical Name   | This is the technical name of the policy which will be used to assign the policy to an use case along with the Policy ID                                                                           |
 | Case Sensitive   | This indicates whether the values entered are Case sensitive or not                                                                                                                                |
