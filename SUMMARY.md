@@ -29,7 +29,7 @@
         * [Satellite application user(s)](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/satellite-application-user-s.md)
         * [Distribution of satellite role](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/distribution-of-satellite-role.md)
         * [Satellite system database user](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/satellite-system-database-user.md)
-        * [!Operating System user](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/operating-system-user.md)
+        * [Operating System user](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/operating-system-user.md)
         * [Operating System user other than \<sid>adm](application-setup/systems-in-threat-detection/system-configuration-fiori-application/operating-system-user-other-than-less-than-sid-greater-than-adm.md)
       * [Creating a system](application-setup/systems-in-threat-detection/system-configuration-fiori-application/creating-a-system/README.md)
         * [Setting up connections](application-setup/systems-in-threat-detection/system-configuration-fiori-application/creating-a-system/setting-up-connections.md)
