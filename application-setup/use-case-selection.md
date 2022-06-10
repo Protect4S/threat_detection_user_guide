@@ -6,6 +6,8 @@ description: Use Case Selection configuration
 
 ![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63) (1).png>)
 
+If you have the been granted to security configurator role or the administrator role, you can access "Use Case Selection" Fiori Tile. Please visit [this](systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
+
 It is possible that in certain case that you do not need or would like to have only certain checks to be performed and want to exclude other policies for a system. You may switch the Use Cases On or Off clicking on "Set Inactive" to deactivate or "Set active" to Activate.
 
 By default all Use Cases will be activated upon adding the system in Threat Detection solution.
@@ -13,8 +15,6 @@ By default all Use Cases will be activated upon adding the system in Threat Dete
 You can also use this application as a list to see which Use Case are active for a particular system, the Search function can be used to filter.
 
 To get the details about what a Use Case does, you can see it in the Use Case Information tile to view all the critical information related from CVSS to How to mitigate. More information regarding this application can be found [here](../support/use-case-information.md).
-
-If you have the been granted to security configurator role or the administrator role, you can either access "Use Case Selection" Fiori Tile. Please visit [this](systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
 ### Using the Use Case Selection
 

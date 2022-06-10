@@ -12,7 +12,7 @@ Notice the client you enter here will be the main client and you cannot remove t
 
 ![Creating ABAP connection](<../../../../.gitbook/assets/image (51).png>)
 
-![Creating RFCs in the back-end system](<../../../../.gitbook/assets/image (29).png>)
+![Creating RFCs in the back-end system](<../../../../.gitbook/assets/image (29) (1).png>)
 
 By default the application will detect all available clients and list them here re-use the user that you have provided initially. If you want to use a different user or if the password is different from the one than you have provided previously, you can change it here, or you can uncheck the line to skip creating the RFC if you do not wish an RFC to be created for a particular RFC.
 
