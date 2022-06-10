@@ -2,7 +2,8 @@
 
 When, for some reason, the default \<sid>adm OS user cannot be used, the following alternatives are possible. **Alternative A is best here**, because a cloned user can be protected using a no-login shell and is in all aspects equivalent to the \<sid>adm user. However: Alternative A is **not** available for the Windows operating system. For Windows, only the (sub-optimal) Alternative B can be used.
 
-You should **only** consider alternative B when there is really no other option available, because some Protect4S checks on operating system level (the ones that need the OSExecute function of SAPControl) will not work.
+You should **only** consider alternative B when there is really no other option available, because some Protect4S checks on operating system level (the ones that need the OSExecute function of SAPControl) will not work.\
+
 
 **A) Clone the \<sid>adm user**
 
@@ -103,12 +104,8 @@ For HANA Databases do the above in the DEFAULT.PFL in directory /usr/sap/\<HANA 
 **11. Verify that SAP Control works ok**\
 \*\*\*\*In the Systems **overview select** the SAP satellite system concerned, perform a connection test and inspect the SAP Control context. It should now be filled for all instances:
 
-![SAPControl connection with alternative OS-user](<../../../.gitbook/assets/image (57).png>)
-
-_Notice: usernames are case sensitive in Linux / Unix._
-
-\
-**Procedure for Windows:**
+![SAPControl connection with alternative OS-user
+Procedure for Windows:](<../../../.gitbook/assets/image (57).png>)
 
 For Windows you must create a user as a member of the Groups: **SAP\_LocalAdmin** and **Users:**![](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-Mee93KW0BtSWNWC0nS9%2F-MhItKeLzfio6uiJOuVS%2F-MhIu1QF9pXCwpWmlDqM%2Fimage.png?alt=media\&token=996e2640-e96c-4261-8916-f3dfbeecfb05)\
 Windows Roles required for Protect4S satellite OS user
