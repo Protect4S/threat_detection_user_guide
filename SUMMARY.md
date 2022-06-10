@@ -33,7 +33,7 @@
         * [Operating System user other than \<sid>adm](application-setup/systems-in-threat-detection/system-configuration-fiori-application/operating-system-user-other-than-less-than-sid-greater-than-adm.md)
       * [Creating a system](application-setup/systems-in-threat-detection/system-configuration-fiori-application/creating-a-system/README.md)
         * [Setting up connections](application-setup/systems-in-threat-detection/system-configuration-fiori-application/creating-a-system/setting-up-connections.md)
-  * [Use Case Selection](application-setup/use-case-selection.md)
+  * [!Use Case Selection](application-setup/use-case-selection.md)
   * [!Allow / Deny Policy](application-setup/allow-deny-policies.md)
   * [!Application Settings](application-setup/application-settings.md)
   * [!Tips and Tricks](application-setup/tips-and-tricks.md)
