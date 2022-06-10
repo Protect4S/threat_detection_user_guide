@@ -12,4 +12,4 @@ If this is allowed by your specific security policy, Protect4S recommends to sup
 
 If using \<sid>adm is not allowed, you can use an operating system user other than \<sid>adm. For this see [this](../operating-system-user-other-than-less-than-sid-greater-than-adm.md) chapter.
 
-_Notice: usernames are case sensitive in Unix._
+_Notice: usernames are case sensitive in Linux / Unix._

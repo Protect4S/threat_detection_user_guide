@@ -105,6 +105,8 @@ For HANA Databases do the above in the DEFAULT.PFL in directory /usr/sap/\<HANA 
 
 ![SAPControl connection with alternative OS-user](<../../../.gitbook/assets/image (57).png>)
 
+_Notice: usernames are case sensitive in Linux / Unix._
+
 \
 **Procedure for Windows:**
 
