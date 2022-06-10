@@ -39,3 +39,11 @@ It is not to be mixed with the background service user in the satellite system w
 
 
 
+#### SIEM settings
+
+This section is used to configure the link between SIEM and Threat Detection solution.
+
+![SIEM settings](../.gitbook/assets/image.png)
+
+
+
