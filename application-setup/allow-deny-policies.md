@@ -31,9 +31,9 @@ On the right side of the screen, we can see that this policy is used in 3 differ
 
 In this example Policy 1000 - User(s) allowed for user administration (technical name: Allowlisted\_useradmins) is used.&#x20;
 
-We can see that this policy is about users, which means that Case sensitive has no meaning because users in SAP is in uppercase by default and Risk management is not applied it is an allow list where you rarely indicate what risk it would have whilst the user is permitted to perform certain action.
-
 ![Policy details](<../.gitbook/assets/image (31).png>)
+
+We can see that this policy is about users, which means that Case sensitive has no meaning because users in SAP is in uppercase by default and Risk management is not applied it is an allow list where you rarely indicate what risk it would have whilst the user is permitted to perform certain action.
 
 ### Adjusting the policy rule
 

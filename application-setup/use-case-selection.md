@@ -24,21 +24,15 @@ Upon opening this Fiori application, you will get the following screen (dependin
 
 This is a list of all the Use Cases there are currently in the system, On the left you see a Green Colored Bar, this means that the Use Case is active for that particular system.
 
-
-
 Click on the Use Case for the system you want to change, the system is identified by System number known in Threat Detection solution.
 
 ![Use Case settings](<../.gitbook/assets/image (61) (1) (1).png>)
 
 On the top right you can set the Use Case to Inactive to disable the use case so that this won't be checked for this particular system or switch it back on if you wish to do so.
 
-
-
-Deactivating Use Case:
+#### Deactivating Use Case:
 
 ![Use case deactivated.](<../.gitbook/assets/image (55).png>)
-
-
 
 In the complete overview of use cases, inactive use cases are identified by its red indicator and the text where it says no in the column for "active":
 
