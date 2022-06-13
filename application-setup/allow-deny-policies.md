@@ -42,7 +42,7 @@ In this tutorial, we would like to change a user in this allow policy list for U
 
 Below you can see that the current values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.
 
-![Policy values](<../.gitbook/assets/image (63).png>)
+![Policy values](<../.gitbook/assets/image (63) (1).png>)
 
 If you enter in edit mode, you can change the value of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR". The values entered here will be converted to uppercase automatically.
 

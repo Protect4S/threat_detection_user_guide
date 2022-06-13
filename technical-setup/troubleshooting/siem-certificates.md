@@ -12,7 +12,11 @@ To solve this please follow the below steps:
 2. As soon as the connection has been established, display the security details (usually, by double clicking the lock symbol)
 3. Display the certificate of the server
 4. Export the server certificate into a file (for example, in the format 'Base64')
-5. If necessary, open the certificate or the certificates of the certificate chain from the certificate hierarchy, and also export this certificate or these certificates
+5. If necessary, open the certificate or the certificates of the certificate chain from the certificate hierarchy, and also export this certificate or these certificates. For example for MS Sentinel there are 3 certificates needed:
+
+![](<../../.gitbook/assets/image (63).png>)
+
+****
 
 **Import the certificates in STRUST**
 
@@ -20,7 +24,7 @@ To solve this please follow the below steps:
 2. From Menu, choose _Certificate->Import_. In the _File_ tab enter the filename of the downloaded cert into the field _File path_, or use the selection help at the end of that field for an Open File popup window of the OS
 3. When the proper certificate appears in the certificate details view in the lower right area of transaction _STRUST_, press the _Add to Certificate List_ button on the bottom.
 4. Save the changes to the PSE with _Save_ button
-5. Redo steps 1-4 for _SSL client (Anonymous)_ PSE (also called "SAPSSLA.pse")
+5. Optionally you might need to **** Redo steps 1-4 for _SSL client (Anonymous)_ PSE (also called "SAPSSLA.pse")
 
 Newer Releases of SAP Netweaver (702 and 710+) will automatically reload the SSL PSE after saving the change. If the error PEER\_CERT\_UNTRUSTED persists, please try manually restarting the icman process. For old Netweaver Releases (6xx, 700 and 701) you will always have to manually restart the icman process for the PSE change to take effect. Use transaction SMICM, and from Menu "Administration"->"ICM"->"Exit Soft"->"Global" to manually restart the icman process.
 
