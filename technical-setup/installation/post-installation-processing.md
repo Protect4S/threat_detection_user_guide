@@ -64,7 +64,7 @@ For Microsoft Sentinel you need to provide these settings:
 * **Security Key**: This value can be retrieved in Microsoft Sentinel under "Log Analytics Workspaces" --> "Agents Management" --> "Primary Key".
 * **URL**: This value is made up by the Customer ID and a fixed part: [https://\<Customer ID>.ods.opinsights.azure.com/api/logs?api-version=2016-04-01](https:/%3CCustomer\_ID%3E.ods.opinsights.azure.com/api/logs)
 
-**Remark:** For Microsoft Sentinel as well as other SIEM vendors you might need to import the HTTPS certificates into transaction STRUST for the connection to work. [See here ](../troubleshooting/siem-certificates.md)for details.
+**Remark:** For Microsoft Sentinel as well as other SIEM vendors you might need to import the HTTPS certificates into transaction STRUST for the connection to work. [See here ](../../application-setup/troubleshooting/siem-certificates.md)for details.
 
 **Remark**: For testing purposes or tuning it can be considered to only provide the SIEM settings later and first keep the Threats locally in the Protect4S TD solution.
 
