@@ -26,7 +26,7 @@ Make sure that on all SAP systems in your landscape the setting of time is synch
 
 Make sure that at least one HTTPS service is active using transaction SMICM before continuing with the next step.See transaction: SMICM, Goto, Services \<Shift-F1>:
 
-![SMICM HTTPS Service should be active](<../../.gitbook/assets/image (56).png>)
+![SMICM HTTPS Service should be active](<../../.gitbook/assets/image (56) (1).png>)
 
 ### Enable SAP Gateway & Fiori Launchpad
 
