@@ -2,7 +2,7 @@
 description: Allow and Deny policy configuration
 ---
 
-# Allow / Deny Policy
+# !Allow / Deny Policy
 
 ![Allow / Deny Policy configuration](<../.gitbook/assets/image (40).png>)
 
@@ -84,7 +84,7 @@ To finalize, click on Save to commit your changes at the lower right corner.
 | Case Sensitive   | Indicates whether the values entered are Case sensitive or not                                                                                                                                                                                                                                                                                                                                                               |
 | Wildcard Enabled | <p>Indicates whether the wildcard symbol (asterisk) can be used or will be seen as a wildcard. <br>Note, if the policy is related to users, where the username starts with SAP, do not use wildcard, but enter the user(s) manually. This is because of the existence of the emergency user that exist in the system (SAP*). In general you would not want anyone to misuse the emergency user SAP* to perform anything.</p> |
 | Risk Enabled     | Indicates whether the risk field is included along                                                                                                                                                                                                                                                                                                                                                                           |
-| Final            | Indicate whether the policy has been released for use or not (internal use only)                                                                                                                                                                                                                                                                                                                                             |
+| Final            | Indicates whether the default shipped policy can be copied or not by customers. When Final = NO the default policy can be copied and customised by customers                                                                                                                                                                                                                                                                 |
 | Technical Name   | Technical name of the policy which will be used to assign the policy to an use case along with the Policy ID                                                                                                                                                                                                                                                                                                                 |
 
 The table above explains what each attribute means.
