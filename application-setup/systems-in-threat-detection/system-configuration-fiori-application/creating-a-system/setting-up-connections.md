@@ -20,9 +20,9 @@ Database connection:
 
 ![Setting up database connection](<../../../../.gitbook/assets/image (14).png>)
 
-The database is not necessary only for certain specific use case that requires database access a connection to the database this needs to be create.
+The database connections are not mandatory for most database types, however for SAP HANA they are mandatory since specific SAP HANA use cases require this connection. &#x20;
 
-Enter here the manual created database user and password. Regarding the hostname, if you get an error. Please check on the operating system of the Threat Detection system whether you can ping or telnet to the system via its RFC port or Database
+Enter the database user and password. Regarding the hostname, if you get an error. Please check on the operating system of the Threat Detection system whether you can ping or telnet to the system via its RFC port or Database
 
 ![Connecting to the operating system of the satellite system](<../../../../.gitbook/assets/image (52).png>)
 
