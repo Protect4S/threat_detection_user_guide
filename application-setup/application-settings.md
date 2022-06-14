@@ -47,5 +47,5 @@ This section is used to configure the link between SIEM and Threat Detection sol
 
 \<To do: Explain what settings do and how to get data to fill there>
 
-After setting the SIEM Active checkbox, click elsewhere in the screen to see the specific SIEM settings.
+
 
