@@ -8,7 +8,7 @@ If you are running the Protect4S Threat Detection solution on the same system as
 
 In the first step you enter the user that will be used in the RFC for Threat Detection. This user in the satellite system must have the role "TDWO\_SATELLITE".
 
-Notice that the client you enter here will be the default client and needs to work as it is mandator for Protect4S TD to operate.. The other additional clients you create a connection to in the next step are not mandatory.
+Notice that the client you enter here will be the default client and needs to work as it is mandatory for Protect4S TD to operate.. The other additional clients you create a connection to in the next step are not mandatory.
 
 ![Creating ABAP connection](<../../../../.gitbook/assets/image (51).png>)
 
