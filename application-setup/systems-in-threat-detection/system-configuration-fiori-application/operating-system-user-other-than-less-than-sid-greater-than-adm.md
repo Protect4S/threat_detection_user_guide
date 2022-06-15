@@ -105,7 +105,7 @@ For HANA Databases do the above in the DEFAULT.PFL in directory /usr/sap/\<HANA 
 \*\*\*\*In the Systems **overview select** the SAP satellite system concerned, perform a connection test and inspect the SAP Control context. It should now be filled for all instances:
 
 ![SAPControl connection with alternative OS-user
-Procedure for Windows:](<../../../.gitbook/assets/image (57).png>)
+Procedure for Windows:](<../../../.gitbook/assets/image (57) (1).png>)
 
 For Windows you must create a user as a member of the Groups: **SAP\_LocalAdmin** and **Users:**![](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-Mee93KW0BtSWNWC0nS9%2F-MhItKeLzfio6uiJOuVS%2F-MhIu1QF9pXCwpWmlDqM%2Fimage.png?alt=media\&token=996e2640-e96c-4261-8916-f3dfbeecfb05)\
 Windows Roles required for Protect4S satellite OS user

@@ -14,7 +14,7 @@ Download the required Protect4S satellite role from the Solution Manager in whic
 
 Log in on the system on which Protect4S Threat Detection solution has been installed and execute transaction **PFCG**. Select the appropriate role **TDWO\_SATELLITE** and select from the menu "Role", "Download":
 
-![Enter the role you wish to download](<../../../../.gitbook/assets/image (65).png>)
+![Enter the role you wish to download](<../../../../.gitbook/assets/image (65) (1).png>)
 
 From the PFCG menu, select "Role", "Download":
 
