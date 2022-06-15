@@ -31,7 +31,7 @@
       * [Creating a system](application-setup/systems-in-threat-detection/system-configuration-fiori-application/creating-a-system/README.md)
         * [Setting up connections](application-setup/systems-in-threat-detection/system-configuration-fiori-application/creating-a-system/setting-up-connections.md)
   * [Use Case Selection](application-setup/use-case-selection.md)
-  * [!Allow / Deny Policy](application-setup/allow-deny-policy/README.md)
+  * [Allow / Deny Policy](application-setup/allow-deny-policy/README.md)
     * [Configuring policy settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
     * [Custom Allow / Deny Policy](application-setup/allow-deny-policy/custom-allow-deny-policy.md)
   * [!Application Settings](application-setup/application-settings.md)
