@@ -11,7 +11,7 @@ We have two options for our customers to choose between recording the Event reco
 Option 1 is a recommendation by SAP, which may affect large size log files.\
 Option 2 is the minimum, avoiding Events to be logged that are not used in Threat Detection but might need to be extended more frequently in the future, depending on the use case we release with future updates.
 
-**Option 1**: In order to provide a more wide future proof solution we propose to activate the Event recording listed in the table overview below combined with the recommendations shared by Frank Buchholz [\[1\]](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html). The User Master record changes should be selectively activated though as certain Use Case in Threat Detection relies on these.
+**Option 1**: In order to provide a more wide, future proof solution, we propose to activate the Event recording listed in the table overview below at option 2, combined with the recommendations shared by Frank Buchholz [\[1\]](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html) from SAP.&#x20;
 
 **Option 2**: Select the minimum amount of needed events (See the overview table below). Keep in mind that this might need to be extended with future released use cases
 
@@ -22,7 +22,7 @@ Maintain static filters to:
 * Log all actions by the standard SAP\* user in all clients
 * Logons and transaction starts by the DDIC user in all clients
 * Severe and Critical events for all audit classes and users in all clients
-* Log the Event ID shown **in the overview**, plus the following Event IDs **AUO, AUP, AUQ, AUZ, BU4, BU5, BU6, BU7, BU9, BUA, BUB, BUC, BUH, CUQ, CUR, CUS, CUT, DU5, DUI, DUJ, DUK**
+* Log the Event ID's shown **in the below overview at option 2**, plus the following Event IDs **AUO, AUP, AUQ, AUZ, BU4, BU5, BU6, BU7, BU9, BUA, BUB, BUC, BUH, CUQ, CUR, CUS, CUT, DU5, DUI, DUJ, DUK**
 * If you have yet to remove the Early Watch client (066), also create a filter to monitor events for all audit classes and users in client 066\
   For 7.50 or higher make sure that the recording target is set to Record in File System or Record in Database and File System
 
