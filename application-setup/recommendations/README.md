@@ -18,4 +18,4 @@ __For example if someone left the company or has changed switched to a different
 
 __
 
-_Make sure not to mix up Allow and Deny list with each other, using it differently blindfolds yourself._
+_Make sure not to mix up Allow and Deny policies with each other, using it differently blindfolds yourself._
