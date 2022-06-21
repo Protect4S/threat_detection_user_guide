@@ -16,10 +16,10 @@ Upon accessing the application settings, you will see the following screen:
 
 In this application, you define configurations and behavior of Threat Detection which includes General settings, Threat Detection and Storage length and the settings for SIEM.
 
-**The Worker ID**\
+**Worker ID**\
 This parameter is used to indicate how the the name should be identified and referenced in Security Information and Event Management (SIEM) that it comes from the Protect4S Threat Detection solution.
 
-<mark style="color:red;">**The Company Name**</mark>\ <mark style="color:red;">attribute here is to...?</mark>
+<mark style="color:red;">**Company Name**</mark>\ <mark style="color:red;"></mark>The entered value here will be used to show in the SIEM solution in case you have multiple Threat Detection solution running on multiple system.
 
 **Background Executor User Name**\
 This is the user that is used to perform all the background activities and daemon schedules.\
@@ -29,15 +29,11 @@ It is not to be mixed with the background service user in the satellite system w
 ****This setting is used to configure the behavior Whether Use Cases (all) should be activated upon creation or update of the systems within the System Application [here](systems-in-threat-detection/system-configuration-fiori-application/).
 
 **TD Server Group** (Optional)\
-****Should you wish to have Threat Detection to use a specific server group, define it here.
+****Should you wish to have Threat Detection to use a specific RFC server group, define it here. The list is retrieved from RZ12.
 
-<mark style="color:red;">**TD interval for Landscape in Seconds**</mark>
+<mark style="color:red;">**TD interval for Landscape in Seconds**</mark>\ <mark style="color:red;">****</mark>This parameter is used to define the interval frequency of checking the satellite systems specific for the Landscape type of Use Cases.&#x20;
 
-****
-
-<mark style="color:red;">**No Threats for System Shutdown from**</mark> <mark style="color:red;"></mark><mark style="color:red;">&</mark> <mark style="color:red;"></mark><mark style="color:red;">**to**</mark> <mark style="color:red;"></mark><mark style="color:red;">(situational/optional)</mark>
-
-
+<mark style="color:red;">**No Threats for System Shutdown from**</mark> <mark style="color:red;"></mark><mark style="color:red;">&</mark> <mark style="color:red;"></mark><mark style="color:red;">**to**</mark> <mark style="color:red;"></mark><mark style="color:red;">(situational/optional)</mark>\ <mark style="color:red;"></mark>In case a planned maintenance is scheduled, you can enter this so that Threat Detection solution will not send a false positive that the system is being shutdown between the entered time.
 
 #### SIEM settings
 
