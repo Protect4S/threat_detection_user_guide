@@ -19,4 +19,9 @@ To proceed with the configuration, first it is suggested to have a knowhow about
 
 
 
+Once configured you are not quite done yet as it is advised to revisit the configuration once in a while to make sure that all configuration is still at what it should.\
+__For example if someone left the company or has changed switched to a different function within the organization and his/her user is someone defined in one of the policy it should be removed from the solution as well.&#x20;
+
+__
+
 _Make sure not to mix up Allow and Deny list with each other, using it differently blindfolds yourself._

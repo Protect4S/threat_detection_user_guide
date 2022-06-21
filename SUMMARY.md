@@ -37,6 +37,7 @@
   * [!Application Settings](application-setup/application-settings.md)
   * [!Recommendations](application-setup/recommendations/README.md)
     * [S-000010-01](application-setup/recommendations/page-1.md)
+    * [!S-000020-01](application-setup/recommendations/s-000020-01.md)
   * [Troubleshooting](application-setup/troubleshooting/README.md)
     * [SIEM Certificates](application-setup/troubleshooting/siem-certificates.md)
     * [Using Server Groups](application-setup/troubleshooting/using-server-groups.md)

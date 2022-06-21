@@ -1,5 +1,5 @@
 ---
-description: Changes or Deactivation of Security Audit Log
+description: Detect changes or (de)activation of the SAP Security Audit Log
 ---
 
 # S-000010-01
