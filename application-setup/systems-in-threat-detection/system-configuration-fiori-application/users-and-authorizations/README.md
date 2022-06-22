@@ -15,3 +15,5 @@ Before you can create the Systems in Protect4S TD, it is needed to have the user
 * ABAP RFC type user(s) for ABAP and double stack type systems
 * Database users
 * Operating System users
+
+See the next chapter for details.
