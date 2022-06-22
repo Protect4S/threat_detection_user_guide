@@ -19,7 +19,7 @@
     * [Security Audit Log Settings](application-setup/data-source-configuration/security-audit-log-settings/README.md)
       * [Audit Event IDs to record](application-setup/data-source-configuration/security-audit-log-settings/audit-event-ids-to-record.md)
   * [Systems in Threat Detection](application-setup/systems-in-threat-detection/README.md)
-    * [System configuration - Fiori application](application-setup/systems-in-threat-detection/system-configuration-fiori-application/README.md)
+    * [System configuration](application-setup/systems-in-threat-detection/system-configuration-fiori-application/README.md)
       * [Users & authorizations](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/README.md)
         * [Authorizations](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md)
         * [Satellite application user(s)](application-setup/systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/satellite-application-user-s.md)
