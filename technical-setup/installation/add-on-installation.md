@@ -8,4 +8,4 @@ During the installation, a warning may state that the Base package or Support Pa
 
 ![Checking the checksum of a Protect4S downloaded file](<../../.gitbook/assets/image (67) (1).png>)
 
-When the installation is finished in transaction SAINT, the Post-installation transaction **/n/TDWO/PI** must be executed \*\*\*\* in the productive client in which you use Protect4S TD. See the next chapter for details.
+When the installation is finished in transaction SAINT, the Post-installation transaction **/n/TDWO/PI** must be executed in the productive client in which you use Protect4S TD. See the next chapter for details.
