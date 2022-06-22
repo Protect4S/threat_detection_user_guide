@@ -4,7 +4,7 @@ description: Use Case Selection configuration
 
 # Use Case Selection
 
-![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63) (1) (1).png>)
+![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63) (1) (1) (1).png>)
 
 If you have the been granted to security configurator role or the administrator role, you can access "Use Case Selection" Fiori Tile. Please visit [this](systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
