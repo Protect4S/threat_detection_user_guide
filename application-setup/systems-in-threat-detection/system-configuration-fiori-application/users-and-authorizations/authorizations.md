@@ -2,11 +2,9 @@
 description: List of the fundamental roles for segregation of duty
 ---
 
-# Authorizations
+# Roles - Overview
 
-Once Threat Detection has been successfully installed, the system will have several roles in the system.
-
-Before proceeding with the use or any configuration within the solution, make sure to have the proper authorizations assigned to the respective team members.
+Once Protect4S Threat Detection solution has been successfully installed, the system will have several roles available in the central system. Before proceeding with the configuration within the solution, make sure to have the proper roles assigned to the respective team members.
 
 Below is an overview of roles with a description that can be used to assign the required authorization per user type.
 
@@ -19,4 +17,3 @@ Below is an overview of roles with a description that can be used to assign the 
 | Background Executor                     | /TDWO/BACKGROUND\_EXECUTOR   | This role is for the background user chosen in the application settings that starts the background jobs within Threat Detection.                                                                                                        |                                                                                                                                                                                                            |
 | Background user in the satellite system | TDWO\_SATELLITE              | This role is used in the remote backend systems to be able to e.g. read the remote data sources.                                                                                                                                        |                                                                                                                                                                                                            |
 | Satellite\_push                         | TDWO\_SATELLITE\_PUSH        | This role is used to push and maintain the satellite role to remote systems.                                                                                                                                                            |                                                                                                                                                                                                            |
-
