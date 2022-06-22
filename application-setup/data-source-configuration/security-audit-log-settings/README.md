@@ -8,7 +8,7 @@ The Security Audit Logging (SAL) in SAP ABAP systems is an important resource fo
 
 As a minimum, the parameter "**rsau/enable**" needs to be set to value 1 via transaction RZ10. If your system has multiple instances, make sure to activate the parameter for all individual instance profiles or set the parameter in the default profile for system-wide activation. This parameter cannot be changed dynamically and requires a restart.
 
-Optionally, a different path can be defined for the SAL files as the the log files can take up a lot of space depending on the configuration. The default path is under the \usr\sap\\\<SID>\ directory, which might cause unpredictable system behavior once the drive is full. So make sure to activate only relevant events (see the [next chapter)](audit-event-ids-to-record.md), have enough diskspace available, monitor for full disk or mountpoints and archive files based on your archiving strategy.
+Optionally, a different path can be defined for the SAL files as the the log files can take up a lot of space depending on the configuration. The default path is under the \usr\sap\\\<SID>\ directory, which might cause unpredictable system behavior once the drive is full. So make sure to activate only relevant and needed events (see the [next chapter)](audit-event-ids-to-record.md), have enough diskspace available, monitor for full disk or mountpoints and archive files based on your archiving strategy.
 
 
 
