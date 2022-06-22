@@ -41,6 +41,22 @@ If the above is not the case, then use transaction STC01 to activate the below t
 
 <mark style="background-color:blue;">****</mark>
 
+### Threat Detection Secure Storage
+
+Before you proceed adding systems to Protect4S Threat Detection, please make sure that the SAP Secure Store of the Threat Detection system itself is properly protected. The Secure store key phrase should not be set to the default key. This can be checked using SAP transaction SECSTORE:
+
+![Checking to see if the Secure Store has a default key](<../../.gitbook/assets/image (24).png>)
+
+**Transaction SECSTORE default Key warning**
+
+In the above case, change the default keyphrase and consider implementation of the following SAP OSS Notes:
+
+[1902258 - Secure Storage in the Database Key File Tool](http://service.sap.com/sap/support/notes/1902258)
+
+[1902611 - Potential information disclosure relating to BC-SEC](http://service.sap.com/sap/support/notes/1902611)
+
+
+
 ### Monitored SAP systems s**oftware version requirements**
 
 The monitored SAP systems should be running on SAP Netweaver release 7.40 or higher. Apart from that, there are no specific software version requirements.
