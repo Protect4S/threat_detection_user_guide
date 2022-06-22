@@ -14,7 +14,6 @@
   * [Troubleshooting](technical-setup/troubleshooting/README.md)
     * [SICF services](technical-setup/troubleshooting/sicf-services.md)
 * [Application Setup](application-setup/README.md)
-  * [Threat Detection Secure Storage](application-setup/systems-in-threat-detection/threat-detection-secure-storage.md)
   * [Data source configuration](application-setup/data-source-configuration/README.md)
     * [Prerequisites](application-setup/data-source-configuration/prerequisites.md)
     * [Security Audit Log Settings](application-setup/data-source-configuration/security-audit-log-settings/README.md)

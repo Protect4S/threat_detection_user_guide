@@ -2,11 +2,11 @@
 
 ### Run the post-installation wizard <a href="#run-the-post-installation-wizard" id="run-the-post-installation-wizard"></a>
 
-After the installation via transaction SAINT, run the post-installation wizard **in the client where Protect4S TD needs to run,** but not in client 000. The post-installation wizard is started by executing transaction: **/n/TDWO/PI**. The wizard will activate the necessary SICF services <mark style="color:red;">(See this chapter for more details)</mark> and will also prompt for the license installation.
+After the installation via transaction SAINT is done, run the post-installation wizard **in the client where Protect4S TD needs to run,** not in client 000. The post-installation wizard is started by executing transaction: **/n/TDWO/PI**. The wizard will activate the [necessary SICF services](../troubleshooting/sicf-services.md) and will also prompt for the license installation.
 
 ![](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-M4DeA\_ch2aT\_DMIXtj1%2F-M4DeCFgK1Kor0XH90AI%2F-M4DeKsFHHQTfTDDaEVZ%2Fimage009.png?generation=1586162673680417\&alt=media)
 
-### License installation <a href="#license-installation" id="license-installation"></a>
+### License installation (Not applicable for the first release) <a href="#license-installation" id="license-installation"></a>
 
 Protect4S TD needs a valid license in order to execute. The first time that Protect4S TD is started, this license must be installed. A valid license file will be supplied by the Protect4S Support team during the purchasing process.
 
@@ -42,6 +42,8 @@ After having installed the license: select **Yes**.
 
 ![](<../../.gitbook/assets/image (68).png>)
 
+### Application settings
+
 Next inspect and update the Application settings:
 
 ![](<../../.gitbook/assets/image (53).png>)
@@ -67,6 +69,8 @@ For Microsoft Sentinel you need to provide these settings:
 **Remark:** For Microsoft Sentinel as well as other SIEM vendors you might need to import the HTTPS certificates into transaction STRUST for the connection to work. [See here ](../../application-setup/troubleshooting/siem-certificates.md)for details.
 
 **Remark**: For testing purposes or tuning it can be considered to only provide the SIEM settings later and first keep the Threats locally in the Protect4S TD solution.
+
+
 
 After the Post-Installation processing is done, the application is ready to be used. The Protect4S Threat Detection solution is started via transaction: `/n/ui2/flp`, which opens the Fiori launch pad containing the Protect4S TD applications. Should the transaction timeout, please refresh the page again with the F5 key or set a higher value for SAP parameter **rdisp/plugin\_auto\_logout** using transaction: **RZ11**.
 
