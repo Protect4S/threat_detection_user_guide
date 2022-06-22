@@ -4,7 +4,7 @@ description: List of the fundamental roles for segregation of duty
 
 # Roles - Overview
 
-Once Protect4S Threat Detection solution has been successfully installed, the system will have several roles available in the central system. Before proceeding with the configuration within the solution, make sure to have the proper roles assigned to the respective team members.
+Once the Protect4S Threat Detection solution has been installed, the central system will have several roles available. Before proceeding with the configuration of the solution, make sure to have the proper roles assigned to the respective team members.
 
 Below is an overview of roles with a description that can be used to assign the required authorization per user type.
 
