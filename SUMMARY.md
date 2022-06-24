@@ -46,6 +46,7 @@
     * [S-000110-01](application-setup/recommendations/s-000110-01.md)
     * [S-000120-01](application-setup/recommendations/s-000120-01.md)
     * [S-000150-01](application-setup/recommendations/s-000150-01.md)
+    * [S-000160-01](application-setup/recommendations/s-000160-01.md)
   * [Troubleshooting](application-setup/troubleshooting/README.md)
     * [SIEM Certificates](application-setup/troubleshooting/siem-certificates.md)
     * [Using Server Groups](application-setup/troubleshooting/using-server-groups.md)
