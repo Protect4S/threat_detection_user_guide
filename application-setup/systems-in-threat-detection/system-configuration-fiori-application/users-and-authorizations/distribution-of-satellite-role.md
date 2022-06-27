@@ -4,7 +4,7 @@ description: Distributing satellite role in the back-end systems
 
 # Distribution of satellite role
 
-The Protect4S RFC user in the satellite systems needs the role **TDWO\_SATELLITE** to work. Optionally **TDWO\_SATELLITE\_PUSH** can be used if you wish to use the automatic role distribution instead via Protect4S's Threat Detection solution.
+This chapter only applies if you want to make use of the feature to distribute the **TDWO\_SATELLITE** role from the central system to satellite systems. In case you use your own CUA or IDM solution to distribute roles you can skip this chapter. The distribution of the Protect4S satellite role can be done manually. Optionally **TDWO\_SATELLITE\_PUSH** can be used if you wish to use the automatic role distribution instead via Protect4S's Threat Detection solution.
 
 ### Distributing the role(s) manually.
 
@@ -53,6 +53,6 @@ Make sure the color status for **Menu**, **Authorization** and **User** are gree
 ![Make sure all 3 lights are green](<../../../../.gitbook/assets/image (43).png>)
 
 You may repeat this step for role **TDWO\_SATELLITE\_PUSH** if you want to use automatic distribution of Protect4S satellite user roles.\
-If one of 3 mentioned tab is not green, it could be that the authorization profile needs to be regenerated and/or redistributed to the Protect4S satellite system user. Ask an SAP User administrator to do this if you do not know how to proceed.
+If one of the 3 mentioned tab is not green, it could be that the authorization profile needs to be regenerated and/or redistributed to the Protect4S satellite system user. Ask an SAP User administrator to do this if you do not know how to proceed.
 
 Notice: If you have changed the namespace of the roles make sure it is that one is updated in that version.

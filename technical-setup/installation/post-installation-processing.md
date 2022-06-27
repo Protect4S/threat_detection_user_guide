@@ -40,13 +40,13 @@ After uploading and saving the license key file, you will be able to see the lic
 
 After having installed the license: select **Yes**.
 
-![](<../../.gitbook/assets/image (68).png>)
+![](<../../.gitbook/assets/image (68) (1).png>)
 
 ### Application settings
 
 Next inspect and update the Application settings:
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (53) (1).png>)
 
 You must supply data for generic settings and for SIEM specific settings.
 
