@@ -4,15 +4,11 @@
 
 There are minimal software version requirements for the central Protect4S Threat Detection system. Below mentioned software components should be installed on at least the version and Support Package level indicated (a higher version or support package is supported, not lower):
 
-
-
 | Software Component | Version | Support Package |
 | ------------------ | ------- | --------------- |
 | SAP\_BASIS         | 752     | 0005            |
 | SAP\_UI            | 754     | 0000            |
 | SPAM/SAINT         | 752     | 0078            |
-
-
 
 The SAPUI component has been tested and is supported as of SAPUI 7.54 Support Package 0007 and higher, but might also work on lower support package levels within the 7.54 version. In case of issues though, we recommend to install at least the above mentioned version of the SAPUI component.
 
@@ -22,7 +18,7 @@ Make sure that on all SAP systems in your landscape the setting of time is synch
 
 ### Check active HTTPS service <a href="#check-that-http-s-service-is-active" id="check-that-http-s-service-is-active"></a>
 
-Make sure that on the central Protect4S system at least one HTTPS service is active using transaction SMICM before continuing with the next step.See transaction: SMICM, Goto, Services \<Shift-F1>:
+Make sure that on the central Protect4S system at least one HTTPS service is active using transaction SMICM before continuing with the next step. See transaction: SMICM, Goto, Services \<Shift-F1>:
 
 ![SMICM HTTPS Service should be active](<../../.gitbook/assets/image (56) (1).png>)
 
