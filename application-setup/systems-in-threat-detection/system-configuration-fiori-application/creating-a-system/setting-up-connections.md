@@ -4,9 +4,7 @@ description: Setting up connections to the application, database and operating s
 
 # Setting up connections
 
-If you are running the Protect4S Threat Detection solution on the same system as Protect4S Vulnerability Management. You will still need to create create new connections because the user defined in the RFC plus its authorization set is different.
-
-In the first step you enter the user that will be used in the RFC for Threat Detection. This user in the satellite system must have the role "TDWO\_SATELLITE".
+As part of [creating the System](./), you need to create connections to the Satellite system to be able to detect threats. While editing the System in the System application, press the <img src="../../../../.gitbook/assets/image (65).png" alt="" data-size="line"> button to create connections.  In the first step you enter the user that will be used in the RFC for Threat Detection. This user in the satellite system must have the role "TDWO\_SATELLITE".
 
 Notice that the client you enter here will be the default client and needs to work as it is mandatory for Protect4S TD to operate.. The other additional clients you create a connection to in the next step are not mandatory.
 
@@ -35,3 +33,7 @@ Review and confirm the list of all the applications applicable for your system. 
 ![Total overview of the to be created RFCs.](<../../../../.gitbook/assets/image (73) (1).png>)
 
 This screen is a confirmation of all the connections that will be created, in our example we have skipped the database connection because it is not mandatory.
+
+
+
+If you are running the Protect4S Threat Detection solution on the same system as Protect4S Vulnerability Management. You will still need to create create new connections because the user defined in the RFC plus its authorization set is different.

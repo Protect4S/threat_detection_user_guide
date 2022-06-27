@@ -33,3 +33,9 @@ This flag is switched on by default and defines whether new use cases become act
 **Example:**
 
 With values set to the default settings, this means that Protect4S Threat Detection will read the history back to a maximum of 15 minutes (900 seconds). In that case of reading back 900 seconds it will split that into 3 different calls because of the Data Source maximum of 300 seconds per part. After a first read it will keep on collecting data on a 180 seconds interval. &#x20;
+
+
+
+### Creating Connections
+
+Before saving the System, make sure to [create the needed connections](setting-up-connections.md) to make the Threat Detection operational for this system.

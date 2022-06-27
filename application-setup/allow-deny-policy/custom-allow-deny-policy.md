@@ -12,7 +12,7 @@ Select the policy you wish to copy in the Allow / Deny application
 
 ![Selecting a policy](<../../.gitbook/assets/image (57).png>)
 
-Click on copy. ![](<../../.gitbook/assets/image (65).png>)\
+Click on copy. ![](<../../.gitbook/assets/image (65) (1).png>)\
 
 
 Click on Create before proceeding then click on the newly created policy to adapt your own settings in in the policy as Fiori keeps the initial selected policy selected making you edit the actual source of the policy in certain situation which is a bug in Fiori. ![](<../../.gitbook/assets/image (38).png>)
