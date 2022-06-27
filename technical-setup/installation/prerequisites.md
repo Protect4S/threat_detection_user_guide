@@ -43,10 +43,9 @@ In the above case, change the default keyphrase and consider implementation of t
 
 [1902258 - Secure Storage in the Database Key File Tool](http://service.sap.com/sap/support/notes/1902258)
 
-[1902611 - Potential information disclosure relating to BC-SEC](http://service.sap.com/sap/support/notes/1902611)
+[1902611 - Potential information disclosure relating to BC-SEC](http://service.sap.com/sap/support/notes/1902611)\
 
 
+### SAP satellite systems s**oftware version requirements**
 
-### Monitored SAP systems s**oftware version requirements**
-
-The monitored SAP systems should be running on SAP Netweaver release 7.40 or higher. Apart from that, there are no specific software version requirements.
+The SAP satellite systems should be running on SAP Netweaver release 7.40 or higher. Apart from that, there are no specific software version requirements.
