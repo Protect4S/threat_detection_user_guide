@@ -20,7 +20,7 @@ This will show you the relevant information of the Protect4S TD system (System n
 
 ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M4DeA\_ch2aT\_DMIXtj1%2Fuploads%2FqZ6wlogI50S0clUj1trK%2Fimage.png?alt=media\&token=5ac7b421-1906-45dd-a186-72d2d18a4c4f)
 
-When the "Open e-mail" option is chosen, a mail will be created for Protect4S support containing the relevant information for us to generate your license file:
+When the "Open e-mail" option is chosen, a mail will be composed with a template. The relevant information mentioned in the mail is required for Protect4S support to generate your license file:
 
 ![](<../../.gitbook/assets/image (33) (1).png>)
 
