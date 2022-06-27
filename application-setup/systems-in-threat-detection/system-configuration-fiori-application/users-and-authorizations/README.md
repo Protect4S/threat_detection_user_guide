@@ -10,10 +10,10 @@ To use the Protect4S Threat Detection solution, you will first need to configure
 
 ### Users in the satellite systems <a href="#users-in-the-satellite-systems" id="users-in-the-satellite-systems"></a>
 
-Before you can create the Systems in Protect4S TD, you . need to create the users that need to be provided in the System wizard. The following user types might need to be created in the satellite systems depending on the system type:
+Before you can create the Systems in Protect4S TD, you need to create the users that need to be provided in the System wizard. The following user types might need to be created in the satellite systems depending on the system type:
 
 * ABAP RFC type user(s) for ABAP and double stack type systems
 * Database users
 * Operating System users
 
-See the next chapter for details.
+**For ABAP systems at least a ABAP RFC users is needed. For SAP systems running on SAP HANA also a Database user is mandatory.** See the next chapter for details.

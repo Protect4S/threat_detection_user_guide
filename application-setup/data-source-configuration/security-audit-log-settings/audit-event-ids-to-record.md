@@ -4,12 +4,16 @@ description: List of minimum audit event IDs that needs to be recorded vs recomm
 
 # Audit Event IDs to record
 
-Logging too many events can result in large log files in SAL. If disk space is not an issue and regulations or internal policies requite it; you may activate all events, but do notice that in some releases the transaction SM19 can only have a limited set of Event IDs to be recorded. For the working of Protect4S TD not all events need to be activated. We have two options:\
+As mentioned earlier, logging too many events can result in large log files in SAL.\
+If disk space is not a subject, you may activate all, but do notice in some releases SM19 can only have a limited set of Event IDs to be recorded.
 
+We have two options for our customers to choose between recording the Event recommended by SAP which includes our minimum requirements or just the minimum needed Events for Threat Detection or proceed with.\
+Option 1 is a recommendation by SAP, which may affect large size log files.\
+Option 2 is the minimum, avoiding Events to be logged that are not used in Threat Detection but might need to be extended more frequently in the future, depending on the use case we release with future updates.
 
-**Option 1**: In order to provide a broad, future proof solution, customers can activate the event recording listed in the table overview below at option 2, combined with the generic recommendations shared by Frank Buchholz [\[1\]](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html) from SAP.&#x20;
+**Option 1**: In order to provide a more wide, future proof solution, we propose to activate the Event recording listed in the table overview below at option 2, combined with the recommendations shared by Frank Buchholz [\[1\]](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html) from SAP.&#x20;
 
-**Option 2**: For a minimum of events selected, customers can select mentioned events (See the overview table below at option 2). Keep in mind that this might need to be extended with future released use cases
+**Option 2**: Select the minimum amount of needed events (See the overview table below). Keep in mind that this might need to be extended with future released use cases
 
 ### Option 1: Recommendation by SAP
 
@@ -26,7 +30,8 @@ Maintain static filters to:
 
 #### Event IDs overview
 
-This is a list of the _**minimum**_ required Event IDs that is needed to be activated for the use cases to work properly. This overview will be updated whenever new Use Cases are released that requires new Events to be monitored for our Threat Detection solution.&#x20;
+This is a list of the _**minimum**_\*\* \*\* required Event IDs that is needed to be activated for the use cases to work properly.\
+This overview will be updated whenever new Use Cases are released that requires new Events to be monitored for our Threat Detection solution. Thus this list will be updated regularly.
 
 | Event ID: | Description:                                                           |
 | --------- | ---------------------------------------------------------------------- |
