@@ -1,6 +1,6 @@
 # Add-on Installation
 
-Protect4S Threat Detection is delivered as an SAP Add-On and must be installed using transaction SAINT in client 000 on the Central Protect4S TD system.
+Protect4S Threat Detection is delivered as a SAP Add-On and must be installed using transaction SAINT in client 000 on the Central Protect4S Threat Detection system.
 
 The Protect4S Threat Detection solution requires the Protect4S TD initial base package plus the latest Protect4S TD Support package. Support packages are non-incremental (since the latest SP contains all predecessors) and can be merged into the installation queue to install Protect4S TD to the latest version in one SAINT run.
 
