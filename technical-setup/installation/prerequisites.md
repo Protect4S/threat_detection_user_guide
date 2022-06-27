@@ -6,13 +6,11 @@ There are minimal software version requirements for the central Protect4S Threat
 
 
 
-**Software Component** | **Version** | **Support Package** |
-
-\| SAP\_BASIS | 752 | 0005 |
-
-\| SAP\_UI | 754 | 0000 |
-
-\| SPAM/SAINT | 752 | 0078 |
+| Software Component | Version | Support Package |
+| ------------------ | ------- | --------------- |
+| SAP\_BASIS         | 752     | 0005            |
+| SAP\_UI            | 754     | 0000            |
+| SPAM/SAINT         | 752     | 0078            |
 
 
 
