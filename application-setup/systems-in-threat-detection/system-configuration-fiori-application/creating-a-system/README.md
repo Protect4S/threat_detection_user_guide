@@ -6,35 +6,30 @@ description: A walkthrough to create a system within Protect4S Threat Detection
 
 To be able to monitor satellite systems they need to be added to the Protect4S Central system. To create a system, open the System application fro the Fiori Launchpad:
 
-![](<../../../../.gitbook/assets/image (68).png>)
+![](<../../../../.gitbook/assets/image (68).png>)&#x20;
 
-Click on create ![](<../../../../.gitbook/assets/image (71) (1).png>)
-
-You should get a new screen displayed like below:
-
-On the left side the System Attributes are defined (System Role, System Description, Business Relevance, Data Sensitivity). All these information will be parsed to the Security Information and Event Management (SIEM) system depending on which you have linked Threat Detection to.\
-For this reason it is important to be thoughtful how these should be defined.
+Then click on the ![](<../../../../.gitbook/assets/image (71) (1).png>)button. You should get a new screen displayed like below:
 
 ![Configuring a new system](<../../../../.gitbook/assets/image (61) (1) (1) (1).png>)
 
-On the right hand side the Threat Detection settings can be defined specifically how you want the Protect4S Threat Solution to behave for this particular system.
+On the left side of the screen provide the System Role, etc. On the right side you can set some system-specific settings:
 
-For each system you setup you can define their own Threat Detection Settings. The proposed initial values can be changed per your needs.
+**Threat Detection Interval in Seconds (180 seconds by default)**
 
-![Threat Detection Settings](<../../../../.gitbook/assets/image (42).png>)
+This parameter defines the polling interval used to collect the data from this satellite system. Setting this parameter too low might lead to increased workload in the central and monitored system. Setting it too high can delay the detection of threats.
 
-**Threat Detection Interval in Seconds**
+**Data Source Max. Read History in Seconds (900 seconds by default)**
 
-This parameter defines the interval used to collect the data from this satellite system. Setting this parameter too low might keep work processes being occupied in the central and monitored system. Setting it too high can cause your monitoring to be delayed.
+This parameter is used to define the time Threat Detection looks back during the first read of data for this system (for example after starting up the system or after a connection issue has been fixed). Setting it higher might increase workload in the central and monitored system.
 
-**Data Source Max. Read History in Seconds**
+**Data Source Max. Seconds per Part (300 seconds by default)**
 
-This parameter is used to define the time Threat Detection looks back during the first read of data for this system or after a connection issue has been fixed. The value is set to 900 seconds (15 minutes) by default.
+This parameter is used to split reading large amounts of data and splits up the read intervals in smaller pieces when needed. It defines the maximum amount of time in seconds that a Threat Detection read part uses to retrieve data from the satellite system. This is used to avoid large sums data being collected in one read, which is especially noticeable if the "Data Source Max. Read History in Seconds" is set to a high value or in combination of many events occurred in case a system became unreachable.
 
-**Data Source Max. Seconds per Part**
+**Activate new use cases Automatically**
 
-This parameter is used to split reading large amounts of data. It defines the maximum amount of time in seconds that a Threat Detection read uses to retrieve data from the satellite system. This is used to avoid large sum data being collected at once which is especially noticeable if the "Data Source Max. Read History in Seconds" is set to a high value or in combination of many events occurred during the time in which the system became unreachable.
+This flag is switched on by default and defines whether new use cases become active automatically.
 
 **Example:**
 
-With the initial settings it means that Threat Detection will read the history back up to 15 minutes (900 seconds) but for each time 180 seconds it will not read more than 5 minutes (300 seconds) of history at once.
+With values set to the default settings, this means that Protect4S Threat Detection will read the history back to a maximum of 15 minutes (900 seconds). In that case of reading back 900 seconds it will split that into 3 different calls because of the Data Source maximum of 300 seconds per part. After a first read it will keep on collecting data on a 180 seconds interval. &#x20;
