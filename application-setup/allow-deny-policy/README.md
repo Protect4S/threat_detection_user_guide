@@ -4,18 +4,11 @@ description: Allow and Deny policy configuration
 
 # Allow / Deny Policy
 
+If you have been granted to security configurator role or the administrator role, you can access the "Allow / Deny Policy configurator" Fiori Tile. Please visit [this](../systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
+
 ![Allow / Deny Policy configuration](<../../.gitbook/assets/image (40).png>)
 
-If you have the been granted to security configurator role or the administrator role, you can access "Allow / Deny Policy configurator" Fiori Tile. Please visit [this](../systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
-
-The allow and deny policies are one of the configurations is one of the most critical step to configure, you may configure the policy per your needs per system.
-
-****\
-**Note:**\
-****Awareness is critical here, a misconfiguration here means that certain threats might not get reported to SIEM.\
-For example if you added a user to this allow list that should not be allowed to perform user administration. The system will then not report the threat to SIEM and will only see this as an event.
-
-
+In order to limit false positives it is important to configure the Allow / Deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation.
 
 ### **Attribute legend:**
 
