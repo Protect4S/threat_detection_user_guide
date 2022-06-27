@@ -4,7 +4,11 @@ description: Operating system user in the satellite system
 
 # Operating System user
 
-Threat Detection solution is capable of checking conditions on the Operating System platform layer using the SOAP interface of SAPControl. In order to authenticate a valid operating system user/password combination for the satellite system must be provided in the System connection wizard.
+The Protect4S Threat Detection solution will be capable of checking conditions on the Operating System platform layer in the future using the SOAP interface of SAPControl.&#x20;
+
+**For now this user is not mandatory and not needed to create for the satellite systems.**&#x20;
+
+In order to authenticate, a valid operating system user/password combination for the satellite system must be provided in the System connection wizard.
 
 Some operating system checks rely on the SAPcontrol **OSExecute** function, which can only be executed by the \<sid>adm user (the standard SAP system owner) or a new user that was cloned from \<sid>adm.
 

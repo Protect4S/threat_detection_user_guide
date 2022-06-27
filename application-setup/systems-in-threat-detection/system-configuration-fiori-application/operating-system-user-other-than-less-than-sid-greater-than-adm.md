@@ -1,6 +1,6 @@
 # Operating System user other than \<sid>adm
 
-When, for some reason, the default \<sid>adm OS user cannot be used, the following alternatives are possible. **Alternative A is best here**, because a cloned user can be protected using a no-login shell and is in all aspects equivalent to the \<sid>adm user. However: Alternative A is **not** available for the Windows operating system. For Windows, only the (sub-optimal) Alternative B can be used.
+When the default \<sid>adm OS user cannot be used, the following alternatives are possible. **Alternative A is best here**, because a cloned user can be protected using a no-login shell and is in all aspects equivalent to the \<sid>adm user. However: Alternative A is **not** available for the Windows operating system. For Windows, only the (sub-optimal) Alternative B can be used.
 
 You should **only** consider alternative B when there is really no other option available, because some Protect4S checks on operating system level (the ones that need the OSExecute function of SAPControl) will not work.\
 
