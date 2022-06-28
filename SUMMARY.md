@@ -12,7 +12,7 @@
     * [Post-installation processing](technical-setup/installation/post-installation-processing.md)
   * [De-installation](technical-setup/de-installation.md)
   * [Troubleshooting](technical-setup/troubleshooting/README.md)
-    * [Timezone differences](technical-setup/troubleshooting/timezone-differences.md)
+    * [Time zone differences](technical-setup/troubleshooting/time-zone-differences.md)
     * [SICF services](technical-setup/troubleshooting/sicf-services.md)
 * [Application Setup](application-setup/README.md)
   * [Data source configuration](application-setup/data-source-configuration/README.md)
