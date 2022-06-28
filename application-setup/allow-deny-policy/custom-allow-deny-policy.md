@@ -1,6 +1,6 @@
 # Custom Allow / Deny Policy
 
-If you want to change the scope of a policy, you can copy it to your own version and change the scope for this particular policy to just 1 system, all systems with a specific system role or the whole landscape.
+If you want to change the scope of a policy, copy original policy to your own version and change the scope for this particular policy to just 1 system, all systems with a specific system role or the whole landscape.
 
 **Copying a policy**
 
