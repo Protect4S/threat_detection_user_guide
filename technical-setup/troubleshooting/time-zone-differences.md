@@ -1,6 +1,6 @@
 # Time zone differences
 
-In case you are facing time zone related differences or inconsistency, the following transactions and programs helps you troubleshoot.
+In case you are facing time zone related differences or inconsistency, the following transactions and programs helps you troubleshoot. At least make sure that the timezone defines in transaction STZAC matches the same timezone as defined on your Operating System.
 
 #### Time zone reports/programs:
 
