@@ -18,4 +18,4 @@ References:
 
 [SAP Help: Security Audit Log](https://help.sap.com/docs/SAP\_NETWEAVER\_700/12b9c3746c53101486a59afda7426260/c769bcb7f36611d3a6510000e835363f.html)\
 [SAP Blog: Analysis and Recommended Settings of the Security Audit Log](https://blogs.sap.com/2014/12/11/analysis-and-recommended-settings-of-the-security-audit-log-sm19-sm20/)\
-[2546993 - Analysis and Recommended Settings of the Security Audit Log (SM19 / SM20)](https://launchpad.support.sap.com/#/notes/2546993)\\
+[2546993 - Analysis and Recommended Settings of the Security Audit Log (SM19 / SM20)](https://launchpad.support.sap.com/#/notes/2546993)
