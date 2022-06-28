@@ -1,5 +1,5 @@
 ---
-description: Required application, database and operating system users
+description: Required application user(s)
 ---
 
 # Satellite SAP application user
