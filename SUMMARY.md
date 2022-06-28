@@ -34,7 +34,7 @@
   * [Allow / Deny Policy](application-setup/allow-deny-policy/README.md)
     * [Configuring policy settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
     * [Custom Allow / Deny Policy](application-setup/allow-deny-policy/custom-allow-deny-policy.md)
-  * [!Application Settings](application-setup/application-settings.md)
+  * [Application Settings](application-setup/application-settings.md)
   * [Recommendations](application-setup/recommendations/README.md)
     * [S-000010-01](application-setup/recommendations/page-1.md)
     * [S-000020-01](application-setup/recommendations/s-000020-01.md)
