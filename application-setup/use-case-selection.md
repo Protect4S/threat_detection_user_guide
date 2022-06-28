@@ -14,7 +14,7 @@ The Use Case Selection application allows you to define what use cases you want 
 
 Upon opening this Fiori application, you will get a screen like below:
 
-![Use Case Selection overview](<../.gitbook/assets/image (76).png>)
+![Use Case Selection overview](<../.gitbook/assets/image (76) (1).png>)
 
 This is a list of all the Use Cases there are currently in the system for the connected Systems. On the left you see a colored Bar. <mark style="color:green;">**Green**</mark> means that the Use Case is active for that particular system, <mark style="color:red;">**Red**</mark> means it is not active for that system.
 

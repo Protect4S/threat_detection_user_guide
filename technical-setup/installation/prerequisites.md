@@ -16,7 +16,7 @@ The SAPUI component has been tested and is supported as of SAPUI 7.54 Support Pa
 
 Make sure that on all SAP systems in your landscape the setting of time is synchronized with a central time server (e.g. via the NTP protocol) and that other Operating System time-settings (e.g. Daylight Saving Time settings) are set to the default settings. We don't take into account the parameter _`zdate/DSTswitch_contloctime`_.
 
-If you are encountering difficulties regarding this topic, please find more information [here](../troubleshooting/timezone-differences.md).&#x20;
+If you are encountering difficulties regarding this topic, please find more information [here](../troubleshooting/time-zone-differences.md).&#x20;
 
 ### Check active HTTPS service <a href="#check-that-http-s-service-is-active" id="check-that-http-s-service-is-active"></a>
 

@@ -8,4 +8,4 @@ The application provides an overview of all stored Messages and the details of t
 
 ![](<../.gitbook/assets/image (20) (1).png>)
 
-This application helps troubleshoot issues. These Messages are only stored for a fixed number of days in the Central Protect4S TD solution, depending on the parameters in the Application Settings.
+This application helps troubleshoot issues. These Messages are only stored for a fixed number of days in the Central Protect4S TD solution, depending on the parameters in the Application Settings. Information regarding this parameter is explained [here](../application-setup/application-settings.md).

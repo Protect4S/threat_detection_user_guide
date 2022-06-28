@@ -1,3 +1,7 @@
+---
+description: Mixed database landscape
+---
+
 # Heterogeneous DB connections & Installing DB libraries
 
 In case the Central Protect4S database type is different than the database type used in the monitored SAP systems, you need to install the proper database client libraries to be able to make a Database connection.

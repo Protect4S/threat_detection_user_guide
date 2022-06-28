@@ -58,7 +58,7 @@
     * [Heterogeneous DB connections & Installing DB libraries](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/README.md)
       * [IBM DB2](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/ibm-db2.md)
       * [Microsoft SQL](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/microsoft-sql.md)
-      * [MaxDB](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/maxdb.md)
+      * [SAP MaxDB](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/maxdb.md)
       * [Oracle](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/oracle.md)
       * [SAP Sybase](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/sap-sybase.md)
       * [SAP HANA](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/sap-hana.md)

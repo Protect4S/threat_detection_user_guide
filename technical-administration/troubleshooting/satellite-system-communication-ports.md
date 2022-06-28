@@ -17,4 +17,4 @@ The Protect4S TD solution communicates with its monitored systems using the foll
 | SAPControl webservice        | 5xx13                                                   | HTTP communication. xx = SAP instance number (00 .. 99)  | SOAP over HTTP     |
 | SAPControl secure webservice | 5xx14                                                   | HTTPS communication. xx = SAP instance number (00 .. 99) | SOAP over HTTS     |
 
-More details can be found in the SAP document: [TCP/IP Ports Used by SAP Applications.](http://www.sdn.sap.com/irj/scn/go/portal/prtroot/docs/library/uuid/4e515a43-0e01-0010-2da1-9bcc452c280b?QuickLink=index\&overridelayout=true&42472931642836)
+More details can be found in the SAP document: [TCP/IP Ports Used by SAP Applications](http://www.sdn.sap.com/irj/scn/go/portal/prtroot/docs/library/uuid/4e515a43-0e01-0010-2da1-9bcc452c280b?QuickLink=index\&overridelayout=true&42472931642836).
