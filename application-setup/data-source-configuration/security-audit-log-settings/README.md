@@ -4,7 +4,7 @@ description: Satellite system
 
 # Security Audit Log Settings
 
-The Security Audit Logging (SAL) in SAP ABAP systems is an important resource for security relevant events. It is therefore important that the Security Audit Logging is switched on for all application servers and that the right events are recorded. The SAL can be activated in transaction RSAU\_CONFIG or SM19. The latter is obsolete in newer releases.
+The Security Audit Logging (SAL) in SAP ABAP systems is an important resource for security relevant events. It is therefore important that the Security Audit Logging is switched on for all application servers and that the correct events are recorded. The SAL can be activated in transaction RSAU\_CONFIG or SM19. The latter is obsolete in newer releases.
 
 As a minimum, the parameter "**rsau/enable**" needs to be set to value 1 via transaction RZ10. If your system has multiple instances, make sure to activate the parameter for all individual instance profiles or set the parameter in the default profile for system-wide activation. This parameter cannot be changed dynamically and requires a restart.
 
