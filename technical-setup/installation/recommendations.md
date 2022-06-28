@@ -18,7 +18,9 @@ The above sum has some slack though. If the connected systems are a **non-prd** 
 
 **Memory:**
 
-On the central Protect4S TD system, use **300 MB** per work process to estimate the needed memory. So for example if we take 80% of 23 processes (\~18 processes) and multiply that with 300 MB then the Protect4S TD application needs \~5,5 GB. This is apart from the OS, DB and other application needs. The above is a rough estimation and depends on the size of data to be read, settings of the read interval and number and type of connected systems.
+On the central Protect4S TD system, use **300 MB** per work process to estimate the needed memory. So for example if we take 80% of 23 processes (\~18 processes) and multiply that with 300 MB then the Protect4S TD application needs \~5,5 GB. This is apart from the OS, DB and other application needs.&#x20;
+
+The above is a rough estimation and depends on the size of data to be read, settings of the read interval and number and type of connected systems. Also keep in mind that sizing might depend on specific customer situations so validate the above yourself and keep in mind that the above only applies to the work processes and additional memory is needed for the Database and Operating System.
 
 Best practice is to connect a maximum of 180 SAP systems to one Protect4S Central System.
 
