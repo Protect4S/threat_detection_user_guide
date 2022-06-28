@@ -34,7 +34,7 @@ To add values in the policy, while in edit mode; click on the Create button. A n
 
 Click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
-To remove a policy value, simply go to edit mode, select the rule you wish to remove and click on delete. The below screenshot we will remove the rule we just created.
+To remove a policy value, simply enter edit mode, select the rule you wish to remove and click on delete. The below screenshot we will remove the rule we just created.
 
 ![Removing a rule](<../../.gitbook/assets/image (74).png>)
 
