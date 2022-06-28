@@ -22,7 +22,7 @@ The Allow / Deny policies can be configured to better detect Threats in a SAP la
 
 For use case S-000170-01 (User creation outside IAM\_CUA) a policy exists (1000 - User(s) allowed for user administration). This policy contains the usernames that are allowed to create users, e.g. via Central User Administration or IDM solutions. Often customers use a fixed name for these activities that is used also in RFC connections for example. This use case detects when users are created by users that are NOT on the Allow list. Below you can see an example where values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.
 
-![Policy values](<../../.gitbook/assets/image (63) (1) (1) (1).png>)
+![Policy values](<../../.gitbook/assets/image (63) (1) (1).png>)
 
 If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR". The values entered here will be converted to uppercase automatically.
 

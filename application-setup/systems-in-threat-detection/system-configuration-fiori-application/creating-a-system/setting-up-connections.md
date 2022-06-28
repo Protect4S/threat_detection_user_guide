@@ -22,7 +22,7 @@ The database connections are not mandatory for most database types, however for 
 
 An Operating System user is not mandatory for ABAP systems, for JAVA systems it is mandatory. Enter here the OS user as described [here](../users-and-authorizations/operating-system-user.md).
 
-![Connecting to the operating system of the satellite system](<../../../../.gitbook/assets/image (52) (1).png>)
+![Connecting to the operating system of the satellite system](<../../../../.gitbook/assets/image (52).png>)
 
 
 

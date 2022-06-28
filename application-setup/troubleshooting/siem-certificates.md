@@ -14,7 +14,7 @@ To solve this please follow the below steps:
 4. Export the server certificate into a file (for example, in the format 'Base64')
 5. If necessary, open the certificate or the certificates of the certificate chain from the certificate hierarchy, and also export this certificate or these certificates. For example for MS Sentinel there are 3 certificates needed:
 
-![](<../../.gitbook/assets/image (63) (1) (1).png>)
+![](<../../.gitbook/assets/image (63) (1).png>)
 
 ****
 
