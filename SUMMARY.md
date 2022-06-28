@@ -37,6 +37,7 @@
   * [Application Settings](application-setup/application-settings.md)
   * [Recommendations](application-setup/recommendations/README.md)
     * [S-000010-01](application-setup/recommendations/page-1.md)
+    * [S-000001-01](application-setup/recommendations/s-000001-01.md)
     * [S-000020-01](application-setup/recommendations/s-000020-01.md)
     * [S-000030-01](application-setup/recommendations/s-000030-01.md)
     * [S-000040-01](application-setup/recommendations/s-000040-01.md)
