@@ -2,10 +2,9 @@
 description: Tips and tricks
 ---
 
-# !Recommendations
+# Recommendations
 
-This chapter covers best practices, tips and tricks to limit as many false positives as possible.\
-With the provided recommendations this chapter will guide you configuring the parameters for each use case to detect, mitigate, and harden the security as a final result.
+This chapter covers best practices, tips and tricks to limit e.g. false positives. This chapter will help you configure the parameters for each use case to detect, mitigate, and harden the security as a final result.
 
 All general information and details for each use case is described in within solution and can be found under the Fiori Application "Use Case Information".
 

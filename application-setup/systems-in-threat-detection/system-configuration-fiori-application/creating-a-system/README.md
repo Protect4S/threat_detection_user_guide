@@ -24,7 +24,7 @@ This parameter is used to define the time Threat Detection looks back during the
 
 **Data Source Max. Seconds per Part (300 seconds by default)**
 
-This parameter is used to split reading large amounts of data and splits up the read intervals in smaller pieces when needed. It defines the maximum amount of time in seconds that a Threat Detection read part uses to retrieve data from the satellite system. This is used to avoid large sums data being collected in one read, which is especially noticeable if the "Data Source Max. Read History in Seconds" is set to a high value or in combination of many events occurred in case a system became unreachable.
+This parameter is used to split reading large amounts of data and splits up the read intervals in smaller pieces when needed. It defines the maximum amount of time in seconds that a Threat Detection read part uses to retrieve data from the satellite system. This is used to avoid large amount of data being collected in one read, which is especially noticeable if the "Data Source Max. Read History in Seconds" is set to a high value or in combination of many events occurred in case a system became unreachable.
 
 **Activate new use cases Automatically**
 
