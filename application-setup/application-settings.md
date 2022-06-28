@@ -8,7 +8,7 @@ If you have been granted the technical configurator role or the administrator ro
 
 In this application, you define technical application settings of Threat Detection which includes General settings, Threat Detection and Storage length and the settings for SIEM.
 
-### **General settings**
+### **General settings & Threat Detection settings**
 
 **Worker ID**\
 This parameter is used to indicate how the the name should be identified and referenced in Security Information and Event Management (SIEM) that it comes from the Protect4S Threat Detection solution.
@@ -28,31 +28,17 @@ This is the user that is used to perform all the background activities and daemo
 
 **No Threats for System Shutdown from** & **to** (situational/optional)\ <mark style="color:red;"></mark>If planned maintenance is scheduled, you can enter the stop and start times here so Protect4S Threat Detection solution will not send out the message that the system is being shutdown (only when given a soft shutdown) during that timeframe.
 
-### **Threat Detection settings**
-
-
-
 ### **Storage settings**
 
+Protect4S Threat Detection objects can generate quite some data and will be deleted automatically after some time. With the below thresholds you can define after how long this data gets deleted:
 
+* Maximum Event Storage in Hours (Default 2 hours)
+* Maximum Threat Storage in Days (Default 180 days)
+* Maximum Message Storage in Days (Default 180 days)
 
 ### SIEM settings
 
-This section is used to configure the link between SIEM and Threat Detection solution.
-
-![SIEM settings](../.gitbook/assets/image.png)
-
-\<To do: Explain what settings do and how to get data to fill there>
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-****
-
-**SIEM settings**
-
-Depending on the type of SIEM you operate, some SIEM specific settings need to be provided for connecting and authenticating to the SIEM solution.
-
-For Microsoft Sentinel you need to provide these settings:
+This section is used to configure the link between the Protect4S Threat Detection solution and your SIEM solution. Depending on the type of SIEM you operate, some SIEM specific settings need to be provided for connecting and authenticating to the SIEM solution. For Microsoft Sentinel you need to provide these settings:
 
 ![](<../.gitbook/assets/image (41).png>)
 
