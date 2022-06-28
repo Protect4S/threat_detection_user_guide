@@ -1,6 +1,6 @@
 # Events
 
-The Events application provides insight in Events that are collected from the monitored SAP systems. The events stored on the Protect4S Central TD SAP system are only those events that are needed for the currently implemented use cases, not all events activated on the monitored SAP systems. The Events application can be started via the Events tile on the Fiori Launchpad:
+The Events application provides insight in Events that are collected from the monitored SAP systems. The events stored on the Protect4S Central TD system are only those events that are needed for the currently implemented use cases. Not all events activated on the monitored SAP systems are collected and stored in the Central Protect4S TD system. The Events application can be started via the Events tile on the Fiori Launchpad:
 
 ![](<../.gitbook/assets/image (21).png>)
 
