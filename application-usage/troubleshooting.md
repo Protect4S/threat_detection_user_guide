@@ -2,7 +2,7 @@
 
 
 
-In case the Fiori Launchpad is not loading at all, this is likely a generic problem with Fiori itself.
+In case Fiori is not loading at all, this likely a generic problem with Fiori itself.
 
 Please see the reference link below:
 
