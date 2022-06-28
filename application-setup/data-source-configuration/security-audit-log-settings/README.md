@@ -1,5 +1,5 @@
 ---
-description: Satellite system settings
+description: Satellite system
 ---
 
 # Security Audit Log Settings
