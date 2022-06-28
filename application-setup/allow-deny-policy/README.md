@@ -8,7 +8,7 @@ If you have been granted to security configurator role or the administrator role
 
 ![Allow / Deny Policy configuration](<../../.gitbook/assets/image (40).png>)
 
-In order to limit false positives it is important to configure the Allow / Deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation.
+To limit false positives, it is important to configure the Allow / Deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation.
 
 ### **Attribute legend:**
 
