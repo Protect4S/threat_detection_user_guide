@@ -4,7 +4,7 @@ description: Setting up connections to the application, database and operating s
 
 # Setting up connections
 
-As part of [creating the System](./), you need to create connections to the Satellite system to be able to detect threats. While editing the System in the System application, press the <img src="../../../../.gitbook/assets/image (65).png" alt="" data-size="line"> button to create connections. In the first step you need to enter mandatory data for at least one ABAP client. This user in the satellite system must have the role "TDWO\_SATELLITE". Notice that the client you enter here will be the default client and the connection to this client needs to work as it is mandatory for Protect4S TD to operate.. In the next step you can optionally connect connections to the other clients.&#x20;
+As part of [creating the System](./), you need to create connections to the Satellite system to be able to detect threats. While editing the System in the System application, press the "Create Connections" button to create connections. In the first step you need to enter mandatory data for at least one ABAP client. This user in the satellite system must have the role "TDWO\_SATELLITE". Notice that the client you enter here will be the default client and the connection to this client needs to work as it is mandatory for Protect4S TD to operate.. In the next step you can optionally connect connections to the other clients.&#x20;
 
 ![Creating ABAP connection](<../../../../.gitbook/assets/image (51).png>)
 
@@ -22,7 +22,7 @@ The database connections are not mandatory for most database types, however for 
 
 An Operating System user is not mandatory for ABAP systems, for JAVA systems it is mandatory. Enter here the OS user as described [here](../users-and-authorizations/operating-system-user.md).
 
-![Connecting to the operating system of the satellite system](<../../../../.gitbook/assets/image (52).png>)
+![Connecting to the operating system of the satellite system](<../../../../.gitbook/assets/image (52) (1).png>)
 
 
 
