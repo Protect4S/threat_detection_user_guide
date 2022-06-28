@@ -8,7 +8,7 @@ Database connections are not mandatory for most systems (apart for Java systems 
 
 ✔ If you choose not to create a database connection this implies that specific database use cases might fail.
 
-✔ If the database connection is not available then in some cases a fallback mechanism is used to retrieve database specific information. For example for ABAP systems an RFC is used for MSSQL and MAXDB. For HANA a fallback is implemented via the OS command HDBCLI. This will only work if the SAPControl connection user is the \<sid>adm OS user and can access the hdbuserstore.
+✔ If the database connection is not available then in some cases a fallback mechanism is used to retrieve database specific information. For example for ABAP systems a RFC is used for MSSQL and MAXDB. For HANA a fallback is implemented via the OS command HDBCLI. This will only work if the SAPControl connection user is the \<sid>adm OS user and can access the hdbuserstore.
 
 ✔ For Java systems, Database connections are mandatory as data retrieval relies on this connection type.
 
