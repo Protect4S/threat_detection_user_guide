@@ -1,5 +1,5 @@
 ---
-description: This page explains the works of the scope and policy rules
+description: This page explains the scope and policy rules
 ---
 
 # Configuring policy settings
