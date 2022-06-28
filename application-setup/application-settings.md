@@ -22,7 +22,7 @@ This is the user that is used to perform all the background activities and daemo
 ****This setting defines whether use cases are activated upon creation or update of the systems within the System Application as described [here](systems-in-threat-detection/system-configuration-fiori-application/).
 
 **TD Server Group** (Optional)\
-****Protect4S Threat Detection can use a specific RFC server group. The list is retrieved from RZ12.
+****Protect4S Threat Detection can use a [specific RFC server group](troubleshooting/using-server-groups.md). The list is retrieved from RZ12.
 
 **TD interval for Landscape in Seconds**\ <mark style="color:red;">****</mark>This parameter is used to define the interval frequency of checking the satellite systems specifically for the Landscape type of Use Cases.&#x20;
 
