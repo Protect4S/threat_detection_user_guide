@@ -8,28 +8,17 @@ description: This page explains the scope and policy rules
 
 ### Policy configuration
 
-Upon opening the Allow / Deny Policy application, the following screen shows up:
+When opening the Allow / Deny Policy application, the following screen shows the available policies:
 
 ![Allow / Deny Polices list](<../../.gitbook/assets/image (31) (1).png>)
 
-On the left hand side, we can see the attributes of the policy.\
-Each attribute have their own importance depending on the policy it applies for. See the table at the bottom of the page.
+When selecting a specific policy you can see the details such as the scope they apply to, the use cases they are linked to and several other attributes of the policy (see [this page](./) for details).
 
 ![Policy details](<../../.gitbook/assets/image (71).png>)
 
-On the right side of the screen, we can see that this policy is used in 3 different Use Cases, this means that adjusting this policy affect the 3 Use Cases.
+### Adjusting the policy&#x20;
 
-![Linked use cases](<../../.gitbook/assets/image (62).png>)
-
-In this example Policy 1000 - User(s) allowed for user administration (technical name: Allowlisted\_useradmins) is used.&#x20;
-
-![Policy details](<../../.gitbook/assets/image (31).png>)
-
-We can see that this policy is about users, which means that Case sensitive has no meaning because users in SAP is in uppercase by default and Risk management is not applied it is an allow list where you rarely indicate what risk it would have whilst the user is permitted to perform certain action.
-
-### Adjusting the policy rule
-
-In this tutorial, we would like to change a user in this allow policy list for User Administration.
+The Allow / Deny policies allow modifications to better detect Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the details to limit false positives. After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning, find an example below:&#x20;
 
 Below you can see that the current values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.
 
