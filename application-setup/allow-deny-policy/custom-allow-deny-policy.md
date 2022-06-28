@@ -19,11 +19,13 @@ Click on Create before proceeding then click on the newly created policy to adap
 
 After creation, click on Edit to proceed with your desired changes. ![](<../../.gitbook/assets/image (54).png>)
 
-Under the scope you may select how you would like to apply this policy.
+Policies can also have a specific scope to make it applicable for example for all systems, just the systems with a specific role or a single SAP system. From the scope dropdown menu, you may select how you would like to apply a specific policy.
 
-* Selecting All systems will apply the policy on all systems configured in Threat Detection solution
-* Select Single System to just apply to 1 system, if you have created multiple systems for the same actual system in Threat Detection, do notice that this policy will only be applied to that particular system selected.
-* Select System Role to apply the policy to any systems with a specific role
+![](<../../.gitbook/assets/image (59).png>)
+
+* Selecting **All systems** will apply the policy on all systems configured in Threat Detection solution
+* Select **Single System** to just apply to 1 system, if you have created multiple systems for the same actual system in Threat Detection, do notice that this policy will only be applied to that particular system selected.
+* Select **System Role** to apply the policy to any systems with a specific role, like e.g. only Productive systems.
 
 
 

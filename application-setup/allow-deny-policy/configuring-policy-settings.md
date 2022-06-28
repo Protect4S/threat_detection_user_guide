@@ -4,13 +4,7 @@ description: This page explains the scope and policy rules
 
 # Configuring policy settings
 
-​For the scope dropdown menu, you may select how you would like to apply this policy.
-
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Mi7S7PK2B4qxyBrzXwx%2Fuploads%2FcwJLou2uKIDnfvjMI0xO%2Fimage.png?alt=media\&token=e0e9274d-2125-43be-b966-0554be422675)
-
-* Selecting All systems will apply the policy on all systems configured in Threat Detection solution
-* Select Single System to just apply to 1 system, if you have created multiple systems for the same actual system in Threat Detection, do notice that this policy will only be applied to that particular system selected.
-* Select System Role to apply the policy to any systems with a specific role
+​The Allow / Deny policies are there to finetune the use cases and to prevent false positives.&#x20;
 
 ### Policy configuration
 

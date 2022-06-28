@@ -8,7 +8,7 @@ If you have been granted to security configurator role or the administrator role
 
 ![Allow / Deny Policy configuration](<../../.gitbook/assets/image (40).png>)
 
-To limit false positives, it is important to configure the Allow / Deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation.
+To limit false positives, it is important to configure the Allow / Deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. Below overview lists the attributes for the Allow / Deny policies:
 
 ### **Attribute legend:**
 
@@ -25,4 +25,3 @@ To limit false positives, it is important to configure the Allow / Deny policies
 | Final            | Indicates whether the default shipped policy can be copied or not by customers. When Final = NO the default policy can be copied and customised by customers                                                                                                                                                                                                                                                                 |
 | Technical Name   | Technical name of the policy which will be used to assign the policy to an use case along with the Policy ID                                                                                                                                                                                                                                                                                                                 |
 
-The table above explains what each attribute means.
