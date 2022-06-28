@@ -18,7 +18,9 @@ When selecting a specific policy you can see the details such as the scope they 
 
 ### Adjusting the policy&#x20;
 
-The Allow / Deny policies allow modifications to better detect Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the details to limit false positives. After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning, find an example below:&#x20;
+The Allow / Deny policies can be configured to better detect Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the details to limit false positives. After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning, find an example below:&#x20;
+
+For use case S-000170-01 (User creation outside IAM\_CUA) a policy exists (1000 - User(s) allowed for user administration). This policy contains the usernames that are allowed to create users, e.g. via Central User Administration or IDM solutions. Often customers use a fixed name for these activities that is used also in RFC connections for example. This use case detects when users are&#x20;
 
 Below you can see that the current values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.
 
