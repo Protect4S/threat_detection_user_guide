@@ -4,7 +4,7 @@
 
 **Work processes:**
 
-In order for the Protect4S Threat Detection to function properly and in a timely manner, some sizing rules apply.
+In order for the Protect4S Threat Detection to function properly and in a timely manner, some sizing recommendations apply.
 
 A general rule of thumb for the sizing of the Central Protect4S TD system has:
 

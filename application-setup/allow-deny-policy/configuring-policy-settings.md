@@ -18,7 +18,7 @@ When selecting a specific policy you can see the details such as the scope they 
 
 ### Adjusting the policy&#x20;
 
-The Allow / Deny policies allow modifications to better detect Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the details to limit false positives. After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning, find an example below:&#x20;
+The Allow / Deny policies can be configured to better detect Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the details to limit false positives. After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning, find an example below:&#x20;
 
 Below you can see that the current values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.
 
