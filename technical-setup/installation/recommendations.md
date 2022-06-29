@@ -6,7 +6,7 @@
 
 In order for the Protect4S Threat Detection to function properly and in a timely manner, some sizing recommendations apply.
 
-A general rule of thumb for the sizing of the Central Protect4S TD system has:
+A general rule of thumb for the sizing of the central Protect4S TD system has:
 
 * 3 general dialog processes + 1 dialog process per connected system.
 
