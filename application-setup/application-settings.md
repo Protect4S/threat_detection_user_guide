@@ -6,14 +6,14 @@ If you have been granted the technical configurator role or the administrator ro
 
 ![General settings](<../.gitbook/assets/image (20).png>)
 
-In this application, you define technical application settings of Threat Detection which includes General settings, Threat Detection and Storage length and the settings for SIEM.
+In this application, you define technical application settings of Threat Detection which includes General Settings, Threat Detection and Storage Settings and the settings for SIEM.
 
 ### **General settings & Threat Detection settings**
 
 **Worker ID**\
 This parameter is used to indicate how the the name should be identified and referenced in Security Information and Event Management (SIEM) that it comes from the Protect4S Threat Detection solution.
 
-**Company Name**\ <mark style="color:red;"></mark>The entered value here will be send to the SIEM solution as part of the Threat data.
+**Company Name**\ <mark style="color:red;"></mark>The entered value here will be send to the SIEM solution as part of the threat data.
 
 **Background Executor User Name**\
 This is the user that is used to perform all the background activities and daemon schedules. This user should have the role /TDWO/BACKGROUND\_EXECUTOR. It is not to be mixed with the background service user in the satellite system which you define separately in each individual system.
@@ -24,7 +24,7 @@ This is the user that is used to perform all the background activities and daemo
 **TD Server Group** (Optional)\
 ****Protect4S Threat Detection can use a [specific RFC server group](troubleshooting/using-server-groups.md). The list is retrieved from RZ12.
 
-**TD interval for Landscape in Seconds**\ <mark style="color:red;">****</mark>This parameter is used to define the interval frequency of checking the satellite systems specifically for the Landscape type of Use Cases.&#x20;
+**TD interval for Landscape in Seconds**\ <mark style="color:red;">****</mark>This parameter is used to define the interval frequency of checking the satellite systems specifically for the landscape-type of use cases.&#x20;
 
 **No Threats for System Shutdown from** & **to** (situational/optional)\ <mark style="color:red;"></mark>If planned maintenance is scheduled, you can enter the stop and start times here so Protect4S Threat Detection solution will not send out the message that Threat Detection system is being shutdown (only when given a soft shutdown) during that timeframe.
 
