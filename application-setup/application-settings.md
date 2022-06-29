@@ -53,7 +53,7 @@ After you have entered the credentials you can check if the connection can actua
 If the connection test went well, you should see the following message on the screen briefly:\
 **"**_Connection is OK. A test message was sent to SIEM without errors._**".**
 
-If you get an error please check the credentials and also the certificates as explained [here](troubleshooting/siem-certificates.md).
+If you get an error please check detailed error messages. Generally it is the credentials or the certificates as explained [here](troubleshooting/siem-certificates.md). P.s. make sure The system can actually access the SIEM environment.
 
 #### **Remark:**
 
