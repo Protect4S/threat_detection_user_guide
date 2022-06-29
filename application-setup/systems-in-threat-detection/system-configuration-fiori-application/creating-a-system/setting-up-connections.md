@@ -26,7 +26,7 @@ An Operating System user is not mandatory for ABAP systems, for JAVA systems it 
 
 
 
-![Overview of all the instances where sapcontrol will be used](<../../../../.gitbook/assets/image (25).png>)
+![Overview of all the instances where sapcontrol will be used](<../../../../.gitbook/assets/image (25) (1).png>)
 
 Review and confirm the list of all the applications servers **** applicable for your system and in the next screen save the connections.
 
