@@ -16,7 +16,7 @@ This parameter is used to indicate how the the name should be identified and ref
 **Company Name**\ <mark style="color:red;"></mark>The entered value here will be send to the SIEM solution as part of the threat data.
 
 **Background Executor User Name**\
-This is the user that is used to perform all the background activities and daemon schedules. This user should have the role /TDWO/BACKGROUND\_EXECUTOR. It is not to be mixed with the background service user in the satellite system which you define separately in each individual system.
+This is the user that is used to perform all the background activities and daemon schedules. This user will be given the role /TDWO/BACKGROUND\_EXECUTOR upon saving. It is not to be mixed with the background service user in the satellite system which you define separately in each individual system.
 
 **Activate Use Cases on System Create/Update**\
 ****This setting defines whether use cases are activated upon creation or update of the systems within the System Application as described [here](system-configuration-fiori-application/).

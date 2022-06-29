@@ -4,14 +4,14 @@ In case you are facing time zone related differences or inconsistency, the follo
 
 #### Time zone reports/programs:
 
-* **tzcusthelp** - Reports to troubleshoot time zone to see whether different time zone is used on the OS
-* **rsbdtime** - Compare system, database and OS time\
-  **tzonecheck** - Check time zone consistency for any client (input the client in the report)
+* **tzcusthelp** - Reports to troubleshoot time zone issues like different time zone on the OS
+* **rsbdtime** - Compare system, database and OS time
+* **tzonecheck** - Check time zone consistency for any client (input the client in the report)
 
 #### Time zone transactions:
 
-* STZAD- Display current system and default user time zone
-* STZAC- edit current system and default user time zone
+* **STZAD** - Display current system and default user time zone
+* **STZAC** - edit current system and default user time zone
 
 #### Notes:
 

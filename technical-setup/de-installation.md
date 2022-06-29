@@ -2,7 +2,7 @@
 
 ### Run the pre-deinstallation wizard <a href="#run-the-pre-deinstallation-wizard" id="run-the-pre-deinstallation-wizard"></a>
 
-Before you de-install the Protect4S TD add-on, first run the pre-deinstallation wizard **in every Protect4S TD client where the Protect4S TD license has been installed.** This is done by executing transaction: **/n/**/**TDWO/PDI**.
+Before you de-install the Protect4S TD Add-On, first run the pre-deinstallation wizard **in every Protect4S TD client where the Protect4S TD license has been installed.** This is done by executing transaction: **/n/**/**TDWO/PDI**.
 
 This will remove all Protect4S generated jobs, RFC and database connections.
 
