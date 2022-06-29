@@ -59,7 +59,7 @@
       * [SAP Sybase](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/sap-sybase.md)
       * [SAP HANA](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/sap-hana.md)
   * [Allow / Deny Policy](application-setup/allow-deny-policy/README.md)
-    * [Configuring policy settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
+    * [Configuring Policy Settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
     * [Custom Allow / Deny Policy](application-setup/allow-deny-policy/custom-allow-deny-policy.md)
 * [Application Usage](application-usage/README.md)
   * [Threats](application-usage/threats.md)
