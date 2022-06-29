@@ -1,6 +1,6 @@
 # Updating Protect4S TD
 
-To be protected against latest threats, it is important to have your Protect4S Threat Detection solution updated periodically to the latest Support Pack. This can be done via the regular SAP transaction SPAM in client 000.
+To be protected against latest threats, it is important to have your Protect4S Threat Detection solution updated periodically to the latest support package. This can be done via the regular SAP transaction SPAM in client 000.
 
 The latest Protect4S TD Support Package can be obtained via [https://protect4s.com/login](https://protect4s.com/login) with your personal user-ID. If you don't have one please [contact](../support/) our support team.
 
