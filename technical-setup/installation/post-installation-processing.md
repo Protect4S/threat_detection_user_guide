@@ -46,7 +46,7 @@ After having installed the license: select **Yes**.
 
 Next inspect and update at least the mandatory fields in the Application settings. Later, when using the Protect4S TD application you can configure the more detailed [application settings](../../application-setup/application-settings.md).
 
-![](<../../.gitbook/assets/image (53) (1).png>)
+![](<../../.gitbook/assets/image (53) (1) (1).png>)
 
 A lot of specific tuning can be done any time when working with the application. For now, after installation, at least provide a name for the Worker ID, A Company name and a background user for the background jobs. This must be a user with the role **/TDWO/BACKGROUND\_EXECUTOR.**
 
