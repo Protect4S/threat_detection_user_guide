@@ -10,7 +10,7 @@ As a minimum, the parameter "**rsau/enable**" needs to be set to value 1 via tra
 
 Optionally, a different path can be defined for the SAL files as the the log files can take up a lot of space depending on the configuration. The default path is under the \usr\sap\\\<SID>\ directory, which might cause unpredictable system behavior once the drive is full. So make sure to activate only relevant and needed events (see the [next chapter)](audit-event-ids-to-record.md), have enough diskspace available, monitor for full disk or mountpoints and archive files based on your archiving strategy.
 
-Another option in systems with a release higher than 7.5 is to activate in RSAU\_CONFIG both the &#x20;
+Another option in systems with a release higher than 7.5 is to activate in RSAU\_CONFIG both the OS level logging and the Database logging. This might provide options to clear the OS-level logging periodically while retain the events in the Database for reference and analytics purposes: &#x20;
 
 ![](../../../.gitbook/assets/image.png)
 

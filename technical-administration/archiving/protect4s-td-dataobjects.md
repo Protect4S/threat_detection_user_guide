@@ -22,6 +22,6 @@ In the event you want to reduce the amount of hours that these events are stored
 
 The Protect4S threats created by the Protect4S TD Solution are stored for some time for consulting and forensic purposes. The number of threats can grow fast depending e.g. on the amount of use cases activated for the monitored SAP systems. By default the threats will be stored on the Central Protect4S TD system for 180 days as can be configured in the Application Settings:
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 In the event you want to reduce the amount of days that these threats are stored it can be considered reducing this value.

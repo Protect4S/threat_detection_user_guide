@@ -22,7 +22,7 @@ From the PFCG menu, select "Role", "Download":
 
 Confirm the popup:
 
-![Confirm popup](<../../../../.gitbook/assets/image (60).png>)
+![Confirm popup](<../../../../.gitbook/assets/image (60) (1).png>)
 
 Select a location for the role on your workstation and save the file. In this tutorial we will save this in our Temp directory:
 
