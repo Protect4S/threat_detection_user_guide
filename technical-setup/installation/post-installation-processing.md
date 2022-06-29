@@ -42,9 +42,9 @@ After having installed the license: select **Yes**.
 
 ![](<../../.gitbook/assets/image (68) (1).png>)
 
-### Application Settings
+### Application settings
 
-Next inspect and update at least the mandatory fields in the Application Settings. Later, when using the Protect4S TD application you can configure the more detailed [application settings](../../application-setup/application-settings.md).
+Next inspect and update at least the mandatory fields in the Application settings. Later, when using the Protect4S TD application you can configure the more detailed [application settings](../../application-setup/application-settings.md).
 
 ![](<../../.gitbook/assets/image (53) (1) (1).png>)
 

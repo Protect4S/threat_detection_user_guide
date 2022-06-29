@@ -1,8 +1,8 @@
 # Prerequisites
 
-### Protect4S TD central system s**oftware version requirements**
+### Protect4S TD Central System s**oftware version requirements**
 
-There are minimal software version requirements for the central Protect4S Threat Detection system. Below mentioned software components should be installed on at least the version and support package level indicated (a higher version or support package is supported, not lower):
+There are minimal software version requirements for the central Protect4S Threat Detection system. Below mentioned software components should be installed on at least the version and Support Package level indicated (a higher version or support package is supported, not lower):
 
 | Software Component | Version | Support Package |
 | ------------------ | ------- | --------------- |
@@ -10,11 +10,11 @@ There are minimal software version requirements for the central Protect4S Threat
 | SAP\_UI            | 754     | 0000            |
 | SPAM/SAINT         | 752     | 0078            |
 
-The SAP\_UI component has been tested and is supported as of SAP\_UI 7.54 Support Package 0007 and higher, but might also work on lower support package levels within the 7.54 version. In case of issues though, we recommend to install at least the above mentioned version of the SAPUI component.
+The SAPUI component has been tested and is supported as of SAPUI 7.54 Support Package 0007 and higher, but might also work on lower support package levels within the 7.54 version. In case of issues though, we recommend to install at least the above mentioned version of the SAPUI component.
 
 ### Time settings
 
-Make sure that on all SAP systems in your landscape the setting of time is synchronised with a central time server (e.g. via the NTP protocol) and that other Operating System time-settings (e.g. Daylight Saving Time settings) are set to the default settings. We don't take into account the parameter _`zdate/DSTswitch_contloctime`_.
+Make sure that on all SAP systems in your landscape the setting of time is synchronized with a central time server (e.g. via the NTP protocol) and that other Operating System time-settings (e.g. Daylight Saving Time settings) are set to the default settings. We don't take into account the parameter _`zdate/DSTswitch_contloctime`_.
 
 If you are encountering difficulties regarding this topic, please find more information [here](../troubleshooting/time-zone-differences.md).&#x20;
 
@@ -41,7 +41,7 @@ Before you proceed adding systems to Protect4S Threat Detection, please make sur
 
 ![Checking to see if the Secure Store has a default key](<../../.gitbook/assets/image (24).png>)
 
-In the above case, change the default key-phrase and consider implementation of the following SAP OSS Notes:
+In the above case, change the default keyphrase and consider implementation of the following SAP OSS Notes:
 
 [1902258 - Secure Storage in the Database Key File Tool](http://service.sap.com/sap/support/notes/1902258)
 

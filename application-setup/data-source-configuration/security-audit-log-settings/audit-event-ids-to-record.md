@@ -7,7 +7,7 @@ description: List of minimum audit event IDs that needs to be recorded vs recomm
 Logging too many events can result in large log files in SAL. If disk space is not an issue and regulations or internal policies requite it; you may activate all events, but do notice that in some releases the transaction SM19 can only have a limited set of Event IDs to be recorded. For the working of Protect4S TD not all events need to be activated. We have two options:\
 
 
-**Option 1**: In order to provide a broad, future proof solution, customers can activate the event recording listed in the table overview below at option 2, combined with the generic recommendations shared by Frank Buchholz [\[1\]](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html) from SAP.&#x20;
+**Option 1**: In order to provide a broad, future proof solution, customers can activate the event recording listed in the table overview below at option 2, combined with the generic recommendations [shared by SAP](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html).&#x20;
 
 **Option 2**: For a minimum of events selected, customers can select mentioned events (See the overview table below at option 2). Keep in mind that this might need to be extended with future released use cases
 
@@ -17,7 +17,7 @@ Maintain static filters to:
 
 * Log all actions by the standard SAP\* user in all clients
 * Logons and transaction starts by the DDIC user in all clients
-* Severe and Critical events for all audit classes and users in all clients
+* Severe and critical events for all audit classes and users in all clients
 * Log the Event ID's shown **in the below overview at option 2**, plus the following Event IDs **AUO, AUP, AUQ, AUZ, BU4, BU5, BU6, BU7, BU9, BUA, BUB, BUC, BUH, CUQ, CUR, CUS, CUT, DU5, DUI, DUJ, DUK**
 * If you have yet to remove the Early Watch client (066), also create a filter to monitor events for all audit classes and users in client 066\
   For 7.50 or higher make sure that the recording target is set to Record in File System or Record in Database and File System
@@ -26,7 +26,7 @@ Maintain static filters to:
 
 #### Event IDs overview
 
-This is a list of the _**minimum**_ required Event IDs that is needed to be activated for the use cases to work properly. This overview will be updated whenever new Use Cases are released that requires new Events to be monitored for our Threat Detection solution.&#x20;
+This is the list of the _**minimum**_ required Event IDs that is needed to be activated for the use cases to work properly. This overview will be updated whenever new use cases are released that requires new events to be monitored for our Threat Detection solution.&#x20;
 
 | Event ID: | Description:                                                           |
 | --------- | ---------------------------------------------------------------------- |
@@ -54,8 +54,3 @@ This is a list of the _**minimum**_ required Event IDs that is needed to be acti
 
 _Notice, **Event IDs mentioned separately in the option 1** are **not** listed in the overview because this is not part of our minimum needed Event IDs to cover all the use case we have. Although you may include them._
 
-\_\_
-
-References:
-
-\[1] [SAP Community - Recommended Settings for the Security Audit Log (SM19 / SM20)](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html)
