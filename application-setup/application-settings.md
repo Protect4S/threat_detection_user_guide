@@ -48,7 +48,7 @@ This section is used to configure the link between the Protect4S Threat Detectio
 
 #### Testing the SIEM connection & authorization
 
-After you have entered the credentials you can check if the connection can actually be established by clicking on the "Check Connection" button. ![](<../.gitbook/assets/image (7).png>). This button is only visible in Display mode.
+After you have entered the credentials you can check if the connection can actually be established by clicking on the "Check Connection" button. ![](<../.gitbook/assets/image (7).png>)
 
 If the connection test went well, you should see the following message on the screen briefly:\
 **"**_Connection is OK. A test message was sent to SIEM without errors._**".**

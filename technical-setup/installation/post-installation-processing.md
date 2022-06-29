@@ -44,11 +44,11 @@ After having installed the license: select **Yes**.
 
 ### Application settings
 
-Next inspect and update the Application settings:
+Next inspect and update at least the mandatory fields in the Application settings. Later, when using the Protect4S TD application you can configure the more detailed [application settings](../../application-setup/application-settings.md).
 
 ![](<../../.gitbook/assets/image (53) (1).png>)
 
-You must supply data for generic settings and for SIEM specific settings.
+In order to continue, for now you must only supply the mandatory data for generic settings. and for SIEM specific settings.
 
 **General settings**
 
