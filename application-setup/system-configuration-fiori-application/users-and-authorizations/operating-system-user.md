@@ -14,4 +14,4 @@ Some operating system checks rely on the SAPcontrol **OSExecute** function, whic
 
 If this is allowed by your specific security policy, Protect4S recommends to supply the \<sid>adm user/password combination for the SAP Control connection when running the System connection wizard. In practice this means that this combination will be stored in the SAP secure store of the system where Protect4S Threat Detection is installed (as all other Protect4S users).
 
-If using \<sid>adm is not allowed, you can use an operating system user other than \<sid>adm. For more details see [this](../operating-system-user-other-than-less-than-sid-greater-than-adm.md) chapter.
+If using \<sid>adm is not allowed, you can use an operating system user other than \<sid>adm. For more details see [this](operating-system-user-other-than-less-than-sid-greater-than-adm.md) chapter.

@@ -4,7 +4,7 @@ description: Use Case Selection configuration
 
 # Use Case Selection
 
-If you have been granted the security configurator role or the administrator role, you can access the "Use Case Selection" Fiori Tile. Please visit [this](systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
+If you have been granted the security configurator role or the administrator role, you can access the "Use Case Selection" Fiori Tile. Please visit [this](system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
 ![Use case Selection Configuration Fiori Application](<../.gitbook/assets/image (63) (1) (1) (1) (1).png>)
 

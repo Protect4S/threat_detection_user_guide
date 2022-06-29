@@ -2,7 +2,7 @@
 
 ![Application Settings configuration](<../.gitbook/assets/image (29).png>)
 
-If you have been granted the technical configurator role or the administrator role, you can access "Application Settings configuration" Fiori Tile. Please visit [this](systems-in-threat-detection/system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations. Upon accessing the application settings, you will see the following screen:
+If you have been granted the technical configurator role or the administrator role, you can access "Application Settings configuration" Fiori Tile. Please visit [this](system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations. Upon accessing the application settings, you will see the following screen:
 
 ![General settings](<../.gitbook/assets/image (20).png>)
 
@@ -19,7 +19,7 @@ This parameter is used to indicate how the the name should be identified and ref
 This is the user that is used to perform all the background activities and daemon schedules. This user should have the role /TDWO/BACKGROUND\_EXECUTOR. It is not to be mixed with the background service user in the satellite system which you define separately in each individual system.
 
 **Activate Use Cases on System Create/Update**\
-****This setting defines whether use cases are activated upon creation or update of the systems within the System Application as described [here](systems-in-threat-detection/system-configuration-fiori-application/).
+****This setting defines whether use cases are activated upon creation or update of the systems within the System Application as described [here](system-configuration-fiori-application/).
 
 **TD Server Group** (Optional)\
 ****Protect4S Threat Detection can use a [specific RFC server group](troubleshooting/using-server-groups.md). The list is retrieved from RZ12.
