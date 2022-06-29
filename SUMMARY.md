@@ -81,7 +81,7 @@
     * [DNS resolving](technical-administration/troubleshooting/dns-resolving.md)
 * [Support](support/README.md)
   * [Change Log](support/change-log.md)
-  * [Userguide](support/userguide.md)
+  * [User Guide](support/userguide.md)
   * [Report a software defect](support/report-a-software-defect.md)
   * [Feature Request](support/feature-request.md)
   * [Contact us](support/contact-us.md)
