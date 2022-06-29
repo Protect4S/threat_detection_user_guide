@@ -53,7 +53,7 @@ After you have entered the credentials you can check if the connection can actua
 If the connection test went well, you should see the following message on the screen briefly:\
 **"**_Connection is OK. A test message was sent to SIEM without errors._**".**
 
-If you get an error please check detailed error messages. Generally it is the credentials or the certificates as explained [here](troubleshooting/siem-certificates.md). Also __ make sure that the system can access the SIEM environment on network level (often over port 443 but that can be different_)._ A successful sent test message can be seen at the SIEM side:
+If you get an error please check detailed error messages. Generally it is the credentials or the certificates. Also __ make sure that the system can access the SIEM environment on network level (often port 443 but that can be different_)._ A successful sent test message can be seen at the SIEM side:
 
 ![](<../.gitbook/assets/image (25).png>)
 
