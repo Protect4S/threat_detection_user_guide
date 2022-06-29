@@ -48,29 +48,9 @@ Next inspect and update at least the mandatory fields in the Application setting
 
 ![](<../../.gitbook/assets/image (53) (1).png>)
 
-In order to continue, for now you must only supply the mandatory data for generic settings. and for SIEM specific settings.
+A lot of specific tuning can be done any time when working with the application. For now, after installation, at least provide a name for the Worker ID, A Company name and a background user for the background jobs. This must be a user with the role **/TDWO/BACKGROUND\_EXECUTOR.**
 
-**General settings**
-
-A lot of specific tuning can be done any time when working with the application. For now, after installation, at least provide a background user for the background jobs. This must be a user with the role **/TDWO/BACKGROUND\_EXECUTOR.**
-
-**SIEM settings**
-
-Depending on the type of SIEM you operate, some SIEM specific settings need to be provided for connecting and authenticating to the SIEM solution.
-
-For Microsoft Sentinel you need to provide these settings:
-
-![](<../../.gitbook/assets/image (41).png>)
-
-* **Customer ID**: This value can be retrieved in Microsoft Sentinel under "Log Analytics Workspaces" --> "Agents Management" --> "Workspace ID".
-* **Security Key**: This value can be retrieved in Microsoft Sentinel under "Log Analytics Workspaces" --> "Agents Management" --> "Primary Key".
-* **URL**: This value is made up by the Customer ID and a fixed part: [https://\<Customer ID>.ods.opinsights.azure.com/api/logs?api-version=2016-04-01](https:/%3CCustomer\_ID%3E.ods.opinsights.azure.com/api/logs)
-
-**Remark:** For Microsoft Sentinel as well as other SIEM vendors you might need to import the HTTPS certificates into transaction STRUST for the connection to work. [See here ](../../application-setup/troubleshooting/siem-certificates.md)for details.
-
-**Remark**: For testing purposes or tuning it can be considered to only provide the SIEM settings later and first keep the Threats locally in the Protect4S TD solution.
-
-
+****
 
 After the Post-Installation processing is done, the application is ready to be used. The Protect4S Threat Detection solution is started via transaction: `/n/ui2/flp`, which opens the Fiori launchpad containing the Protect4S TD applications. Should the transaction timeout, please refresh the page again with the F5 key or set a higher value for SAP parameter **rdisp/plugin\_auto\_logout** using transaction: **RZ11**.
 
