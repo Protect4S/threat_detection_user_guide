@@ -2,9 +2,9 @@
 description: Required application user(s)
 ---
 
-# Satellite SAP application user
+# Satellite SAP Application User
 
-A dedicated SAP ABAP user must be created (type System or Service) in all applicable ABAP clients of the satellite systems and given the role **TDWO\_SATELLITE**. This role is delivered as part of the installation on the Central system. This role grants the rights to read data sources like the Security Audit Log, retrieves technical data, e.g. reads system time, system client settings and does not modify any data. The role can be downloaded from the Protect4S Threat Detection central system using transaction PFCG and uploaded in the satellite system.
+A **dedicated** SAP ABAP user must be created (type System or Service) in all applicable ABAP clients of the satellite systems and given the role **TDWO\_SATELLITE**. This user should only be used for the Protect4S Threat Detection solution. This role is delivered as part of the installation on the Central system. This role grants the rights to read data sources like the Security Audit Log, retrieves technical data, e.g. reads system time, system client settings and does not modify any data. The role can be downloaded from the Protect4S Threat Detection central system using transaction PFCG and uploaded in the satellite system.
 
 Protect4S recommends to create the SAP RFC users as type "System". This prevents misuse of this user via the SAPGUI. Make sure that both the background user in the Protect4S Threat Detection system and the RFC users in the satellite systems have the same date-format settings so that date and time calculations are executed correctly. This must be configured using transaction SU01 under the DEFAULTS tab and set as displayed in the figure below:
 
