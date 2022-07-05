@@ -58,6 +58,7 @@
       * [Oracle](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/oracle.md)
       * [SAP Sybase](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/sap-sybase.md)
       * [SAP HANA](application-setup/troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/sap-hana.md)
+    * [Security Audit Logging](application-setup/troubleshooting/security-audit-logging.md)
   * [Allow / Deny Policy](application-setup/allow-deny-policy/README.md)
     * [Configuring Policy Settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
     * [Custom Allow / Deny Policy](application-setup/allow-deny-policy/custom-allow-deny-policy.md)
