@@ -4,8 +4,8 @@ The Framework Messages application provides insight in errors and messages that 
 
 ![](<../.gitbook/assets/image (64) (1) (1) (1).png>)
 
-The application provides an overview of all stored Messages and the details of those Messages:
+The application provides an overview of all stored messages and the details of those messages:
 
 ![](<../.gitbook/assets/image (20) (1).png>)
 
-This application helps troubleshoot issues. These Messages are only stored for a fixed number of days in the Central Protect4S TD solution, depending on the parameters in the Application Settings. Information regarding this parameter is explained [here](../application-setup/application-settings.md).
+This application helps troubleshoot issues. These messages are only stored for a fixed number of days in the central Protect4S TD solution, depending on the parameters in the Application Settings. Information regarding this parameter is explained [here](../application-setup/application-settings.md).
