@@ -6,7 +6,7 @@ description: Allow and Deny policy configuration
 
 If you have been granted to security configurator role or the administrator role, you can access the "Allow / Deny Policy" configurator Fiori Tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorisations.
 
-![Allow / Deny Policy configuration](<../../.gitbook/assets/image (40).png>)
+![Allow / Deny Policy configuration](<../../.gitbook/assets/image (40) (1).png>)
 
 To limit false positives, it is important to configure the allow / deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. Below overview lists the attributes for the allow / deny policies:
 
