@@ -10,4 +10,4 @@ Protect4S recommends to create the SAP RFC users as type "System". This prevents
 
 ![Date and Time settings for the manually created RFC users](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-Mee93KW0BtSWNWC0nS9%2F-MhIoDN1X2VnVwIeuzgJ%2F-MhIqhinNsb\_\_LCZuNle%2Fimage.png?alt=media\&token=54fb1975-7e71-486a-8e33-aba4a1b44bb5)
 
-This user is used in during the setup of the [connection](../../creating-a-system/setting-up-connections.md).
+This user is used in during the setup of the [connection](../../creating-a-system/setting-up-connections/).

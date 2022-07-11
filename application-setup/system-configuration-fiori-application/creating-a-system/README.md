@@ -38,4 +38,4 @@ With values set to the default settings, this means that Protect4S Threat Detect
 
 ### Creating Connections
 
-Before saving the system, make sure to [create the needed connections](setting-up-connections.md) to make the Threat Detection operational for this system.
+Before saving the system, make sure to [create the needed connections](setting-up-connections/) to make the Threat Detection operational for this system.
