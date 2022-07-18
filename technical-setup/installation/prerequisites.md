@@ -52,4 +52,4 @@ In the above case, change the default key-phrase and consider implementation of 
 
 ### SAP satellite systems s**oftware version requirements**
 
-The SAP satellite systems should be running on SAP Netweaver release 7.40 or higher. Apart from that, there are no specific software version requirements.
+The SAP satellite systems should be running on Netweaver releases that are supported by SAP. Apart from that, there are no specific software version requirements.
