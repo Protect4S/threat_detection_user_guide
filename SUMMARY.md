@@ -49,6 +49,7 @@
     * [S-000170-01](application-setup/recommendations/s-000170-01.md)
     * [S-000180-01](application-setup/recommendations/s-000180-01.md)
   * [Troubleshooting](application-setup/troubleshooting/README.md)
+    * [SSL certificate errors](application-setup/troubleshooting/ssl-certificate-errors.md)
     * [SIEM Certificates](application-setup/troubleshooting/siem-certificates.md)
     * [Using Server Groups](application-setup/troubleshooting/using-server-groups.md)
     * [HTTPURLLOC table](application-setup/troubleshooting/httpurlloc-table.md)
