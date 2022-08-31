@@ -4,7 +4,7 @@ description: This page explains the scope and policy rules
 
 # Configuring Policy Settings
 
-​The allow / deny policies are there to finetune the use cases and to prevent false positives.&#x20;
+​The Allow / Deny policies are there to finetune the use cases and to prevent false positives.&#x20;
 
 ### Policy configuration
 

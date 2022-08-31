@@ -35,8 +35,6 @@ If the above is not the case, then use transaction STC01 to activate the below t
 * SAP\_GATEWAY\_BASIC\_CONFIG
 * SAP\_FIORI\_LAUNCHPAD\_INIT\_SETUP
 
-<mark style="background-color:blue;">Also activate the SICF service:</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**/sap/public/bc/uics/whitelist**</mark>
-
 ### Threat Detection Secure Storage
 
 Before you proceed adding systems to Protect4S Threat Detection, please make sure that the SAP Secure Store of the Threat Detection system itself is properly protected. The Secure store key phrase should not be set to the default key. This can be checked using SAP transaction SECSTORE:
