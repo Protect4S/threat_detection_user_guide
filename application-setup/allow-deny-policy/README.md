@@ -2,7 +2,7 @@
 description: Allow and Deny policy configuration
 ---
 
-# Allow / Deny Policy
+# Policies
 
 If you have been granted to security configurator role or the administrator role, you can access the "Allow / Deny Policy" configurator Fiori Tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorisations.
 
