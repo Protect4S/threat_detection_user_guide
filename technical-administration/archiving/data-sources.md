@@ -8,7 +8,7 @@ As the amount of events being stored can grow fast, sooner or later there might 
 
 1. Data that is not created, does not need to be archived so decide carefully what events to log. Also see [this chapter](../../application-setup/data-source-configuration/security-audit-log-settings/audit-event-ids-to-record.md).
 2. If you store the SAL events in the **Database**, SAP recommends that you archive audit log events older than 3 days. Archiving in this case means to still have it available offline for forensic purposes, so don't delete the data directly after 3 days. See [this SAP documentation](https://help.sap.com/docs/SAP\_NETWEAVER\_AS\_ABAP\_751\_IP/280f016edb8049e998237fcbd80558e7/a9e341f8142a41e59a307dee6904f267.html?version=7.51.13\&locale=en-US) for archiving documentation.
-3. If you store the SAL events in the **Filesystem**, SAP describes some general recommendations in SAP n[ote 2191612 ](https://launchpad.support.sap.com/#/notes/2191612)in section 73:
+3. If you store the SAL events in the **Filesystem**, SAP describes some general recommendations in SAP note [2191612 ](https://launchpad.support.sap.com/#/notes/2191612)in section 73:
 
 In general, there is no tool support from SAP for the external storage of audit log files. The following technical recommendations apply in order to ensure the legally compliant retention of the files:
 
