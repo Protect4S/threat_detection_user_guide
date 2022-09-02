@@ -11,7 +11,7 @@ In case you are facing time zone related differences or inconsistency, the follo
 #### Time zone transactions:
 
 * **STZAD** - Display current system and default user time zone
-* **STZAC** - edit current system and default user time zone
+* **STZAC** - Edit current system and default user time zone
 
 #### Notes:
 
