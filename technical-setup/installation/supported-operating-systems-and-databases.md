@@ -14,7 +14,7 @@ Protect4S Threat Detection supports the below types of Operating Systems and Dat
 
 * SAP HANA
 * Oracle
-* Maxdb
+* MaxDB
 * Microsoft SQL Server
 * Sybase ASE
 * DB2 for LUW
