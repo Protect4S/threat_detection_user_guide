@@ -1,12 +1,12 @@
 ---
-description: Allow and Deny policy configuration
+description: Use Case Policy configuration
 ---
 
-# Policies
+# Use Case Policies
 
-If you have been granted to security configurator role or the administrator role, you can access the "Allow / Deny Policy" configurator Fiori Tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorisations.
+If you have been granted the security configurator role or the administrator role, you can access the Use Case Policy  Fiori Tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorisations.
 
-![Allow / Deny Policy configuration](<../../.gitbook/assets/image (40) (1).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
 
 To limit false positives, it is important to configure the allow / deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the SAP standard escape characters (like #, + and \*), see note  [574914](https://launchpad.support.sap.com/#/notes/574914) for details. Below overview lists the attributes for the allow / deny policies:
 

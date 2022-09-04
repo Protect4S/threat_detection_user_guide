@@ -10,7 +10,7 @@ There are minimal software version requirements for the central Protect4S Threat
 | SAP\_UI            | 754     | 0000            |
 | SPAM/SAINT         | 752     | 0078            |
 
-The SAP\_UI component has been tested and is supported as of SAP\_UI 7.54 Support Package 0007 and higher, but might also work on lower support package levels within the 7.54 version. In case of issues though, we recommend to install at least the above mentioned version of the SAPUI component.
+The SAP\_UI component has been tested and is supported as of SAP\_UI 7.54 Support Package 0007 and higher. Protect4S TD might also work on lower support package levels within the 7.54 version but this is not tested. In case of issues, we recommend to install at least the above mentioned version of the SAPUI component.
 
 ### Time settings
 
