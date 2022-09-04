@@ -4,11 +4,11 @@ description: This page explains the scope and policy rules
 
 # Configuring Policy Settings
 
-​The Allow / Deny policies are there to finetune the use cases and to prevent false positives.&#x20;
+​The policies are there to finetune the use cases and to prevent false positives.&#x20;
 
 ### Policy configuration
 
-When opening the Allow / Deny Policy application, the following screen shows the available policies:
+When opening the Use Case Policy application, the following screen shows the available policies:
 
 ![Allow / Deny Polices list](<../../.gitbook/assets/image (31) (1).png>)
 

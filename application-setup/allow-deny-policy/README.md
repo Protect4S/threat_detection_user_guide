@@ -8,7 +8,7 @@ If you have been granted the security configurator role or the administrator rol
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
 
-To limit false positives, it is important to configure the allow / deny policies specifically according to your situation. No SAP landscape is similar and use cases need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the SAP standard escape characters (like #, + and \*), see note  [574914](https://launchpad.support.sap.com/#/notes/574914) for details. Below overview lists the attributes for the allow / deny policies:
+To limit false positives, you can use the Use Case Policy configuration. No SAP landscape is similar and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the SAP standard escape characters (like #, + and \*), see note  [574914](https://launchpad.support.sap.com/#/notes/574914) for details. Below overview lists the attributes for the allow / deny policies:
 
 ### **Attribute legend:**
 
