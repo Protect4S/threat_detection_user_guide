@@ -8,6 +8,6 @@ This chapter covers best practices and tips and tricks to limit e.g. false posit
 
 Note: As a rule of thumb from the security perspective: the less authorisations, the more secure.
 
-Note 2: The process of finetuning is a constant one that is not finished after setup. You might need to return to the Allow / Deny policies periodically to further prevent false positives as user, configuration and parameters of SAP systems are sometimes dynamic.
+Note: The process of finetuning is a constant one that is not finished after setup. You might need to return to the Allow / Deny policies periodically to further prevent false positives as user, configuration and parameters of SAP systems are sometimes dynamic.
 
-Note 3: The suggestions given in these recommendation chapters is for someone with a security perspective background. Any reference to 'you' refers to this person. Unless otherwise mentioned.
+Note: The suggestions given in these recommendation chapters is for someone with a security perspective background. Any reference to 'you' refers to this person. Unless otherwise mentioned.

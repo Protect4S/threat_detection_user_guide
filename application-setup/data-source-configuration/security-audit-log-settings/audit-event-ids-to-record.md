@@ -4,7 +4,7 @@ description: List of minimum audit event IDs that needs to be recorded vs recomm
 
 # Audit Event IDs to record
 
-Logging too many events can result in large log files in SAL. If disk space is not an issue and regulations or internal policies requite it; you may activate all events, but do notice that in some releases the transaction SM19 can only have a limited set of Event IDs to be recorded. For the working of Protect4S TD not all events need to be activated. We have two options:\
+Logging too many events can result in large log files in SAL. If disk space is not an issue and regulations or internal policies require it; you may activate all events, but do notice that in some releases the transaction SM19 can only have a limited set of Event IDs to be recorded. For the working of Protect4S TD not all events need to be activated. There are two options:\
 
 
 **Option 1**: In order to provide a broad, future proof solution, customers can activate the event recording listed in the table overview below at option 2, combined with the generic recommendations [shared by SAP](https://answers.sap.com/questions/9791383/recommended-settings-for-the-security-audit-log-sm.html).&#x20;

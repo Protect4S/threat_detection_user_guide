@@ -2,9 +2,9 @@
 description: Database user in the satellite systems
 ---
 
-# Satellite system Database user
+# Satellite System Database User
 
-Database connections are not mandatory for most systems (apart for Java systems and systems running on SAP HANA), but in order to get the most out of Protect4S we recommend to create a database connection using the System connection wizard. For this connection you will need to create a database user in the database of the satellite system. If you connect to a database type other then the database type of the Central system, you must install Database libraries for that Database. See [this chapter](../../troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/) for more information.
+Database connections are not mandatory for most systems (apart for Java systems and systems running on SAP HANA), but in order to get the most out of Protect4S we recommend to create a database connection using the System connection wizard. For this connection you will need to create a database user in the database of the satellite system. If you connect to a database type other than the database type of the Central system, you must install Database libraries for that Database. See [this chapter](../../troubleshooting/heterogeneous-db-connections-and-installing-db-libraries/) for more information.
 
 ✔ If you choose not to create a database connection this implies that specific database use cases might fail.
 
