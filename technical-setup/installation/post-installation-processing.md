@@ -44,14 +44,12 @@ After having installed the license: select **Yes**.
 
 ### Application Settings
 
-Next inspect and update at least the mandatory fields in the Application Settings. Later, when using the Protect4S TD application you can configure the more detailed [application settings](../../application-setup/application-settings.md).
+During the post-installation steps, inspect and update at least the mandatory fields in the Application Settings. Later, when using the Protect4S TD application you can configure the more detailed [application settings](../../application-setup/application-settings.md) like for example the SIEM settings.
 
 ![](<../../.gitbook/assets/image (53) (1) (1).png>)
 
-A lot of specific tuning can be done any time when working with the application. For now, after installation, at least provide a name for the Worker ID, A Company name and a background user for the background jobs. This must be a user with the role **/TDWO/BACKGROUND\_EXECUTOR.**
+A lot of specific tuning can be done when working with the application. For now, after installation, at least provide a name for the Worker ID, A Company name and a background user for the background jobs. This must be a user with the role **/TDWO/BACKGROUND\_EXECUTOR.**
 
-After the Post-Installation processing is done, the application is ready to be used. The Protect4S Threat Detection solution is started via transaction: `/n/ui2/flp`, which opens the Fiori launchpad containing the Protect4S TD applications. Should the transaction timeout, please refresh the page again with the F5 key or set a higher value for SAP parameter **rdisp/plugin\_auto\_logout** using transaction: **RZ11**.
-
-After running the Post installation wizard, refresh your browser cache (CTRL-F5) to make sure the application icons are displayed correctly.
+After the Post-Installation processing is done, the application is ready to be used. The Protect4S Threat Detection solution is started via transaction: `/n/ui2/flp`, which opens the Fiori launchpad containing the Protect4S TD applications. Should the transaction timeout, please refresh the page again with the F5 key or set a higher value for SAP parameter **rdisp/plugin\_auto\_logout** using transaction: **RZ11**. After running the Post installation wizard, refresh your browser cache (CTRL-F5) to make sure the application icons are displayed correctly.
 
 Every menu Item selected will start in a new browser tab for many browsers (for some browsers like Edge it will open new browser windows though). When you are finished using an application, you may simply close the tab or windows.
