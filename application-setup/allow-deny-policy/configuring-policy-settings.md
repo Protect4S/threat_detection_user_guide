@@ -10,11 +10,11 @@ description: This page explains the scope and policy rules
 
 When opening the Use Case Policy application, the following screen shows the available policies:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
 When selecting a specific policy you can see the details such as the scope and description of the use case and several other attributes of the policy (see [this page](./) for details).
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
 ### Adjusting the policy&#x20;
 
@@ -34,11 +34,11 @@ Below you can see an example where values are already defined for CUAADM and any
 
 Notice be cautions when you are using wildcard.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Value list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Value list</p></figcaption></figure>
 
 If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR".
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Editing policy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Editing policy</p></figcaption></figure>
 
 To add values in the policy, while in edit mode; click on the Create button. A new line will appear where you can enter the value you wish to add.
 
