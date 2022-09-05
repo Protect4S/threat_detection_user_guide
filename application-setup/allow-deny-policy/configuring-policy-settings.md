@@ -2,7 +2,7 @@
 description: This page explains the scope and policy rules
 ---
 
-# Configuring Policy Settings
+# Configuring policy settings
 
 ​The policies are there to finetune the use cases and to prevent false positives.&#x20;
 
@@ -10,11 +10,11 @@ description: This page explains the scope and policy rules
 
 When opening the Use Case Policy application, the following screen shows the available policies:
 
-![Allow / Deny Polices list](<../../.gitbook/assets/image (31) (1).png>)
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
-When selecting a specific policy you can see the details such as the scope they apply to, the use cases they are linked to and several other attributes of the policy (see [this page](./) for details).
+When selecting a specific policy you can see the details such as the scope and description of the use case and several other attributes of the policy (see [this page](./) for details).
 
-![Policy details](<../../.gitbook/assets/image (71).png>)
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
 ### Adjusting the policy&#x20;
 
