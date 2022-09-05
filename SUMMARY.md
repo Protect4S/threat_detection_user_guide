@@ -32,7 +32,7 @@
         * [Using HTTPS for SAPControl](application-setup/system-configuration-fiori-application/creating-a-system/setting-up-connections/using-https-for-sapcontrol.md)
   * [Use Case Selection](application-setup/use-case-selection.md)
   * [!Use Case Policies](application-setup/allow-deny-policy/README.md)
-    * [!Configuring policy settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
+    * [Configuring policy settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
     * [!Configuring policies with groups](application-setup/use-case-policies/configuring-policies-with-groups.md)
     * [Custom Allow / Deny Policy](application-setup/allow-deny-policy/custom-allow-deny-policy.md)
   * [!Group application](application-setup/group-application.md)

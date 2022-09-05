@@ -2,7 +2,7 @@
 description: This page explains the scope and policy rules
 ---
 
-# !Configuring policy settings
+# Configuring policy settings
 
 ​The policies are there to finetune the use cases and to prevent false positives.&#x20;
 
@@ -10,7 +10,7 @@ description: This page explains the scope and policy rules
 
 When opening the Use Case Policy application, the following screen shows the available policies:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
 When selecting a specific policy you can see the details such as the scope and description of the use case and several other attributes of the policy (see [this page](./) for details).
 
@@ -20,7 +20,17 @@ When selecting a specific policy you can see the details such as the scope and d
 
 The Use Case policies can be configured to avoid false-positives but also add more customer specific checks of the Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune and drill down the specific checks.
 
-After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning, find an example below:&#x20;
+After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning,&#x20;
+
+Any Use Case policy change requires you to first make a copy to your own version.
+
+The policies shipped by us cannot be deleted, however should you find a check unnecessary or unfit for your situation, you can deactivate it.
+
+
+
+### Configuring policies
+
+For configuring new policies, find an example below:&#x20;
 
 For use case S-000170-01 (User creation outside IAM\_CUA).&#x20;
 
@@ -42,13 +52,14 @@ If you enter the policy in edit mode, you can change or add values of the policy
 
 To add values in the policy, while in edit mode; click on the Create button. A new line will appear where you can enter the value you wish to add.
 
-![Adding a rule in a policy](<../../.gitbook/assets/image (19).png>)
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Adding new policy to a Use Case</p></figcaption></figure>
 
 Click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
 To remove a policy value, simply enter edit mode, select the rule you wish to remove and click on delete. The below screenshot we will remove the rule we just created.
 
-![Removing a rule](<../../.gitbook/assets/image (74).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Deleting a policy</p></figcaption></figure>
 
 To finalize, click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
+Should you want to keep the policy and only want to temporary turn off, click the checkbox of the deactivate to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
