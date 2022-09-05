@@ -42,7 +42,7 @@ Select the role file you downloaded to your PC in the previous step:
 
 Provide permission to upload the file:
 
-![Provide permission for upload](<../../../../.gitbook/assets/image (2) (1).png>)
+![Provide permission for upload](<../../../../.gitbook/assets/image (2) (1) (1).png>)
 
 Overwrite the old version if the role that exists to update:
 

@@ -26,11 +26,13 @@ For use case S-000170-01 (User creation outside IAM\_CUA).&#x20;
 
 Whether you company makes use of CUA, IAM, or neither, you will want to avoid false positives being reported. Add the users permitted for this activity in the policy list.
 
-The policy contains the username(s) that are allowed to create users, e.g. via Central User Administration or IDM solutions. Often customers use a fixed name for these activities that is used also in RFC connections for example. This use case detects any users that are NOT permitted to create users. Below you can see an example where values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.
+The policy can be used to add users to the exception list to avoid false positives. In the case of this particular use case, users that are allowed to create users, e.g. via Central User Administration or IDM solutions can be added here. Often customers use a fixed username(s) for these kind of systems that is used also in RFC connections for example. This use case detects any users that are creating users, adding users to the policy exempts them. Below you can see an example where values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.&#x20;
 
-![Policy values](<../../.gitbook/assets/image (63) (1) (1) (1).png>)
+Notice be cautions when you are using wildcard.
 
-If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR". The values entered here will be converted to uppercase automatically.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Value list</p></figcaption></figure>
+
+If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR".
 
 ![Editing policy](<../../.gitbook/assets/image (61).png>)
 
