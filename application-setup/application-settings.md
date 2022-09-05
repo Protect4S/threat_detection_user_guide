@@ -46,6 +46,10 @@ This section is used to configure the link between the Protect4S Threat Detectio
 * **Security Key**: This value can be retrieved in Microsoft Sentinel under "Log Analytics Workspaces" --> "Agents Management" --> "Primary Key".
 * **URL**: This value is made up by the Customer ID and a fixed part: [https://\<Customer ID>.ods.opinsights.azure.com/api/logs?api-version=2016-04-01](../technical-setup/installation/https:/%3CCustomer\_ID%3E.ods.opinsights.azure.com/api/logs)
 
+#### SIEM Heartbeat
+
+To make sure that the connection between Protect4S Threat Detection solution is still working, you can turn on the heartbeat self-test.  Depending on the interval set, the solution will test and see if it can reach SIEM. If the solution cannot communicate with SIEM, a Threat is created.
+
 #### Testing the SIEM connection & authorization
 
 After you have entered the credentials you can check if the connection can actually be established by clicking on the "Check Connection" button. ![](<../.gitbook/assets/image (7).png>). This button is only visible in Display mode.
