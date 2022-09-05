@@ -6,7 +6,7 @@ description: Use Case Policy configuration
 
 If you have been granted the security configurator role or the administrator role, you can access the Use Case Policy Fiori Tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
 
 You can use the Use Case Policy configuration. No SAP landscape is similar and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the SAP standard escape characters (like # and +), see note  [574914](https://launchpad.support.sap.com/#/notes/574914) for details. Below overview lists the attributes for the use case policies:
 

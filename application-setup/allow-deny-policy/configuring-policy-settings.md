@@ -10,7 +10,7 @@ description: This page explains the scope and policy rules
 
 When opening the Use Case Policy application, the following screen shows the available policies:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
 When selecting a specific policy you can see the details such as the scope and description of the use case and several other attributes of the policy (see [this page](./) for details).
 
@@ -26,7 +26,11 @@ For use case S-000170-01 (User creation outside IAM\_CUA).&#x20;
 
 Whether you company makes use of CUA, IAM, or neither, you will want to avoid false positives being reported. Add the users permitted for this activity in the policy list.
 
-The policy can be used to add users to the exception list to avoid false positives. In the case of this particular use case, users that are allowed to create users, e.g. via Central User Administration or IDM solutions can be added here. Often customers use a fixed username(s) for these kind of systems that is used also in RFC connections for example. This use case detects any users that are creating users, adding users to the policy exempts them. Below you can see an example where values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.&#x20;
+The policy can be used to add users to the exception list to avoid false positives. In the case of this particular use case, users that are allowed to create users, e.g. via Central User Administration or IDM solutions can be added here. Often customers use a fixed username(s) for these kind of systems that is used also in RFC connections for example. This use case detects any users that are creating users, adding users to the policy exempts them.&#x20;
+
+To configure, the first step is to duplicate the Use Case Policy to your own version. Any non standard policy is appears as: '**Default: No**'.
+
+Below you can see an example where values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.&#x20;
 
 Notice be cautions when you are using wildcard.
 
@@ -34,7 +38,7 @@ Notice be cautions when you are using wildcard.
 
 If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR".
 
-![Editing policy](<../../.gitbook/assets/image (61).png>)
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Editing policy</p></figcaption></figure>
 
 To add values in the policy, while in edit mode; click on the Create button. A new line will appear where you can enter the value you wish to add.
 

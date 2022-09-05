@@ -64,6 +64,7 @@
     * [Security Audit Logging](application-setup/troubleshooting/security-audit-logging.md)
   * [Use Case Policies](application-setup/allow-deny-policy/README.md)
     * [!Configuring policy settings](application-setup/allow-deny-policy/configuring-policy-settings.md)
+    * [!Configuring policies with groups](application-setup/use-case-policies/configuring-policies-with-groups.md)
     * [Custom Allow / Deny Policy](application-setup/allow-deny-policy/custom-allow-deny-policy.md)
 * [Application Usage](application-usage/README.md)
   * [Threats](application-usage/threats.md)
