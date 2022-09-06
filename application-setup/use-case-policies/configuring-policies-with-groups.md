@@ -4,46 +4,22 @@ description: This page explains how to define Use Case Policy with groups.
 
 # !Configuring policies with groups
 
+In order to make use of a group you first need to have created a group.
 
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Group configuration application</p></figcaption></figure>
-
-Upon opening the application, you have the option to create various types of Groups to simplify the  policy configuration so that you can create your own group and reuse them later.
-
-
-
-To create a group, click on create on the initial screen.
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Creating a group figure 1</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Creating a group figure 2</p></figcaption></figure>
-
-There are 3 attributes to be defined in this screen.
+The details are explained [here](../group-application.md).
 
 
 
-| Attribute:  | Description attribute:                                                                                                 |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Group type  | Define the type of group here, depending on what is chosen, the group will have different characteristic for its usage |
-| Group ID    | Define the technical name here, only numeric alphabet and underscores are allowed, space is not allowed                |
-| Description | Description field you can use to provide some more details about the group                                             |
+We will be re-using the PRD\_GROUP we created in our example shown earlier.
 
-To create a new group in this application, the first step is to define the group type. The type affects how the Group will be used in the solution. For Instance Upon searching for a System group, any User Name group will not appear.
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>System group</p></figcaption></figure>
 
+__
 
+Depending on what kind of group you have created, you can use that group for the particular group exemption. You cannot use a group with type Hosts or User Names for System for example.
 
-| Group type | Description of the type:                                                                    |
-| ---------- | ------------------------------------------------------------------------------------------- |
-| Clients    | List of  clients can be defined here, only used for ABAP systems                            |
-| Hosts      | Terminal of the remote system                                                               |
-| Systems    | P4S System ID, here you define the System ID's known in Protect4S Threat Detection solution |
-| User Names | List of usernames that can be defined here                                                  |
+To use a group in the Policy, simply enter the group name for the corresponding Threat you would like to exempt, In our example:
 
-In this initial screen you first have to define what kind of group you would like to create.&#x20;
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Use Case policy edit</p></figcaption></figure>
 
-
-
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Dropdown menu for Group Type</p></figcaption></figure>
-
-
-
+Only 1 group can be assigned per Threat, But should you have multiple groups, you can define different groups per Threat, should you wish to do so.

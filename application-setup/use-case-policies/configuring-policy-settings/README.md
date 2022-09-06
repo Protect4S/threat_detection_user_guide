@@ -14,7 +14,7 @@ When opening the Use Case Policy application, the following screen shows the ava
 
 When selecting a specific policy you can see the details such as the scope, description of the use case and several other attributes of the policy (see [this page](../../allow-deny-policy/) for details).
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
 ### Hierarchy of the scope
 
@@ -29,6 +29,20 @@ The following is an overview of the hierarchy along with its rank:
 | 2    | System group  |
 | 3    | System role   |
 | 4    | All System    |
+
+* Select **Single System** to just apply to one system, if you have created multiple systems for the same actual system in Threat Detection, do notice that this policy will only be applied to that particular system selected.
+* Select **Systems group** to apply the policy to all systems defined in the group application. The group type of the group _must_ be System.
+* Select **System Role** to apply the policy to any systems with a specific role, like e.g. only Productive systems.
+* Select **All systems** to apply the policy on all systems configured in Threat Detection solution
+
+### Types of Policies
+
+There are two kind of Use Case policy.
+
+1. Use Case with no known Threat Value
+   * Any Policy that considers everything to be a threat does not have a Threat Value, for example debugging detection Use Case.
+2. Use Case with known Threats that can be pre-defined
+   * Policies with known Threats such as certain table or transactions have a Threat Value in the Use Case. These can be recognized with a red column which stands for Threat Value.
 
 ### Adjusting the policy&#x20;
 

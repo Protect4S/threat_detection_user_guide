@@ -2,16 +2,9 @@
 
 ### Configuring policies
 
-There are two kind of Use Case policy.
-
-1. Use Case with no known Threat Value
-2. Use Case with known Threats that can be pre-defined
-
-
-
-\---
-
 For configuring new policies, find an example below:&#x20;
+
+#### Use Case with no known Threat value
 
 For use case S-000170-01 (User creation outside IAM\_CUA).&#x20;
 
@@ -44,3 +37,6 @@ To remove a policy value, simply enter edit mode, select the rule you wish to re
 To finalize, click on Save to commit your changes at the lower right corner. ![](<../../../.gitbook/assets/image (33).png>)
 
 Should you want to keep the policy and only want to temporary turn off, click the checkbox of the deactivate to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
+
+#### Use Case with known Threat value
+

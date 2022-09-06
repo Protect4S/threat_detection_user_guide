@@ -6,7 +6,7 @@ Within the Protect4S solution there are several data objects that produce data t
 
 The Protect4S application produces Framework messages that can be used for troubleshooting purposes. The number of messages can grow fast for example in the case of connection issues to the monitored SAP systems or SIEM solution. By default the messages will be stored for 180 days as can be configured in the Application Settings:
 
-![Framework Messages default storage in days](<../../.gitbook/assets/image (11).png>)
+![Framework Messages default storage in days](<../../.gitbook/assets/image (11) (1).png>)
 
 In the event you want to reduce the amount of days that these messages are stored it can be considered reducing this value.
 
