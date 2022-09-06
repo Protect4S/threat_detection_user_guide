@@ -2,7 +2,15 @@
 
 ### Configuring policies
 
-For configuring new policies, find an example below:&#x20;
+The policies are indicated with colors, fields with green background means exceptions that can be given greenlight, Whereas Red means that these Threats triggers are the triggers in the respective Use Case.&#x20;
+
+Only Use Cases with Threat values have an additional field Named Threat, that have a red background color indicating that the Use Case checks these values.
+
+Additional Threat Values can be added for example Z table or Z report.
+
+
+
+To configure new policies, find few examples below:&#x20;
 
 #### Use Case with no known Threat value
 
@@ -39,4 +47,8 @@ To finalize, click on Save to commit your changes at the lower right corner. ![]
 Should you want to keep the policy and only want to temporary turn off, click the checkbox of the deactivate to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
 
 #### Use Case with known Threat value
+
+Use cases with known threat value have a column named "Threat Value". This column has a red background color for easier indication.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
 

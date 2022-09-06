@@ -10,6 +10,8 @@ description: Creating and using groups to simplify TD usage
 
 Upon opening the application, you have the option to create various types of Groups to simplify the  policy configuration so that you can create your own group and reuse them later.
 
+The number on the Fiori application tile indicates how many groups exist.
+
 
 
 To create a group, click on create on the initial screen.
