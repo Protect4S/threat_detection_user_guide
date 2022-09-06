@@ -58,7 +58,7 @@ Click on Save to commit your changes at the lower right corner. ![](<../../.gitb
 
 To remove a policy value, simply enter edit mode, select the rule you wish to remove and click on delete. The below screenshot we will remove the rule we just created.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Deleting a policy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption><p>Deleting a policy</p></figcaption></figure>
 
 To finalize, click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
