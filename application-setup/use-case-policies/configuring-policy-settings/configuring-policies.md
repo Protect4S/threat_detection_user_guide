@@ -8,8 +8,6 @@ Only Use Cases with Threat values have an additional field Named Threat, that ha
 
 Additional Threat Values can be added for example Z table or Z report.
 
-
-
 To configure new policies, find few examples below:&#x20;
 
 #### Use Case with no known Threat value
@@ -52,12 +50,10 @@ Use cases with known threat value have a column named "Threat Value". This colum
 
 <figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
 
-
-
 #### Handling of multiple same Threat Value
 
-If there are duplicate Threat value, the flow of handling will be an OR situation.
+If there are duplicate Threat value, the flow of handling will be an AND situation.
 
 See picture below which illustrates it:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Multiple same threat value entry.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
