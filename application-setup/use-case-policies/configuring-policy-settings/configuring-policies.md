@@ -54,8 +54,10 @@ Use cases with known threat value have a column named "Threat Value". This colum
 
 
 
+#### Handling of multiple same Threat Value
+
 If there are duplicate Threat value, the flow of handling will be an OR situation.
 
 See picture below which illustrates it:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Multiple same threat value entry.</p></figcaption></figure>
