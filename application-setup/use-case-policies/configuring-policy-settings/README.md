@@ -2,7 +2,7 @@
 description: This page explains the scope and policy rules
 ---
 
-# Configuring policy settings
+# !Configuring policy settings
 
 ​The policies are used to finetune the use cases and to prevent false positives. In addition custom entries can be added.
 
@@ -53,3 +53,8 @@ After installation of Protect4S TD it is therefore important to tune the policie
 Any Use Case policy change requires you to first make a copy to your own version.
 
 The policies shipped by us cannot be deleted, should you however find a check unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritized higher
+
+### Risk value
+
+The risk value per threat can be configured and changed. This can be used in your SIEM solution to apply certain rules you want there. If there are multiple entries with the same Threat Value, the risk can only be defined for the first threat.
+

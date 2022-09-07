@@ -50,5 +50,5 @@ Should you want to keep the policy and only want to temporary turn off, click th
 
 Use cases with known threat value have a column named "Threat Value". This column has a red background color for easier indication.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
 
