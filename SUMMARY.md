@@ -34,7 +34,7 @@
   * [!Group application](application-setup/group-application.md)
   * [!Use Case Policies](application-setup/allow-deny-policy/README.md)
     * [!Configuring policy settings](application-setup/use-case-policies/configuring-policy-settings/README.md)
-      * [!Examples of configuring policies](application-setup/use-case-policies/configuring-policy-settings/examples-of-configuring-policies.md)
+      * [!Configuring policies](application-setup/use-case-policies/configuring-policy-settings/configuring-policies.md)
     * [!Configuring policies with groups](application-setup/use-case-policies/configuring-policies-with-groups.md)
   * [Application Settings](application-setup/application-settings.md)
   * [Recommendations](application-setup/recommendations/README.md)
