@@ -36,3 +36,15 @@ Anything added to the exception list will not be reported. Below overview lists 
 | Username Exception Group | A group of users defined in the Group application, this can be used to exclude a threat value for multiple users at once                                                                                                                                                                                                                                                                                                                                                                                        |
 | Comment                  | This field can be used to add additional information about the exception.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
+
+
+#### Sample of wildcard usage
+
+Below is an example how the wildcard can be used for hosts exception.
+
+| Explanatory:                              | Actual value:                                                                                                     | Sample values that can be entered: |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| IP subnet with wildcard in an octet       | <p>10.2.1.22<br>10.2.1.23<br>10.2.1.24<br>10.2.1.25<br>10.2.1.26<br>etc.</p>                                      | 10.2.1.2\*                         |
+| IP address with wildcard as a subset      | <p>10.2.1.1<br>10.2.1.2<br>10.2.1.13<br>10.2.1.22<br>10.2.1.23<br>10.2.1.24<br>10.2.1.25<br>10.2.1.26<br>etc.</p> | 10.2.1.\*                          |
+| wildcard in a Fully Qualified Domain Name | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p>                                                | \*.p4s.com                         |
+| Wildcard in a hostname                    | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p>                                                | p4ssol\*                           |
