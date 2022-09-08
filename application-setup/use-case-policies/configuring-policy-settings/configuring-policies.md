@@ -8,7 +8,7 @@ Only Use Cases with Threat values have an additional field Named Threat, that ha
 
 Additional Threat Values can be added for example Z table or Z report.
 
-To configure new policies, find few examples below:&#x20;
+To configure new policies, a few examples are shown below:
 
 #### Use Case with no known Threat value
 
