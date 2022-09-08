@@ -48,7 +48,7 @@ This section is used to configure the link between the Protect4S Threat Detectio
 
 #### SIEM Heartbeat
 
-To make sure that the connection between Protect4S Threat Detection solution is still working, you can turn on the heartbeat self-test.  Depending on the interval set, the solution will test and see if it can reach SIEM. If the solution cannot communicate with SIEM, a Threat is created.
+To make sure that the connection between Protect4S Threat Detection solution and SIEM is still working, you can turn on the heartbeat. Depending on the interval set, Protect4S Threat Detection will send a heartbeat message to SIEM. If the SIEM solution does not get any heartbeat messages anymore after some time, the SIEM solution can trigger an event. Additionally inside the Protect4S Threat Detection solution a message will be created that the communication is disrupted.
 
 #### Testing the SIEM connection & authorization
 
