@@ -16,6 +16,8 @@ Anything added to the exception list will not be reported. Below overview lists 
 
 ### **Attribute legend:**
 
+Below is a list of attributes that is shown for each Use Case Policy.
+
 | Attribute name:        | Description of the attribute:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Use Case ID            | The unique Use Case identifier number. Use Case policies are linked with each other.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -29,7 +31,9 @@ Anything added to the exception list will not be reported. Below overview lists 
 | Wildcard Enabled       | <p>By default value list which is the policy are all wildcard symbol (asterisk) enabled.</p><p><br>Note, should you wish to define something that uses SAP wildcard. You will have to use SAP standard escape characters </p><p></p><p>All fields are wildcard-enabled. should you want to monitor something that includes a special character, you can use the SAP standard hash escape character (#), see note <a href="https://launchpad.support.sap.com/#/notes/574914">574914</a> &#x26; <a href="https://launchpad.support.sap.com/#/notes/0002488648">2488648 </a>for details.</p> |
 | Risk-Enabled           | Indicates whether the risk field is included along.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
-#### Threat Value attributes
+### Threat Value attributes
+
+Below is a list of attributes available as part of the Threat Value section.
 
 ####
 
