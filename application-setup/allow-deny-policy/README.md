@@ -4,11 +4,19 @@ description: Use Case Policy configuration
 
 # !Use Case Policies
 
+### Usage
+
+\-
+
+You can use the Use Case Policy configuration.
+
+No SAP landscape is similar and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the SAP standard hash escape character (#), see note [574914](https://launchpad.support.sap.com/#/notes/574914) & [2488648 ](https://launchpad.support.sap.com/#/notes/0002488648)for details.
+
 If you have been granted the security configurator role or the administrator role, you can access the Use Case Policy Fiori Tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
 
-You can use the Use Case Policy configuration. No SAP landscape is similar and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the SAP standard hash escape character (#), see note [574914](https://launchpad.support.sap.com/#/notes/574914) & [2488648 ](https://launchpad.support.sap.com/#/notes/0002488648)for details.
+
 
 Anything added to the exception list will not be reported. Below overview lists the attributes for the use case policies:
 
@@ -40,13 +48,18 @@ Anything added to the exception list will not be reported. Below overview lists 
 
 #### Sample of wildcard usage
 
-Below is an example how the wildcard can be used for hosts exception.
+Wildcards can be used for every exceptions. For Hosts however, it can get complicated. we have listed a few examples of wildcards that can be used for hosts exception.
+
+The table is formatted as the following: First column is the explanatory of the wildcard value entered mentioned in 2nd column labeled as Exception values. The third column labeled as Expected exceptions is what you can expect the exception value will exclude from alerting.
 
 
 
-| Explanatory:                              | Actual value:                                                                                                     | Exempt value to cover actual values: |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| IP subnet with wildcard in an octet       | <p>10.2.1.22<br>10.2.1.23<br>10.2.1.24<br>10.2.1.25<br>10.2.1.26<br>etc.</p>                                      | 10.2.1.2\*                           |
-| IP address with wildcard as a subset      | <p>10.2.1.1<br>10.2.1.2<br>10.2.1.13<br>10.2.1.22<br>10.2.1.23<br>10.2.1.24<br>10.2.1.25<br>10.2.1.26<br>etc.</p> | 10.2.1.\*                            |
-| wildcard in a Fully Qualified Domain Name | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p>                                                | \*.p4s.com                           |
-| Wildcard in a hostname                    | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p>                                                | p4ssol\*                             |
+| Explanatory:                                                              | Exception values: | Expected exceptions:                                                                                                                             |
+| ------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| IP address with wildcard in an octet                                      | 10.2.1.2\*        | <p>Below values are excluded with the wildcard value:</p><p>10.2.1.22<br>10.2.1.23<br>10.2.1.24<br>10.2.1.25<br>10.2.1.26<br>etc.</p>            |
+| IP address with wildcard as a subset                                      | 10.2.1.\*         | <p>10.2.1.1<br>10.2.1.2<br>10.2.1.13<br>10.2.1.22<br>10.2.1.23<br>10.2.1.24<br>10.2.1.25<br>10.2.1.26<br>etc.</p>                                |
+| Wildcard in a hostname                                                    | p4ssol\*          | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p><p>etc.</p>                                                                    |
+| Wildcard in a Fully Qualified Domain Name                                 | \*.p4s.com        | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p><p>etc.</p>                                                                    |
+| Wildcard for a hostname and the Top Level Domain (last part of the FQDN). | \*.p4s.\*         | <p>p4ssoldev.p4s.com<br>p4ssolqua.p4s.com<br>p4ssolprd.p4s.com</p><p>p4ssolsb.p4s.local<br>p4ssolsb.p4s.local<br>p4ssolprd.p4s.eu</p><p>etc.</p> |
+
+_Notice, hostname here are just examples, they are not actual hostnames of any of our system._

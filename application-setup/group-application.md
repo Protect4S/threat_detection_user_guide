@@ -8,9 +8,13 @@ description: Creating and using groups to simplify TD usage
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Group configuration application</p></figcaption></figure>
 
-### What are is a group and what are the benefits.
+### What is a group and what are the benefits.
 
-* A group is a collection of values which can be used to simplify and ease the administration work.
+A group is a collection of values which can be used to simplify and ease the administration work.
+
+
+
+
 
 Upon opening the application, you have the option to create various types of Groups to simplify the  policy configuration so that you can create your own group and reuse them later.
 
