@@ -35,6 +35,24 @@ The following is an overview of the hierarchy along with its rank:
 * Select **System Role** to apply the policy to any systems with a specific role, like e.g. only Productive systems.
 * Select **All systems** to apply the policy on all systems configured in Threat Detection solution
 
+### **Attribute legend:**
+
+Below is a list of attributes that is shown for each Use Case Policy.
+
+
+
+
+
+### Threat Value attributes
+
+Below is a list of attributes available as part of the Threat Value section.
+
+
+
+### Risk value
+
+The risk value per threat can be configured and changed. This can be used in your SIEM solution to apply certain rules you want there. If there are multiple entries with the same Threat Value, the risk can only be defined for the first threat.
+
 ### Types of Policies
 
 There are two kind of Use Case policy.
@@ -53,8 +71,3 @@ After installation of Protect4S TD it is therefore important to tune the policie
 Any Use Case policy change requires you to first make a copy to your own version.
 
 The policies shipped by us cannot be deleted, should you however find a check unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritized higher
-
-### Risk value
-
-The risk value per threat can be configured and changed. This can be used in your SIEM solution to apply certain rules you want there. If there are multiple entries with the same Threat Value, the risk can only be defined for the first threat.
-
