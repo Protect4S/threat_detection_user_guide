@@ -39,11 +39,20 @@ The following is an overview of the hierarchy along with its rank:
 
 Below is a list of attributes that is shown for each Use Case Policy.
 
+| Attribute name:        | Description of the attribute:                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Use Case ID            | The unique Use Case identifier number. Use Case policies are linked with each other.                                                                                                                                                                                                                                                                             |
+| Default                | Indicates whether this policy is the initial shipped or not.                                                                                                                                                                                                                                                                                                     |
+| Threat Value Type      | Indicates type of threat the Use Case detects.                                                                                                                                                                                                                                                                                                                   |
+| Use Case Description   | Human readable description of the use case.                                                                                                                                                                                                                                                                                                                      |
+| Policy Description     | Human readable description of the policy.                                                                                                                                                                                                                                                                                                                        |
+| Additional Description | <p></p><table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td>As the description is fixed in our solution it cannot be changed. However with this extra field customers can specify own description if needed.<br><br>Depending on user preferences, this field can be adapted in your View for easier readability.</td></tr></tbody></table> |
+|                        |                                                                                                                                                                                                                                                                                                                                                                  |
+|                        |                                                                                                                                                                                                                                                                                                                                                                  |
 
 
 
-
-### Threat Value attributes
+### Threat value attributes
 
 Below is a list of attributes available as part of the Threat Value section.
 
