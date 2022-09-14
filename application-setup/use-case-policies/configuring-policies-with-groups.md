@@ -22,11 +22,9 @@ To use a group in the Policy, simply enter the group name for the corresponding 
 
 Only 1 group can be assigned per Threat, should you have multiple groups, you can define different groups per Threat, should you wish to do so.
 
-#### Combining regular exceptions & exception groups
+#### Combining standard exceptions & exception groups
 
-Regular exceptions can be defined and mixed with groups. The exception handling is an AND operator. Although there can be overlaps. But it is recommended to use groups instead if certain value are always with one another. This avoids some repetitive configuration and in the end it will be easier administration via groups.
-
-
+The standard exceptions can be defined and mixed with groups. The exception handling is an AND operator. Although there can be overlaps. But it is recommended to use groups instead if certain value are always with one another. This avoids some repetitive configuration and in the end it will be easier administration via groups.
 
 #### Deleting a group
 
