@@ -24,11 +24,11 @@ This is mainly done via the scope.&#x20;
 The following is an overview of the hierarchy along with its rank:
 
 | Rank | Scope         |
-| :--: | ------------- |
-|   1  | Single System |
-|   2  | System group  |
-|   3  | System role   |
-|   4  | All System    |
+| ---- | ------------- |
+| 1    | Single System |
+| 2    | System group  |
+| 3    | System role   |
+| 4    | All System    |
 
 * Select **Single System** to just apply to one system, if you have created multiple systems for the same actual system in Threat Detection, do notice that this policy will only be applied to that particular system selected.
 * Select **Systems group** to apply the policy to all systems defined in the group application. The group type of the group _must_ be System.
