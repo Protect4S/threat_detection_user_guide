@@ -10,7 +10,9 @@ If you have been granted the security configurator role or the administrator rol
 
 In this application you can configure use cases for example to minimise false positives.&#x20;
 
-No SAP landscape is the same and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the hash symbol (#) to escape characters. See note [574914](https://launchpad.support.sap.com/#/notes/574914) & [2488648 ](https://launchpad.support.sap.com/#/notes/0002488648)for details. For example if you want to use the specific value "SAP\*" to address the emergency user in a policy you can use the value "SAP#\*".
+No SAP landscape is the same and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the hash symbol (#) to escape characters.
+
+See note [574914](https://launchpad.support.sap.com/#/notes/574914) and [2488648 ](https://launchpad.support.sap.com/#/notes/0002488648)for details. For example if you want to use the specific value "SAP\*" to address the emergency user in a policy you can use the value "SAP#\*".
 
 If you add values to the exception list, then no Threat will be created. Below overview lists the attributes for the use case policies:
 
