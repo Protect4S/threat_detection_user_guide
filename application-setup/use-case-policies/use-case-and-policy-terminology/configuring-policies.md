@@ -20,7 +20,7 @@ Additional Threat Values can be added for example Z table or Z report.
 
 To configure new policies, a few examples are shown below:
 
-#### Use Case with no known Threat value
+#### Use Case with no known Threat Value
 
 For use case S-000170-01 (User creation outside IAM\_CUA).&#x20;
 
@@ -54,7 +54,7 @@ To finalize, click on Save to commit your changes at the lower right corner. ![]
 
 Should you want to keep the policy and only want to temporary turn off, click the checkbox of the deactivate to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
 
-#### Use Case with known Threat value
+#### Use Case with known Threat Value
 
 Use cases with known threat value have a column named "Threat Value". This column has a red background color for easier indication.
 
