@@ -14,7 +14,7 @@ When opening the Use Case Policy application, the following screen shows the ava
 
 <figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
-When selecting a specific policy you can see the details such as the scope, description of the use case and several other attributes of the policy (see [this page](../../allow-deny-policy/) for details).
+When selecting a specific policy you can see the details such as the scope, description of the use case and several other attributes of the policy.
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
