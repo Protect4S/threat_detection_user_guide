@@ -1,5 +1,15 @@
 # !Configuring policies
 
+### Starting off by adjusting policies
+
+The Use Case policies can be configured to avoid false-positives but also add more customer specific checks of the Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune and drill down the specific checks.
+
+After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../../recommendations/) for finetuning,&#x20;
+
+Any Use Case policy change requires you to first make a copy to your own version.
+
+The policies shipped by us cannot be deleted, should you however find a check unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritized higher
+
 ### Configuring policies
 
 The policies are indicated with colors, fields with green background means exceptions that can be given greenlight, Whereas Red means that these Threats triggers are the triggers in the respective Use Case.&#x20;

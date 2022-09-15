@@ -1,14 +1,10 @@
 ---
-description: This page explains the scope and policy rules
+description: This page explains the scope and policy attributes
 ---
 
-# !Configuring policy settings
+# !Use Case & Policy terminology
 
 ​The policies are used to finetune the use cases and to prevent false positives. In addition custom entries can be added.
-
-
-
-### Policy configuration
 
 When opening the Use Case Policy application, the following screen shows the available policies:
 
@@ -63,7 +59,7 @@ Below is a list of attributes available as part of the Threat Value section.
 | Threat value attribute:  | Description:                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Active                   | Use this option to activate or deactivate Threat values. The Threat Values we have pre-defined cannot be removed. You can use this option to deactivate instead.                                                                                                                                                                                                                                                                                                     |
-| Threat value             | The Value that triggers the Use Case to send alert. For some use cases any value is considered a risk. Because the threat value is unknow this field won't be shown. E.g. you cannot tell upfront whom will be debugging in your system.                                                                                                                                                                                                                             |
+| Threat Value             | The Value that triggers the Use Case to send alert. For some use cases any value is considered a risk. Because the threat value is unknow this field won't be shown. E.g. you cannot tell upfront whom will be debugging in your system.                                                                                                                                                                                                                             |
 | Risk                     | If the Use Case is Risk Enabled, this field gets displayed and you can define for each Threat a risk. This will be used to indicate the risk in threat that also gets send to SIEM.                                                                                                                                                                                                                                                                                  |
 | Client Exception         | Define a SAP system client for a threat value exempted for a systems/system role/system group or specific single system. The value here are single values and can be comma separated to exempt multiple clients in one line.                                                                                                                                                                                                                                         |
 | Client Exception Group   | A group of clients defined in the Group application, this can be used to exclude a threat value for multiple clients at once.                                                                                                                                                                                                                                                                                                                                        |
@@ -74,6 +70,8 @@ Below is a list of attributes available as part of the Threat Value section.
 | Username Exception       | Define a user to exempt for a for a threat specific for systems/system role/system group or a specific single system. The value here are single values and can be comma separated to exempt multiple clients in one line.                                                                                                                                                                                                                                            |
 | Username Exception Group | A group of users defined in the Group application, this can be used to exclude a threat value for multiple users at once.                                                                                                                                                                                                                                                                                                                                            |
 | Comment                  | This field can be used to add additional information about the exception.                                                                                                                                                                                                                                                                                                                                                                                            |
+
+
 
 ### Risk value
 
@@ -87,18 +85,6 @@ There are two kind of Use Case policy.
    * Any Policy that considers everything to be a threat does not have a Threat Value, for example debugging detection Use Case.
 2. Use Case with known Threats that can be pre-defined
    * Policies with known Threats such as certain table or transactions have a Threat Value in the Use Case. These can be recognized with a red column which stands for Threat Value.
-
-### Adjusting the policy&#x20;
-
-The Use Case policies can be configured to avoid false-positives but also add more customer specific checks of the Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune and drill down the specific checks.
-
-After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../../recommendations/) for finetuning,&#x20;
-
-Any Use Case policy change requires you to first make a copy to your own version.
-
-The policies shipped by us cannot be deleted, should you however find a check unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritized higher
-
-
 
 ### Wildcard usage
 
