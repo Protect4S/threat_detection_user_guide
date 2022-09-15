@@ -6,6 +6,8 @@ description: This page explains the scope and policy rules
 
 ​The policies are used to finetune the use cases and to prevent false positives. In addition custom entries can be added.
 
+
+
 ### Policy configuration
 
 When opening the Use Case Policy application, the following screen shows the available policies:
@@ -95,3 +97,21 @@ After installation of Protect4S TD it is therefore important to tune the policie
 Any Use Case policy change requires you to first make a copy to your own version.
 
 The policies shipped by us cannot be deleted, should you however find a check unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritized higher
+
+
+
+### Wildcard usage
+
+Wildcards can be used for exceptions. For _**Hosts**_ we have listed a few examples of wildcards that can be used for host exceptions.
+
+The table is formatted like this: The first column is the explanation of the wildcard value that you enter in the 2nd column (labeled as Exception values). The third column is how the TD application processes or sees these values. These are the values that are excluded preventing the creation of Threats.
+
+| Explanation:                                                              | Value entered in the policy configuration: | Processed exceptions:                                                                                                                                                           |
+| ------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IP address with wildcard in an octet                                      | 10.2.1.2\*                                 | <p>Below values for example are excluded with the wildcard value:</p><p>10.2.1.2</p><p>10.2.1.22</p><p>10.2.1.23</p><p>10.2.1.24</p><p>10.2.1.25</p><p>10.2.1.26</p><p>etc.</p> |
+| IP address with wildcard as a subset                                      | 10.2.1.\*                                  | <p>10.2.1.1</p><p>10.2.1.2</p><p>10.2.1.13</p><p>10.2.1.22</p><p>10.2.1.23</p><p>10.2.1.24</p><p>10.2.1.25</p><p>10.2.1.26</p><p>etc.</p>                                       |
+| Wildcard in a hostname                                                    | p4ssol\*                                   | <p>p4ssoldev.p4s.com</p><p>p4ssolqua.p4s.com</p><p>p4ssolprd.p4s.com</p><p>etc.</p>                                                                                             |
+| Wildcard in a Fully Qualified Domain Name                                 | \*.p4s.com                                 | <p>p4ssoldev.p4s.com</p><p>p4ssolqua.p4s.com</p><p>p4ssolprd.p4s.com</p><p>p4shanatd.p4s.com</p><p>p4sfrunsb.p4s.com</p><p>etc.</p>                                             |
+| Wildcard for a hostname and the Top Level Domain (last part of the FQDN). | \*.p4s.\*                                  | <p>p4ssoldev.p4s.com</p><p>p4ssolqua.p4s.com</p><p>p4ssolprd.p4s.com</p><p>p4ssolsb.p4s.local</p><p>p4ssolsb.p4s.local</p><p>p4ssolprd.p4s.eu</p><p>etc.</p>                    |
+
+_Notice, hostname here are just examples, they are not actual hostnames of any of our system._
