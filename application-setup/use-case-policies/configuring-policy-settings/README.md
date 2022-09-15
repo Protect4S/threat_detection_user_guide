@@ -106,6 +106,8 @@ Wildcards can be used for exceptions. For _**Hosts**_ we have listed a few examp
 
 The table is formatted like this: The first column is the explanation of the wildcard value that you enter in the 2nd column (labeled as Exception values). The third column is how the TD application processes or sees these values. These are the values that are excluded preventing the creation of Threats.
 
+See note [574914](https://launchpad.support.sap.com/#/notes/574914) and [2488648 ](https://launchpad.support.sap.com/#/notes/0002488648)for details. For example if you want to use the specific value "SAP\*" to address the emergency user in a policy you can use the value "SAP#\*".
+
 | Explanation:                                                              | Value entered in the policy configuration: | Processed exceptions:                                                                                                                                                           |
 | ------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IP address with wildcard in an octet                                      | 10.2.1.2\*                                 | <p>Below values for example are excluded with the wildcard value:</p><p>10.2.1.2</p><p>10.2.1.22</p><p>10.2.1.23</p><p>10.2.1.24</p><p>10.2.1.25</p><p>10.2.1.26</p><p>etc.</p> |
