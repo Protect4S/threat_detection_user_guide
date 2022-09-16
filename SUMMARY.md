@@ -35,7 +35,7 @@
   * [Use Case Policies](application-setup/allow-deny-policy/README.md)
     * [!Use Case & Policy terminology](application-setup/use-case-policies/use-case-and-policy-terminology/README.md)
       * [!Configuring policies](application-setup/use-case-policies/use-case-and-policy-terminology/configuring-policies.md)
-    * [!Configuring policies with groups](application-setup/use-case-policies/configuring-policies-with-groups.md)
+      * [!Configuring policies with groups](application-setup/use-case-policies/use-case-and-policy-terminology/configuring-policies-with-groups.md)
   * [Application Settings](application-setup/application-settings.md)
   * [Recommendations](application-setup/recommendations/README.md)
     * [S-000001-01](application-setup/recommendations/s-000001-01.md)
