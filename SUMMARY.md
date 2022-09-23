@@ -54,6 +54,7 @@
     * [S-000170-01](application-setup/recommendations/s-000170-01.md)
     * [S-000180-01](application-setup/recommendations/s-000180-01.md)
     * [Protect4S Threat Detection and Protect4S Vulnerability Management](application-setup/recommendations/protect4s-threat-detection-and-protect4s-vulnerability-management.md)
+  * [Application Variants](application-setup/application-variants.md)
   * [Troubleshooting](application-setup/troubleshooting/README.md)
     * [SSL certificate errors](application-setup/troubleshooting/ssl-certificate-errors.md)
     * [SIEM Certificates](application-setup/troubleshooting/siem-certificates.md)
