@@ -1,4 +1,4 @@
-# Configuring policies
+# Configuring Use Case Policies
 
 The use case policies can be configured to avoid false-positives but can also be used to add more customer specific Threat values. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the use cases.
 
