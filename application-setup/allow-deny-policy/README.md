@@ -8,8 +8,8 @@ If you have been granted the security configurator role or the administrator rol
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
 
-In this application you can configure use cases for example to minimise false positives.&#x20;
+In this application you can configure the use cases policies to a.o. minimise false positives.&#x20;
 
-No SAP landscape is the same and use cases often need some tweaking and tuning in order to be effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the hash symbol (#) to escape characters.
+No SAP landscape is the same and use case policies often need tweaking and tuning in order to be the most effective, to limit false positives and add specific data for your situation. All fields are wildcard-enabled and you can use the hash symbol (#) to escape characters.
 
-If you add values to the exception list, then no Threat will be created. In the next chapter, few list of available attributes are explained.
+Use case policies are in many cases shipped with default best practices, but these can be extended with your own Threat values. For these Threat values you can then create exceptions for full flexibility and control over when to create a Threat and when not. In the next chapter, the available attributes are explained.
