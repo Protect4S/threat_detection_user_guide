@@ -62,8 +62,8 @@ Many exception fields allow multiple values, these should be provided comma sepa
 
 #### Handling of multiple same Threat Value
 
-Threat Values on different lines are processed by the framework  If there are duplicate Threat values, the flow of handling will be an AND situation.
+Threat Values on different lines are processed by the framework as seperate lines in an "OR" relation. Values for exceptions within the same line are processed in an "AND" relation. So if you specify e.g. that transaction ABC is a threat and you specify a USER XYX and a client 000 then only a Threat will be created when transaction ABC is not started by user XYZ in client 000 specifically. When transaction ABC is started by user XYZ in client 999 then a Threat IS created.&#x20;
 
-See picture below which illustrates it:
+See picture below which illustrates this:
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
