@@ -1,10 +1,10 @@
-# !Configuring policies
+# Configuring policies
 
 ### Starting off by adjusting policies
 
 The Use Case policies can be configured to avoid false-positives but also add more customer specific checks of the Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune and drill down the specific checks.
 
-After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../../recommendations/) for finetuning,&#x20;
+After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning,&#x20;
 
 Any Use Case policy change requires you to first make a copy to your own version.
 
@@ -34,23 +34,23 @@ Below you can see an example where values are already defined for CUAADM and any
 
 Notice be cautions when you are using wildcard.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Value list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Value list</p></figcaption></figure>
 
 If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR".
 
-<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Editing policy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Editing policy</p></figcaption></figure>
 
 To add values in the policy, while in edit mode; click on the Create button. A new line will appear where you can enter the value you wish to add.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Adding new policy to a Use Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Adding new policy to a Use Case</p></figcaption></figure>
 
-Click on Save to commit your changes at the lower right corner. ![](<../../../.gitbook/assets/image (33).png>)
+Click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
 To remove a policy value, simply enter edit mode, select the rule you wish to remove and click on delete. The below screenshot we will remove the rule we just created.
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption><p>Deleting a policy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption><p>Deleting a policy</p></figcaption></figure>
 
-To finalize, click on Save to commit your changes at the lower right corner. ![](<../../../.gitbook/assets/image (33).png>)
+To finalize, click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
 Should you want to keep the policy and only want to temporary turn off, click the checkbox of the deactivate to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
 
@@ -58,7 +58,7 @@ Should you want to keep the policy and only want to temporary turn off, click th
 
 Use cases with known threat value have a column named "Threat Value". This column has a red background color for easier indication.
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
 
 #### Handling of multiple same Threat Value
 
@@ -66,4 +66,4 @@ If there are duplicate Threat value, the flow of handling will be an AND situati
 
 See picture below which illustrates it:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
