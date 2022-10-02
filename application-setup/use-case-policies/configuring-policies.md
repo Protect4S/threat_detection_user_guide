@@ -48,15 +48,19 @@ To finalize, click on Save to commit your changes at the lower right corner. ![]
 
 Should you want to keep the policy record and only want to temporary turn it off, deactivate the checkbox in front of the line to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
 
+For more information on the different fields see [this chapter.](use-case-policy-attributes.md)
+
 #### Use Case with known Threat Value
 
-Use cases with known threat value have a column named "Threat Value". This column has a red background color for easier indication.
+Use cases with known Threat Values have a column named "Threat Value". This column has a red background color for easier indication and specifies the specific value that triggers a Threat.
 
 <figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
 
+The creation and editing of these lines work the same as described above, with the exception that Threat Values need to be provided. In the above screenshot you can specify critical ABAP program names that when executed should trigger an alert (with taking into account possible exceptions). When duplicating a use case policy for a specific scope, if there are default values these will be copied. You can de-activate those if unwanted and extend the use case policy with your own Threat Values that should trigger a threat.
+
 #### Handling of multiple same Threat Value
 
-If there are duplicate Threat value, the flow of handling will be an AND situation.
+If there are duplicate Threat values, the flow of handling will be an AND situation.
 
 See picture below which illustrates it:
 
