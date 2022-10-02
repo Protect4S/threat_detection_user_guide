@@ -22,15 +22,11 @@ To configure new policies, a few examples are shown below:
 
 For use case S-000170-01 (User creation outside IAM\_CUA).&#x20;
 
-Whether you company makes use of CUA, IAM, or neither, you will want to avoid false positives being reported. Add the users permitted for this activity in the policy list.
+If your company makes use of CUA / IAM, or even when you don't, you likely have a few user-accounts that are responsible for the creation of SAP users. This can be dialog users from user administrators or rfc users that are used in RFC connections to remotely create SAP users from a central place. These users should be added to the use case policy since otherwise they would trigger a Threat when a legitimate users is created by those users.&#x20;
 
-The policy can be used to add users to the exception list to avoid false positives. In the case of this particular use case, users that are allowed to create users, e.g. via Central User Administration or IDM solutions can be added here. Often customers use a fixed username(s) for these kind of systems that is used also in RFC connections for example. This use case detects any users that are creating users, adding users to the policy exempts them.&#x20;
+To configure, the first step is to duplicate the Use Case Policy to your own version. Any non standard policy appears as: '**Default: No**'. Below you can see an example where values are already defined for user CUAADM and any user that starts with 'GRC' because a wildcard is used at the end.&#x20;
 
-To configure, the first step is to duplicate the Use Case Policy to your own version. Any non standard policy is appears as: '**Default: No**'.
 
-Below you can see an example where values are already defined for CUAADM and any user that starts with GRC because a wildcard is used at the end.&#x20;
-
-Notice be cautions when you are using wildcard.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Value list</p></figcaption></figure>
 
@@ -50,7 +46,7 @@ To remove a policy value, simply enter edit mode, select the rule you wish to re
 
 To finalize, click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
-Should you want to keep the policy and only want to temporary turn off, click the checkbox of the deactivate to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
+Should you want to keep the policy record and only want to temporary turn it off, deactivate the checkbox in front of the line to deactivate without deleting. Additionally you can use the comment field to explain why it was deactivated.
 
 #### Use Case with known Threat Value
 
