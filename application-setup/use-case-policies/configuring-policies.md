@@ -58,9 +58,11 @@ Use cases with known Threat Values have a column named "Threat Value". This colu
 
 The creation and editing of these lines work the same as described above, with the exception that Threat Values need to be provided. In the above screenshot you can specify critical ABAP program names that when executed should trigger an alert (with taking into account possible exceptions). When duplicating a use case policy for a specific scope, if there are default values these will be copied. You can de-activate those if unwanted and extend the use case policy with your own Threat Values that should trigger a threat.
 
+Many exception fields allow multiple values, these should be provided comma separated. See [this page](use-case-policy-attributes.md#threat-value-attributes) for details.
+
 #### Handling of multiple same Threat Value
 
-If there are duplicate Threat values, the flow of handling will be an AND situation.
+Threat Values on different lines are processed by the framework  If there are duplicate Threat values, the flow of handling will be an AND situation.
 
 See picture below which illustrates it:
 
