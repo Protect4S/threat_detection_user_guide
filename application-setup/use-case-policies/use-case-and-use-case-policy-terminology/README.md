@@ -2,24 +2,19 @@
 description: This page explains the scope and policy attributes
 ---
 
-# !Use Case & Policy terminology
+# Use Case & Use Case Policy terminology
 
-​The policies are used to finetune the use cases and to prevent false positives. In addition custom entries can be added.
-
-When opening the Use Case Policy application, the following screen shows the available policies:
+​When opening the Use Case Policy application, the following screen shows the available use case policies:
 
 <figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
-When selecting a specific policy you can see the details such as the scope, description of the use case and several other attributes of the policy.
+When selecting a specific policy you can see the details such as the scope, description and several other attributes of the policy.
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
 ### Hierarchy of the scope
 
-With each Use Case you configure it for your specific needs and requirements.\
-This is mainly done via the scope.&#x20;
-
-The following is an overview of the hierarchy along with its rank:
+Each use case policy can be tailered to your own needs. This can also be done via the scope. By duplicating the default use case policy and setting the scope you can define a subset of Threat values and exceptions only applicable for that scope. The following is an overview of the different scopes and hierarchy they have:
 
 | Rank | Scope         |
 | ---- | ------------- |
@@ -28,10 +23,10 @@ The following is an overview of the hierarchy along with its rank:
 | 3    | System role   |
 | 4    | All System    |
 
-* Select **Single System** to just apply to one system, if you have created multiple systems for the same actual system in Threat Detection, do notice that this policy will only be applied to that particular system selected.
-* Select **Systems group** to apply the policy to all systems defined in the group application. The group type of the group _must_ be System.
-* Select **System Role** to apply the policy to any systems with a specific role, like e.g. only Productive systems.
-* Select **All systems** to apply the policy on all systems configured in Threat Detection solution
+* Select **Single System** to only change the use case policy specifically for one system.&#x20;
+* Select **Systems group** to change the use case policy for all systems in this group.
+* Select **System Role** to change the use case policy for any system with a specific role, like e.g. only Productive systems.
+* Select **All systems** to change the use case policy for all systems configured in the Threat Detection solution
 
 ### **Attribute legend:**
 
