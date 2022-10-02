@@ -1,22 +1,20 @@
 # Configuring policies
 
-### Starting off by adjusting policies
+The use case policies can be configured to avoid false-positives but can also be used to add more customer specific Threat values. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune the use cases.
 
-The Use Case policies can be configured to avoid false-positives but also add more customer specific checks of the Threats in a SAP landscape. No SAP landscape is the same and customers have specific naming conventions for users, specific configurations and setup of the landscape. Via the policies you can finetune and drill down the specific checks.
-
-After installation of Protect4S TD it is therefore important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning,&#x20;
+After installation of Protect4S TD it is important to tune the policies to reflect your specific situation. For each use case there are [recommendations](../recommendations/) for finetuning,&#x20;
 
 Any Use Case policy change requires you to first make a copy to your own version.
 
-The policies shipped by us cannot be deleted, should you however find a check unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritized higher
+The policies shipped by Protect4S cannot be deleted, should you however find a specific Threat Value unnecessary or unfit for your situation, you can deactivate it. This is also done in your own policy version as it is prioritised higher
 
 ### Configuring policies
 
-The policies are indicated with colors, fields with green background means exceptions that can be given greenlight, Whereas Red means that these Threats triggers are the triggers in the respective Use Case.&#x20;
+The policies are indicated with colors. Fields with a red background are used to specifiy the Threat values. These are the values that triggers a Threat in the respective use case. Fields with a green background are exceptions to the Threat Value that can be used for example to create a Threat in case a specific transaction is called, except for user XYZ.
 
-Only Use Cases with Threat values have an additional field Named Threat, that have a red background color indicating that the Use Case checks these values.
+Only Use Cases that have Threat values have an additional field, named Threat Value.
 
-Additional Threat Values can be added for example Z table or Z report.
+Customers can use the pre-delivered content and extend that with additional Threat Values relevant for their own situation.&#x20;
 
 To configure new policies, a few examples are shown below:
 
