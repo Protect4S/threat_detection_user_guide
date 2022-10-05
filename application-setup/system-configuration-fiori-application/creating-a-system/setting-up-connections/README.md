@@ -16,7 +16,7 @@ By default the application will detect all available clients and list them and r
 
 ![Setting up database connection](<../../../../.gitbook/assets/image (14).png>)
 
-The database connections are not mandatory, however if use cases are activated that make use of database connections, the connections must be setup to function.&#x20;
+The database connections are not mandatory. However activated use cases that rely on the database datasources, require the database connections to function. Otherwise these use cases will not work.
 
 **Operating System connection:**
 
