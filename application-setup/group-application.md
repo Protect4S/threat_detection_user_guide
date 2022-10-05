@@ -20,7 +20,7 @@ Upon opening the application, you have the option to create various types of Gro
 
 To create a group, click on create on the initial screen.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Creating a group figure 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Creating a group figure 1</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Creating a group figure 2</p></figcaption></figure>
 

@@ -36,7 +36,7 @@ If you enter the policy in edit mode, you can change or add values of the policy
 
 To add values in the policy, while in edit mode; click on the Create button. A new line will appear where you can enter the value you wish to add.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Adding new policy to a Use Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption><p>Adding new policy to a Use Case</p></figcaption></figure>
 
 Click on Save to commit your changes at the lower right corner. ![](<../../.gitbook/assets/image (33).png>)
 
@@ -66,4 +66,4 @@ Threat Values on different lines are processed by the framework as seperate line
 
 See picture below which illustrates this:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
