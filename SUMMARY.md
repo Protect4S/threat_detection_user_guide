@@ -47,6 +47,7 @@
     * [S-000050-01](application-setup/recommendations/copy-of-s-000050-01.md)
     * [S-000060-01](application-setup/recommendations/s-000060-01.md)
     * [S-000070-01](application-setup/recommendations/copy-of-s-000070-01.md)
+    * [S-000080-01](application-setup/recommendations/s-000080-01.md)
     * [S-000100-01](application-setup/recommendations/s-000100-01.md)
     * [S-000110-01](application-setup/recommendations/s-000110-01.md)
     * [S-000120-01](application-setup/recommendations/s-000120-01.md)
