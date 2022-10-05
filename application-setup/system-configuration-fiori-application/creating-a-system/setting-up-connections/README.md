@@ -16,7 +16,7 @@ By default the application will detect all available clients and list them and r
 
 ![Setting up database connection](<../../../../.gitbook/assets/image (14).png>)
 
-The database connections are not mandatory for most database types, however for SAP HANA they are mandatory since specific SAP HANA use cases require this connection. Enter the database user and password.
+The database connections are not mandatory, however if use cases are activated that make use of database connections, the connections must be setup to function.&#x20;
 
 **Operating System connection:**
 
