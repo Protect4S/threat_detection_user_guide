@@ -2,7 +2,7 @@
 description: Creating and using groups to simplify TD usage
 ---
 
-# !Group application
+# Group application
 
 
 
@@ -12,7 +12,7 @@ A group is a collection of values which can be grouped to assign a set of users,
 
 ### Characteristic
 
-For the Group type _**User Names**_ and _**Hosts**_ there is no input validation, so you are free to provide any value. The Group type _**Client**_ is limited to only 3 digits per entry (for example 066). The Group type _**System ID**_ is used to define the System ID's known in Protect4S Threat Detection solution. In this field select the SAP system either via the technical System ID (for example "1") or the SAP system ID (for example "XYZ"). Each line represents one value, don't use multiple values in one line.&#x20;
+For the Group type _**User Names**_ and _**Hosts**_ there is no input validation, so you are free to provide any value. The Group type _**Client**_ is limited to only 3 digits per entry (for example 066). The Group type _**System ID**_ is used to define the System ID's known in Protect4S Threat Detection solution. In this field select the SAP system either via the technical System ID (for example "1") or the SAP system ID (for example "XYZ"). Each line represents one value, don't use multiple values in one line.
 
 ### Group application usage
 
@@ -45,9 +45,9 @@ To create a new group in this application, the first step is to define the group
 | Systems    | P4S System ID, here you define the System ID's known in Protect4S Threat Detection solution |
 | User Names | List of usernames that can be defined here                                                  |
 
-In this initial screen you first have to define what kind of group you would like to create.&#x20;
+In this initial screen you first have to define what kind of group you would like to create.
 
 
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Dropdown menu for Group Type</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (2).png" alt=""><figcaption><p>Dropdown menu for Group Type</p></figcaption></figure>
 

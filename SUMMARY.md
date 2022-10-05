@@ -54,7 +54,7 @@
     * [S-000160-01](application-setup/recommendations/s-000160-01.md)
     * [S-000170-01](application-setup/recommendations/s-000170-01.md)
     * [S-000180-01](application-setup/recommendations/s-000180-01.md)
-    * [!Application Variants](application-setup/recommendations/application-variants.md)
+    * [Application Variants](application-setup/recommendations/application-variants.md)
     * [Protect4S Threat Detection and Protect4S Vulnerability Management](application-setup/recommendations/protect4s-threat-detection-and-protect4s-vulnerability-management.md)
   * [Troubleshooting](application-setup/troubleshooting/README.md)
     * [SSL certificate errors](application-setup/troubleshooting/ssl-certificate-errors.md)
