@@ -14,14 +14,14 @@ When selecting a specific policy you can see the details such as the scope, desc
 
 ### Hierarchy of the scope
 
-Each use case policy can be tailered to your own needs. This can also be done via the scope. By duplicating the default use case policy and setting the scope you can define a subset of Threat values and exceptions only applicable for that scope. The following is an overview of the different scopes and hierarchy they have:
+Each use case policy can be tailered to your own needs. This can also be done via the scope. By duplicating the default use case policy (since the default delivered policy is not editable) and setting the scope you can define a subset of Threat values and exceptions only applicable for that scope. The following is an overview of the different scopes and hierarchy they have:
 
 | Rank | Scope         |
 | ---- | ------------- |
 | 1    | Single System |
 | 2    | System group  |
 | 3    | System role   |
-| 4    | All System    |
+| 4    | All Systems   |
 
 * Select **Single System** to only change the use case policy specifically for one system.&#x20;
 * Select **Systems group** to change the use case policy for all systems in this group.
