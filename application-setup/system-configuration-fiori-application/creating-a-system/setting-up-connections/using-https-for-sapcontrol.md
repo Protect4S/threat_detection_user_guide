@@ -8,7 +8,7 @@ description: Connecting to sapcontrol on the satellite systems with https
 
 
 
-![SAPControl setup](<../../../../.gitbook/assets/image (40).png>)
+![SAPControl setup](<../../../../.gitbook/assets/image (40) (2).png>)
 
 During the creation of the system, you can choose to use https for the sapcontrol connection (step 4).
 

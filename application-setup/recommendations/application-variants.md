@@ -4,10 +4,10 @@ Within several of the Protect4S Threat Detection applications (like for example 
 
 
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
-After pressing the Manage button select the Default radio button for the Protect4S variant ans press Save:
+After pressing the Manage button select the Default radio button for the Protect4S variant and press Save:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-The above is an application specific setting and must be repeated for individual application where needed.
+The above is an application specific setting and must be repeated for individual applications where applicable.
