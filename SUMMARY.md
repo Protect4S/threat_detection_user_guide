@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Protect4S - Threat Detection User Guide](README.md)
+* [Protect4S - TD User Guide](README.md)
 * [Introduction](introduction.md)
 * [Technical Setup](technical-setup/README.md)
   * [Installation](technical-setup/installation/README.md)
