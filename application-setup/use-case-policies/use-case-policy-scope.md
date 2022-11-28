@@ -10,7 +10,7 @@ description: This page explains the scope of use case policies
 
 When selecting a specific policy you can see the details such as the scope, description and several other attributes of the policy.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
 ### Hierarchy of the scope
 

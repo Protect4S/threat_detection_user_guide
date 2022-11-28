@@ -8,6 +8,6 @@ A **dedicated** SAP ABAP user must be created (type System or Service) in all ap
 
 Protect4S recommends to create the SAP RFC users as type "System". This prevents misuse of this user via the SAPGUI. Make sure that both the background user in the Protect4S Threat Detection system and the RFC users in the satellite systems have the same date-format settings so that date and time calculations are executed correctly. This must be configured using transaction SU01 under the DEFAULTS tab and set as displayed in the figure below:
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 This user is used in during the setup of the [connection](../../creating-a-system/setting-up-connections/).
