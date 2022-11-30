@@ -8,11 +8,11 @@ After the installation via transaction SAINT is done, run the post-installation 
 
 ### License installation <a href="#license-installation" id="license-installation"></a>
 
-Protect4S TD needs a valid license in order to function. From the post-installation wizard you are prompted to install a valid license. A valid license file will be supplied by the Protect4S Support team during the purchasing process.
+Protect4S TD needs a valid license in order to function. From the post-installation wizard you are prompted to install a valid license.&#x20;
 
 #### Requesting a Protect4S TD license <a href="#requesting-a-new-protect4s-license" id="requesting-a-new-protect4s-license"></a>
 
-Requesting a new Protect4S TD license can be done by selecting the option "Request license":
+Requesting a new Protect4S TD license can be done by selecting the option "Request license" in the License Administration application:
 
 
 
