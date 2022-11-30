@@ -6,7 +6,7 @@ description: This page explains the scope of use case policies
 
 ​When opening the Use Case Policy application, the following screen shows the available use case policies:
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>Use Case Policies application</p></figcaption></figure>
 
 When selecting a specific policy you can see the details such as the scope, description and several other attributes of the policy.
 

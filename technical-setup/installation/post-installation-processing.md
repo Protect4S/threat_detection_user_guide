@@ -12,13 +12,15 @@ Protect4S TD needs a valid license in order to function. From the post-installat
 
 #### Requesting a Protect4S TD license <a href="#requesting-a-new-protect4s-license" id="requesting-a-new-protect4s-license"></a>
 
-Requesting a new Protect4S TD license can be done by selecting the option "Request license" from the menu:
+Requesting a new Protect4S TD license can be done by selecting the option "Request license":
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 This will compose an email with a template. Please fill out the required information shown in the mail. This is required for Protect4S support to generate your license file:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Then, send the mail to us and we will generate a license file for you. Should you have lost this file or never received it, please contact the Protect4S support team.
 
@@ -32,7 +34,7 @@ This will start up a new screen in which you can upload and save the license key
 
 After uploading and saving the license key file, you will be able to see the license in the overview in the License Administration:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 After having installed the license: select **Yes**.
 
