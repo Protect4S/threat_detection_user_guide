@@ -6,7 +6,7 @@ description: Use Case Policy configuration
 
 If you have been granted the security configurator role or the administrator role, you can access the Use Case Policy Fiori tile. Please visit [this](../system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption><p>Use Case Policy Configuration</p></figcaption></figure>
 
 In this application you can configure the use cases policies to a.o. minimise false positives.&#x20;
 

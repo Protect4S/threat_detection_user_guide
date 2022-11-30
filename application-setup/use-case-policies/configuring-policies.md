@@ -66,4 +66,4 @@ Threat Values on different lines are processed by the framework as seperate line
 
 See picture below which illustrates this:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>

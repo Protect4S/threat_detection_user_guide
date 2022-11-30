@@ -34,7 +34,7 @@ You may repeat this step for roles **TDWO\_SATELLITE\_PUSH** if you use the auto
 
 Login to the satellite system, execute transaction PFCG and select Role, Upload from the PFCG menu:
 
-![Select Role, Upload from the PFCG menu](<../../../../.gitbook/assets/image (1) (1) (1).png>)
+![Select Role, Upload from the PFCG menu](<../../../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 Select the role file you downloaded to your PC in the previous step:
 
