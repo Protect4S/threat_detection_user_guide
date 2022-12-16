@@ -22,7 +22,7 @@ This will compose an email with a template. Please fill out the required informa
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Then, send the mail to us and we will generate a license file for you. Should you have lost this file or never received it, please contact the Protect4S support team.
+Send the mail to us and we will generate a license file for you. Should you have lost this file or never received it, please contact the Protect4S support team.
 
 #### Uploading the license file
 

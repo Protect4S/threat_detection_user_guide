@@ -22,7 +22,7 @@ On the central Protect4S TD system, use **300 MB** per work process to estimate 
 
 The above is a rough estimation and depends on the size of data to be read, settings of the read interval and number and type of connected systems. Also keep in mind that the achieved performance might depend on specific customer situations so validate the above yourself. The above rule only applies to the memory for the work processes, additional memory is needed for the Database and Operating System.
 
-Best practice is to connect a maximum of 180 SAP systems to one Protect4S Central System.
+Best practice is to connect a maximum of 180 SAP systems to one Protect4S Central System. The Protect4S Threat Detection solution is capable of sending a maximum of 2000 Threats per second to a SIEM solution.
 
 ### Use of HTTPS
 
