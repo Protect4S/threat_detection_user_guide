@@ -8,7 +8,7 @@ description: Creating and using groups to simplify TD usage
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Group configuration application</p></figcaption></figure>
 
-A group is a collection of values which can be grouped to assign a set of users, hosts, clients or systems together. Using a group simplifies and eases the administrative work. Depending on the situation and purpose; it might be easier to use a group instead of individual entries in policies.
+A group is a collection of values to assign a set of users, hosts, clients or systems together. Using a group simplifies and eases the administrative work. Depending on the situation and purpose, it might be easier to use a group instead of individual entries in policies.
 
 ### Characteristic
 
@@ -16,9 +16,7 @@ For the Group type _**User Names**_ and _**Hosts**_ there is no input validation
 
 ### Group application usage
 
-Upon opening the application, you have the option to create various types of Groups to simplify the  policy configuration so that you can create your own group and reuse them later. The number on the Fiori application tile indicates how many groups exist.
-
-To create a group, click on create on the initial screen.
+When opening the application, you have the option to create various types of groups to simplify the e.g. the policy configuration so that you can create your own group and reuse them later. The number on the Fiori application tile indicates how many groups exist. To create a group, click on create on the initial screen.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Creating a group figure 1</p></figcaption></figure>
 

@@ -22,9 +22,7 @@ By clicking on a specific line you can see details about the use case and the sy
 
 ![Use Case settings](<../.gitbook/assets/image (61) (1) (1).png>)
 
-On the top right you can set the use case to _**inactive**_ to disable the use case so that this won't be checked for this particular system or switch it back on if you wish to do so.
+On the top right you can set the use case to _**inactive**_ to disable the use case so that this won't be checked for this particular system or switch it back to active.
 
-
-
-Note: Not all Use Case are applicable for all system type, for example Use Case S-000120-1 (ABAP debugging) is only applicable for system role types: "Acceptance / QA / Test", "Pre-production" and "Pre-production". \
-More information can be found for each Use Case under Use Case Information application.
+**Note**: Not all use cases are applicable for all system types, for example Use Case S-000120-1 (ABAP debugging) is only applicable for system role types: "Acceptance / QA / Test", "Pre-production" and "Pre-production". \
+More information can be found for each Use Case under the Use Case Information application.
