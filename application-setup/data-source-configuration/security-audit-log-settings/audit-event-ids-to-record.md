@@ -52,5 +52,5 @@ This is the list of the _**minimum**_ required Event IDs that is needed to be ac
 | EU1       | System change options changed ( \&A to \&B )                           |
 | EU2       | Client \&A settings changed ( \&B )                                    |
 
-_Notice, **Event IDs mentioned separately in the option 1** are **not** listed in the above overview because this is not part of our minimum needed Event IDs to cover all the use case. You can include them though._
+_Notice, **Event IDs mentioned separately in the option 1** are **not** listed in the overview because this is not part of our minimum needed Event IDs to cover all the use case we have. Although you may include them._
 
