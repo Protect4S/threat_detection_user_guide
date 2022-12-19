@@ -20,7 +20,7 @@ A database connection is not mandatory. However, certain use cases rely on datab
 
 **Operating System connection:**
 
-An Operating System user is not mandatory for ABAP systems, for JAVA systems it is mandatory. Enter the OS user as described [here](../../users-and-authorizations/operating-system-user.md).
+An Operating System user is not mandatory. Enter the OS user as described [here](../../users-and-authorizations/operating-system-user.md).
 
 ![Connecting to the operating system of the satellite system](<../../../../.gitbook/assets/image (52) (1).png>)
 
@@ -30,4 +30,4 @@ For SAPControl connections with Encryption (SSL), see [here](using-https-for-sap
 
 Review and confirm the list of all the applications servers **** applicable for your system and in the next screen save the connections.
 
-If the Protect4S Threat Detection solution runs on the same system as Protect4S Vulnerability Management, new connections are still required. The user and authorization that is defined in the RFC connection is different.
+If the Protect4S Threat Detection solution runs on the same system as Protect4S Vulnerability Management, new connections are still required. The user and authorisations defined in the RFC connection is different.

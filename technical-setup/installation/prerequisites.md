@@ -24,11 +24,11 @@ Make sure that on the central Protect4S system at least one HTTPS service is act
 
 ![SMICM HTTPS Service should be active](<../../.gitbook/assets/image (56) (1).png>)
 
-**NOTE**: When connecting to remote systems that have no HTTPS services active, but only HTTP, also on the central Protect4S system you need to enable a HTTP service in that case.
+**NOTE**: When connecting to remote systems that have no HTTPS services active, but only HTTP, then on the central Protect4S system you also need to enable a HTTP service in that case.
 
 ### Enable SAP Gateway & Fiori Launchpad
 
-Make sure that on the central Protect4S system the SAP Gateway and Fiori Launchpad are activated. This can be tested by starting the transaction `/n/ui2/flp`. The output should be an empty Fiori Launchpad or contain some tiles.
+Make sure that on the central Protect4S system the SAP Gateway and Fiori Launchpad are activated. This can be tested by starting the transaction `/n/ui2/flp`. The output should be an empty Fiori Launchpad with optionally some tiles.
 
 If the above is not the case, then use transaction STC01 to activate the below two tasks:
 
@@ -50,4 +50,4 @@ In the above case, change the default key-phrase and consider implementation of 
 
 ### SAP satellite systems s**oftware version requirements**
 
-The SAP satellite systems should be running on Netweaver releases that are supported by SAP. Apart from that, there are no specific software version requirements.
+The SAP satellite systems should be running on Netweaver releases that are supported by SAP. Apart from that, there are no specific software version requirements or agents needed.

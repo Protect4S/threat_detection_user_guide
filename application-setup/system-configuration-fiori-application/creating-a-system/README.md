@@ -10,7 +10,7 @@ To be able to monitor satellite systems they need to be added to the Protect4S C
 
 Then click on the ![](<../../../.gitbook/assets/image (71) (1).png>)button. You should get a new screen displayed like below:
 
-![Configuring a new system](<../../../.gitbook/assets/image (61) (1) (1) (1).png>)
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 On the left side of the screen provide the system role, etc. On the right side you can set some system-specific settings:
 
@@ -29,6 +29,12 @@ This parameter is used to split reading large amounts of data and splits up the 
 **Activate new use cases automatically**
 
 This flag is switched on by default and defines whether new use cases become active automatically.
+
+**Healt Check settings**
+
+With the "Create Threat" mark you can define whether healtch check messages are only created in the Messages application or if an additional threat is send to SIEM. By default this is not done.
+
+
 
 **Example:**
 
