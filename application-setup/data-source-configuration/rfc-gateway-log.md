@@ -10,7 +10,7 @@ As a minimum, the parameter "**gw/logging**" needs to be activated via transacti
 
 
 
-Since the default setting for the parameter only logs changes to security settings and rejected actions you need to change to value of the included actions to at least those represented by the letters **Z, S** and **E**. The meaning of these actions can be found below:
+Since the default setting for the parameter only logs changes to security settings and rejected actions you need to change to value of the included actions to at least those represented by the letters **Z, S** and **E**. The meaning of these actions can be found below (also see SAP note [2527689](https://launchpad.support.sap.com/#/notes/2527689)):
 
 (T): Network actions: Opening and closing network connections\
 (**E**): Starting external programs\
@@ -29,7 +29,7 @@ Since the default setting for the parameter only logs changes to security settin
 
 On top of those action you might need to activate additional actions based on your companies policies. For example the ACTION option for gateway logging with the value **SsZMPTER** is required to capture security events, configuration changes, and monitor commands. Make sure there is enough size in the logfile via the MAXSIZEKB option.
 
-In more recent systems consider using parameter **rsau/integrity = 1** for additional protection of the RFC GW log. See SAP note [2033317](https://launchpad.support.sap.com/#/notes/2033317) for more information)
+In more recent systems consider using parameter **rsau/integrity = 1** for additional protection of the RFC GW log. See SAP note [2033317](https://launchpad.support.sap.com/#/notes/2033317) for more information).
 
 
 
