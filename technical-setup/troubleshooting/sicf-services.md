@@ -4,7 +4,4 @@ After the Protect4S TD initial installation and after every support package upda
 
 * /sap/bc/ui5\_ui5/tdwo/\*
 * /sap/opu/odata/tdwo/\*
-
-The following SICF service will also be activated:
-
 * /sap/public/bc/uics/whitelist
