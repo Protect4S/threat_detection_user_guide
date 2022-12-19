@@ -10,4 +10,4 @@ Protect4S recommends to create the SAP RFC users as type "System". This prevents
 
 <figure><img src="../../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
-This user is used in during the setup of the [connection](../../creating-a-system/setting-up-connections/).
+This user is used during the setup of the [connections](../../creating-a-system/setting-up-connections/).

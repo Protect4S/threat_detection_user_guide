@@ -53,6 +53,6 @@ Make sure the color status for **Menu**, **Authorization** and **User** are gree
 ![Make sure all 3 lights are green](<../../../../.gitbook/assets/image (43).png>)
 
 You may repeat this step for role **TDWO\_SATELLITE\_PUSH** if you want to use automatic distribution of Protect4S satellite user roles.\
-If one of the 3 mentioned tab is not green, it could be that the authorization profile needs to be regenerated and/or redistributed to the Protect4S satellite system user. Ask an SAP user administrator to do this if you do not know how to proceed.
+If one of the 3 mentioned tabs is not green, it could be that the authorization profile needs to be regenerated and/or redistributed to the Protect4S satellite system user. Ask an SAP user administrator to do this if needed.
 
-Notice: If you have changed the namespace of the roles make sure it is that one is updated in that version.
+Notice: If you have changed the namespace of the roles make sure it is updated in that version.
