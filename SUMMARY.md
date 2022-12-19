@@ -17,6 +17,7 @@
 * [Application Setup](application-setup/README.md)
   * [Data Source Configuration](application-setup/data-source-configuration/README.md)
     * [Prerequisites](application-setup/data-source-configuration/prerequisites.md)
+    * [RFC Gateway Log](application-setup/data-source-configuration/rfc-gateway-log.md)
     * [Security Audit Log Settings](application-setup/data-source-configuration/security-audit-log-settings/README.md)
       * [Audit Event IDs to record](application-setup/data-source-configuration/security-audit-log-settings/audit-event-ids-to-record.md)
   * [System Configuration](application-setup/system-configuration-fiori-application/README.md)
