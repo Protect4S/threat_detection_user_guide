@@ -6,7 +6,7 @@ description: Creating and using groups to simplify TD usage
 
 
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Group configuration application</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>Group configuration application</p></figcaption></figure>
 
 A group is a collection of values to assign a set of users, hosts, clients or systems together. Using a group simplifies and eases the administrative work. Depending on the situation and purpose, it might be easier to use a group instead of individual entries in policies.
 

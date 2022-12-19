@@ -10,7 +10,7 @@ To be able to monitor satellite systems they need to be added to the Protect4S C
 
 Then click on the ![](<../../../.gitbook/assets/image (71) (1).png>)button. You should get a new screen displayed like below:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 On the left side of the screen provide the system role, etc. On the right side you can set some system-specific settings:
 

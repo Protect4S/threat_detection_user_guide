@@ -16,11 +16,11 @@ Requesting a new Protect4S TD license can be done by selecting the option "Reque
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 This will compose an email with a template. Please fill out the required information shown in the mail. This is required for Protect4S support to generate your license file (The installation and system number can be retrieved from transaction SLICENSE):
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Send the mail to us and we will generate a license file for you. Should you have lost this file or never received it, please contact the Protect4S support team.
 
@@ -28,7 +28,7 @@ Send the mail to us and we will generate a license file for you. Should you have
 
 From the License Administration application press the INSTALL button: This will start a popup in which you can upload and save the license key file:
 
-<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
 
 After uploading and saving the license key file, you will be able to see the license in the overview in the License Administration:
 

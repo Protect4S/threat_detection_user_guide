@@ -10,14 +10,14 @@ Below is a list of attributes that exist for the use case policies.
 
 | Attribute name:        | Description of the attribute:                                                                                                                          |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Use Case ID            | The unique Use Case identifier number. Use Case policies are linked with each other.                                                                   |
+| Use Case ID            | The unique use case identifier number. Use case policies are linked with each other.                                                                   |
 | Default                | Indicates whether this policy is the initial shipped or not.                                                                                           |
-| Threat Value Type      | Indicates type of threat the Use Case detects.                                                                                                         |
+| Threat Value Type      | Indicates type of threat the use case detects.                                                                                                         |
 | Use Case Description   | Human readable description of the use case.                                                                                                            |
 | Policy Description     | Human readable description of the policy.                                                                                                              |
 | Additional Description | As the description is fixed in our solution it cannot be changed. However with this extra field customers can specify their own description if needed. |
 | Scope                  | Type of scope this policy applies to. Possible values are: All Systems, System Role, System Group, Single System.                                      |
-| Case Sensitive         | Indicates whether the values entered are Case sensitive or not. For example, Function Module related Use Cases are case sensitive.                     |
+| Case Sensitive         | Indicates whether the values entered are case sensitive or not. For example, Function Module related use cases are case sensitive.                     |
 
 
 
@@ -28,8 +28,8 @@ Below is a list of attributes available as part of the Threat Value section.
 | Threat value attribute:  | Description:                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Active                   | Use this option to activate or deactivate threat values. The Threat Values we have pre-defined cannot be removed. You can use this option to deactivate instead.                                                                                                                                                                                                                      |
-| Threat Value             | The Value that triggers the Use Case to send alert. For some use cases any value is considered a risk. In that case this this field won't be shown.                                                                                                                                                                                                                                   |
-| Risk                     | This field indicates the risk assigned when a Threat gets created and send to SIEM.                                                                                                                                                                                                                                                                                                   |
+| Threat Value             | The Value that triggers the use case to send alert. For some use cases any value is considered a risk. In that case this this field won't be shown.                                                                                                                                                                                                                                   |
+| Risk                     | This field indicates the risk assigned when a threat gets created and send to SIEM.                                                                                                                                                                                                                                                                                                   |
 | Client Exception         | Defines a SAP system client for a threat value exception. The value here is a single value but can be comma separated to exempt multiple clients in one line.                                                                                                                                                                                                                         |
 | Client Exception Group   | A group of clients defined in the Group application, this can be used to exclude a threat value for multiple clients at once via a group.                                                                                                                                                                                                                                             |
 | System                   | You can enter here the SAP SID or you can enter the Protect4S TD system number between brackets. The value here are single values and can be comma separated to create exceptions for multiple systems in one line.                                                                                                                                                                   |
@@ -44,7 +44,7 @@ Below is a list of attributes available as part of the Threat Value section.
 
 ### Risk value
 
-The risk value per threat can be configured and changed. This risk will be passed to your SIEM solution to optionally apply certain rules you want there. If there are multiple entries with the same Threat Value, the risk can only be defined for the first threat.
+The risk value per threat can be configured and changed. This risk will be passed to your SIEM solution to optionally apply certain rules you want there. If there are multiple entries with the same threat value, the risk can only be defined for the first threat.
 
 ### Wildcard usage
 
