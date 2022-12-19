@@ -10,4 +10,4 @@ Note: As a rule of thumb from the security perspective: the less authorisations,
 
 Note: The process of finetuning is a constant one that is not finished after setup. You might need to return to the Allow / Deny policies periodically to further prevent false positives as user, configuration and parameters of SAP systems are sometimes dynamic.
 
-Note: The suggestions given in these recommendation chapters is for someone with a security perspective background. Any reference to 'you' refers to this person. Unless otherwise mentioned.
+Note: The suggestions given in these recommendation chapters are for someone with a security perspective background.&#x20;
