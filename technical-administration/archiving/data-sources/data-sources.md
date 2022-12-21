@@ -1,12 +1,12 @@
-# Data sources
+---
+description: Security Audit Log archiving
+---
 
-Below data sources produce events in the connected SAP systems and must be archived periodically in these connected SAP systems to reduce the risk of issues. Below described details are not a best practice but should be seen as options for customers to consider while designing their own specific data archiving strategy.
-
-### Security Audit Log
+# Security Audit Log
 
 As the amount of events being stored can grow fast, sooner or later there might be a need to archive the data created by the Security Audit Log. Although we cannot provide specific recommendations for each customer situation, we can provide some general guidelines:
 
-1. Data that is not created, does not need to be archived so decide carefully what events to log. Also see [this chapter](../../application-setup/data-source-configuration/security-audit-log-settings/audit-event-ids-to-record.md).
+1. Data that is not created, does not need to be archived so decide carefully what events to log. Also see [this chapter](../../../application-setup/data-source-configuration/security-audit-log-settings/audit-event-ids-to-record.md).
 2. If you store the SAL events in the **Database**, SAP recommends that you archive audit log events older than 3 days. Archiving in this case means to still have it available offline for forensic purposes, so don't delete the data directly after 3 days. See [this SAP documentation](https://help.sap.com/docs/SAP\_NETWEAVER\_AS\_ABAP\_751\_IP/280f016edb8049e998237fcbd80558e7/a9e341f8142a41e59a307dee6904f267.html?version=7.51.13\&locale=en-US) for archiving documentation.
 3. If you store the SAL events in the **Filesystem**, SAP describes some general recommendations in SAP note [2191612 ](https://launchpad.support.sap.com/#/notes/2191612)in section 73:
 
