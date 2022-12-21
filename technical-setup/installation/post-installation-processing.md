@@ -46,7 +46,7 @@ During the post-installation steps, inspect and update at least the mandatory fi
 
 At least provide a **name** for the Worker ID, A **Company name** and a **background user** for the background jobs. This must be a user with the role **/TDWO/BACKGROUND\_EXECUTOR** and the Logon Language and Date Format settings for this user must be set to this default in SU01:
 
-<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 After the Post-Installation processing is done, the application is ready to be used. The Protect4S Threat Detection solution is started via transaction: **`/n/ui2/flp`**, which opens the Fiori launchpad containing the Protect4S TD applications. Should the transaction timeout, please refresh the page again with the F5 key or set a higher value for SAP parameter **rdisp/plugin\_auto\_logout** using transaction: **RZ11**. After running the Post installation wizard, optionally refresh your browser cache (CTRL-F5) to make sure the application icons are displayed correctly.
 

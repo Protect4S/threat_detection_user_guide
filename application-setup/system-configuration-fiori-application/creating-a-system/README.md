@@ -6,7 +6,7 @@ description: A walkthrough to create a system within Protect4S Threat Detection
 
 To be able to monitor satellite systems they need to be added to the Protect4S Central system. To create a system, open the System application from the Fiori Launchpad:
 
-![](<../../../.gitbook/assets/image (52) (2).png>)
+![](<../../../.gitbook/assets/image (52).png>)
 
 Then click on the ![](<../../../.gitbook/assets/image (71) (1).png>)button. You should get a new screen displayed like below:
 
