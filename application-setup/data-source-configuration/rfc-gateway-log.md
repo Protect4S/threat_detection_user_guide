@@ -6,12 +6,14 @@ description: Satellite system settings
 
 The RFC Gateway Log in SAP systems stores events related to the RFC Gateway working. It is important that the RFC Gateway Log is switched on for all application servers and that the correct events are recorded. The RFC Gateway Log can be activated in transaction SMGW.
 
-As a minimum, the parameter "**gw/logging**" needs to be activated via transaction RZ10. If your system has multiple instances, make sure to activate the parameter for all individual instance profiles or set the parameter in the default profile for system-wide activation. This parameter cannot be changed dynamically and requires a restart. The parameter has 4 sub-options that will be explained below:
+As a minimum, the parameter "**gw/logging**" needs to be activated via transaction RZ10. If your system has multiple instances, make sure to activate the parameter for all individual instance profiles or set the parameter in the default profile for system-wide activation. This parameter cannot be changed dynamically and requires a restart. The parameter has 4 sub-options that will be explained below (Also see the [SAP help](https://help.sap.com/docs/ABAP\_PLATFORM\_NEW/fbaae893ab3c486fb58bc18cfc01a543/48b0e64ba49c2883e10000000a42189c.html?locale=en-US) for more information):
 
 * ACTION
 * LOGFILE
 * SWITCHTF
 * MAXSIZEKB
+
+
 
 **ACTION**:
 
@@ -36,7 +38,7 @@ On top of the minimum actions **Z,S and E**, you might need to activate addition
 
 **LOGFILE**
 
-The LOGFILE sub-option defines the format in which the file stored. For a proper functioning of the Protect4S TD Solition it is required to leave this to the default SAP value: **LOGFILE=gw\_log-%y-%m-%d**
+The LOGFILE sub-option defines the format in which the file stored. For a proper functioning of the Protect4S TD Solution it is required to leave this to the default SAP value: **LOGFILE=gw\_log-%y-%m-%d**
 
 ****
 
@@ -52,4 +54,4 @@ Make sure there is enough size in the logfile via the MAXSIZEKB option to store 
 
 
 
-n more recent systems consider using parameter **rsau/integrity = 1** for additional protection of the RFC GW log. See SAP note [2033317](https://launchpad.support.sap.com/#/notes/2033317) for more information.
+In more recent systems consider using parameter **rsau/integrity = 1** for additional protection of the RFC GW log. See SAP note [2033317](https://launchpad.support.sap.com/#/notes/2033317) for more information.
