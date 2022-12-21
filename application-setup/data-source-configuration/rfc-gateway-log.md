@@ -27,6 +27,6 @@ Since the default setting for the parameter only logs changes to security settin
 
 
 
-On top of those action you might need to activate additional actions based on your company's policies. For example the ACTION option for gateway logging with the value **SsZMPTER** is required to capture security events, configuration changes, network actions, registration of servers and monitor commands. Make sure there is enough size in the logfile via the MAXSIZEKB option.
+On top of those action you might need to activate additional actions based on your company's policies. For example the ACTION option for gateway logging with the value **SZMPTER** is required to capture security events, configuration changes, network actions, registration of servers and monitor commands. Make sure there is enough size in the logfile via the MAXSIZEKB option.
 
 In more recent systems consider using parameter **rsau/integrity = 1** for additional protection of the RFC GW log. See SAP note [2033317](https://launchpad.support.sap.com/#/notes/2033317) for more information).

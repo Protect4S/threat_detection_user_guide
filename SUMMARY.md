@@ -86,6 +86,7 @@
   * [Archiving](technical-administration/archiving/README.md)
     * [Data Sources](technical-administration/archiving/data-sources/README.md)
       * [Security Audit Log](technical-administration/archiving/data-sources/data-sources.md)
+      * [RFC Gateway Log](technical-administration/archiving/data-sources/data-sources-1.md)
     * [Protect4S TD dataobjects](technical-administration/archiving/protect4s-td-dataobjects.md)
   * [Troubleshooting](technical-administration/troubleshooting/README.md)
     * [Satellite System Connection issues](technical-administration/troubleshooting/satellite-system-connection-issues/README.md)
