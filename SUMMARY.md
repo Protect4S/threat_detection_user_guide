@@ -77,6 +77,7 @@
 * [Application Usage](application-usage/README.md)
   * [Threats](application-usage/threats.md)
   * [Events](application-usage/events.md)
+  * [Health checks](application-usage/events-1.md)
   * [Framework Messages](application-usage/framework-messages.md)
   * [Use Case Information](application-usage/use-case-information.md)
   * [Troubleshooting](application-usage/troubleshooting.md)
