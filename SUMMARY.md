@@ -53,6 +53,7 @@
     * [S-000110-01](application-setup/recommendations/s-000110-01.md)
     * [S-000120-01](application-setup/recommendations/s-000120-01.md)
     * [S-000130-01](application-setup/recommendations/s-000130-01.md)
+    * [S-000140-01](application-setup/recommendations/s-000140-01.md)
     * [S-000150-01](application-setup/recommendations/s-000150-01.md)
     * [S-000160-01](application-setup/recommendations/s-000160-01.md)
     * [S-000170-01](application-setup/recommendations/s-000170-01.md)
