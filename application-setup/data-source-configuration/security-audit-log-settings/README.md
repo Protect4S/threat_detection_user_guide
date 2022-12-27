@@ -12,7 +12,9 @@ Optionally, a different path can be defined for the SAL files as the the log fil
 
 Another option in systems with a release higher than 7.5 is to activate in RSAU\_CONFIG both the OS level logging and the Database logging. This might provide options to clear the OS-level logging periodically while retaining the events in the Database for reference and analytics purposes: &#x20;
 
-![](<../../../.gitbook/assets/image (2) (2) (1).png>)
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Make sure to at least have the events saved to the **FILESYSTEM**.
 
 For more details related to the Security Audit Log profile parameters please see the the reference section and configure them as per your company's policy.
 
