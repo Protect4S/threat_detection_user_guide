@@ -14,7 +14,7 @@ A new option in systems with a release higher than 7.5 is to be able tp choose w
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Make sure to at least have the events saved to the **FILESYSTEM** in order for Protect4S TD to collect them. For more details related to the Security Audit Log profile parameters please see the the reference section and configure them as per your company's policy.
+**ATTENTION**: Make sure to at least have the events saved to the **FILESYSTEM** in order for Protect4S TD to collect them. For more details related to the Security Audit Log profile parameters please see the the reference section and configure them as per your company's policy.
 
 References:
 
