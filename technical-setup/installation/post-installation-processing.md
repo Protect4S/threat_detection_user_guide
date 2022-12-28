@@ -50,4 +50,18 @@ At least provide a **name** for the Worker ID, A **Company name** and a **backgr
 
 After the Post-Installation processing is done, the application is ready to be used. The Protect4S Threat Detection solution is started via transaction: **`/n/ui2/flp`**, which opens the Fiori launchpad containing the Protect4S TD applications. Should the transaction timeout, please refresh the page again with the F5 key or set a higher value for SAP parameter **rdisp/plugin\_auto\_logout** using transaction: **RZ11**. After running the Post installation wizard, optionally refresh your browser cache (CTRL-F5) to make sure the application icons are displayed correctly.
 
-Every menu Item selected will start in a new browser tab for many browsers (some browsers like Edge will open a new browser windows though). When you are finished using an application, you may simply close the tab or windows.
+Every menu Item selected will start in a new browser tab for many browsers (some browsers like Edge will open a new browser windows though). When you are finished using an application, you may simply close the tab or windows. Since the applications are launched for the first time you might need to refresh them sporadically to see the content.
+
+
+
+On recent S4/HANA systems the Fiori Launchpad may show up empty, like in the below example:
+
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+In that case you case add the application by adding them to a new so called space or by adding them to the "My home" page. To do so click on the EDIT PAGE button as shown above and then on the "ADD TILE" button in the right upper corner:
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Select the Protect4S Application like below to have them shown in the "My Home" page:
+
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
