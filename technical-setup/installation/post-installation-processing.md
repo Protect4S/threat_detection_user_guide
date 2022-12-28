@@ -2,7 +2,7 @@
 
 ### Run the post-installation wizard <a href="#run-the-post-installation-wizard" id="run-the-post-installation-wizard"></a>
 
-After the installation is done, run the post-installation wizard **in the client where Protect4S TD needs to run,** this cannot be done in client 000. The post-installation wizard is started by executing transaction: **/n/TDWO/PI**. The wizard will activate the [necessary SICF services](../troubleshooting/sicf-services.md) and will also prompt for the license installation. Since the applications are launched for the first time you might need to refresh them sporadically to see the content.
+After the installation is done, run the post-installation wizard **in the client where Protect4S TD needs to run,** this cannot be done in client 000. The post-installation wizard is started by executing transaction: **/n/TDWO/PI**. The wizard will activate the [necessary SICF services](../troubleshooting/sicf-services.md) and will also prompt for the license installation. Since the applications are launched for the first time you might need to refresh them sporadically to see the content. When doing an upgrade you might not get all the below popups as some settings are already in place.
 
 ![](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-M4DeA\_ch2aT\_DMIXtj1%2F-M4DeCFgK1Kor0XH90AI%2F-M4DeKsFHHQTfTDDaEVZ%2Fimage009.png?generation=1586162673680417\&alt=media)
 
