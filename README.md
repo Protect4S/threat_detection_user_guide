@@ -1,5 +1,5 @@
 # Protect4S - TD User Guide
 
-### SAP Threat Detection (TD)
+### Protect4S Threat Detection (TD)
 
 ![](<.gitbook/assets/image (63) (1).png>)
