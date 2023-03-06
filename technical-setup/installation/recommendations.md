@@ -29,3 +29,7 @@ Best practice is to connect a maximum of 180 SAP systems to one Protect4S Centra
 ### Use of HTTPS
 
 We recommend to only use HTTPS (based on TLS 1.2 or higher) to connect to the Protect4S Threat Detection solution and to send data to SIEM to ensure the integrity of data being transferred.
+
+### Threat Detection and Vulnerability Management
+
+The Threat Detection and Vulnerability Management solutions can be used together in the same system and even the same client. Keep in mind that the sizing recommendations above are just for the Threat Detection part and might need to be supplemented then.
