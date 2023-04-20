@@ -30,9 +30,9 @@ This parameter is used to split reading large amounts of data and splits up the 
 
 This flag is switched on by default and defines whether new use cases become active automatically.
 
-**Healt Check settings**
+**Health Check Settings**
 
-With the "Create Threat" mark you can define whether healtch check messages are only created in the Messages application or if an additional threat is send to SIEM. By default this is not done.
+With the "Create Threat" mark you can define whether health check messages are only created in the Messages application or if an additional threat is send to SIEM. By default this is not done.
 
 
 
