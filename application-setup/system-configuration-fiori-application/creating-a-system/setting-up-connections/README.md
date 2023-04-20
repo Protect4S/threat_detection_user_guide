@@ -14,7 +14,7 @@ By default the application will detect all available clients and list them and r
 
 **Database connection:**
 
-![Setting up database connection](<../../../../.gitbook/assets/image (14).png>)
+![Setting up database connection](<../../../../.gitbook/assets/image (14) (1).png>)
 
 A database connection is not mandatory. However, certain use cases rely on database datasources and require a functioning database connection. Note that these use cases will not work if the database connection is not setup.&#x20;
 
@@ -28,6 +28,6 @@ For SAPControl connections with Encryption (SSL), see [here](using-https-for-sap
 
 ![Overview of all the instances where sapcontrol will be used](<../../../../.gitbook/assets/image (25) (1).png>)
 
-Review and confirm the list of all the applications servers **** applicable for your system and in the next screen save the connections.
+Review and confirm the list of all the applications servers applicable for your system and in the next screen save the connections.
 
 If the Protect4S Threat Detection solution runs on the same system as Protect4S Vulnerability Management, new connections are still required. The user and authorisations defined in the RFC connection is different.

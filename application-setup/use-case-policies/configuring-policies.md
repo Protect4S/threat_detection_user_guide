@@ -22,7 +22,7 @@ To configure, the first step is to duplicate the Use Case Policy to your own ver
 
 
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Value list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p>Value list</p></figcaption></figure>
 
 If you enter the policy in edit mode, you can change or add values of the policy, in our example, we have changed the value "CUAADM" to "CUAADMINISTRATOR".
 

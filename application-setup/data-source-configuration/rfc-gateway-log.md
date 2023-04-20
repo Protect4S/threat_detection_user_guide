@@ -40,13 +40,13 @@ On top of the minimum actions **Z,S and E**, you might need to activate addition
 
 The LOGFILE sub-option defines the format in which the file stored. For a proper functioning of the Protect4S TD Solution it is required to leave this to the default SAP value: **LOGFILE=gw\_log-%y-%m-%d**
 
-****
+
 
 **SWITCHTF**
 
 The SWITCHTF sub-option defines when a new logfile is created, leave this on the default value DAY.
 
-****
+
 
 **MAXSIZEKB**
 

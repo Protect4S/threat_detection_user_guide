@@ -17,4 +17,4 @@ This functionality checks the connectivity for Data Sources and System connectio
 
 If needed, you can choose to also forward messages in this category to SIEM. This can be set per system in the System Application by setting the flag "Create Threat" to Yes.
 
-<figure><img src="../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (4) (1).png" alt=""><figcaption></figcaption></figure>

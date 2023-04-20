@@ -6,6 +6,6 @@ The Protect4S Threat Detection solution requires the Protect4S TD initial base p
 
 During the installation, a warning may state that the Base package or Support Package is not digitally signed, this is standard SAP behaviour (see also OSS Note [2645739](https://launchpad.support.sap.com/#/notes/2645739)), and the warning should be ignored. Protect4S customers can always check the downloaded support packages against the SHA256 checksum on the Protect4S website:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Checking the checksum of a Protect4S package</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Checking the checksum of a Protect4S package</p></figcaption></figure>
 
 When the installation is finished in transaction SAINT, the Post-installation transaction **/n/TDWO/PI** must be executed in the productive client in which you use Protect4S TD. See the next chapter for details.

@@ -12,7 +12,7 @@ Optionally, a different path can be defined for the SAL files as the the log fil
 
 A new option in systems with a release higher than 7.5 is to be able tp choose where events are saved. In transaction RSAU\_CONFIG you can choose between OS level logging, Database logging or both. This might provide options to clear the OS-level logging periodically while retaining the events in the Database for reference and analytics purposes: &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **ATTENTION**: Make sure to at least have the events saved to the **FILESYSTEM** in order for Protect4S TD to collect them. For more details related to the Security Audit Log profile parameters please see the the reference section and configure them as per your company's policy.
 
