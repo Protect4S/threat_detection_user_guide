@@ -60,7 +60,7 @@ On recent S4/HANA systems the Fiori Launchpad may show up empty, like in the bel
 
 In that case you case add the application by adding them to a new so called space or by adding them to the "My home" page. To do so click on the EDIT PAGE button as shown above and then on the "ADD TILE" button in the right upper corner:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Select the Protect4S Application like below to have them shown in the "My Home" page:
 
