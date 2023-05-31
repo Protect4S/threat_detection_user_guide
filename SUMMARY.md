@@ -20,6 +20,7 @@
     * [Security Audit Log Settings](application-setup/data-source-configuration/security-audit-log-settings/README.md)
       * [Audit Event IDs to record](application-setup/data-source-configuration/security-audit-log-settings/audit-event-ids-to-record.md)
     * [RFC Gateway Log](application-setup/data-source-configuration/rfc-gateway-log.md)
+    * [Message Server log](application-setup/data-source-configuration/message-server-log.md)
   * [System Configuration](application-setup/system-configuration-fiori-application/README.md)
     * [Users & Roles](application-setup/system-configuration-fiori-application/users-and-authorizations/README.md)
       * [Satellite SAP Application User](application-setup/system-configuration-fiori-application/users-and-authorizations/satellite-application-user-s/README.md)
