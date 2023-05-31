@@ -65,6 +65,7 @@
     * [S-000240-01](application-setup/recommendations/s-000240-01.md)
     * [S-000250-01](application-setup/recommendations/s-000250-01.md)
     * [S-000260-01](application-setup/recommendations/s-000260-01.md)
+    * [S-000270-01](application-setup/recommendations/s-000270-01.md)
     * [Application Variants](application-setup/recommendations/application-variants.md)
     * [Protect4S Threat Detection and Protect4S Vulnerability Management](application-setup/recommendations/protect4s-threat-detection-and-protect4s-vulnerability-management.md)
   * [Troubleshooting](application-setup/troubleshooting/README.md)
