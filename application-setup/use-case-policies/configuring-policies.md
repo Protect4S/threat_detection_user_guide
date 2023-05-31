@@ -46,7 +46,11 @@ If you want to keep the policy record and only want to temporary turn it off, de
 
 Use cases with known threat values have a column named "Threat Value". This column has a red background color for easier indication and specifies the specific value that triggers a threat.
 
-<figure><img src="../../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Use Case with Threat values</p></figcaption></figure>
+
+</div>
 
 The creation and editing of these lines work the same as described above, with the exception that threat values need to be provided. In the above screenshot you can specify critical ABAP program names that when executed should trigger an alert (with taking into account possible exceptions). When duplicating a use case policy for a specific scope, if there are default values these will be copied. You can de-activate those if unwanted and extend the use case policy with your own threat values that should trigger a threat.
 
@@ -58,4 +62,8 @@ Threat values on different lines are processed by the framework as seperate line
 
 The picture below illustrates this:
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Multiple entries with same Threat Value</p></figcaption></figure>
+
+</div>

@@ -1,10 +1,14 @@
 # Application Settings
 
-![Application Settings configuration](<../.gitbook/assets/image (29).png>)
+<div align="left">
+
+<img src="../.gitbook/assets/image (29).png" alt="Application Settings configuration">
+
+</div>
 
 If you have been granted the technical configurator role or the administrator role, you can access "Application Settings configuration" Fiori Tile. Please visit [this](system-configuration-fiori-application/users-and-authorizations/authorizations.md) page for more details regarding the authorizations. Upon accessing the application settings, you will see the following screen:
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 In this application, you define technical application settings of Threat Detection which includes General settings and settings for Threat Detection, Storage, SIEM and E-mail.
 
@@ -55,11 +59,11 @@ For Microsoft Sentinel you need to provide these settings:
 
 For IBM QRadar you need to provide these settings:
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (19).png>)
 
 * **Provider**: IBM QRadar. The integration must use a IBM QRadar log source using the HTTP Receiver protocol (HTTPS only). The format is always JSON. These settings cannot be changed.&#x20;
 * **Hostname**: the hostname for the QRadar installation to integrate with.
-* **Port number**: the port number that is configured for the HTTP Receiver.
+* **Port number**: the port number that is configured for the HTTP Receiver. The default port is 12469 but can be different.
 * **SSL Client PSE**: the SSL Client PSE to use for the HTTPS connection. For 1-way TLS: the PSE only has to trust the endpoint of the HTTP receiver. For 2-way TLS (including authentication): the PSE must be setup with a certificate that is trusted by the HTTP Receiver.
 
 Note that the integration must use an IBM Qradar log source using the HTTP Receiver protocol. See [https://www.ibm.com/docs/en/dsm?topic=options-http-receiver-protocol-configuration](https://www.ibm.com/docs/en/dsm?topic=options-http-receiver-protocol-configuration).&#x20;
@@ -88,7 +92,7 @@ If you get an error please check detailed error messages. Generally it is the cr
 
 This section is used to configure email sender and receivers to receiver threats by email.&#x20;
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 &#x20;The following settings must be provided:
 

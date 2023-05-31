@@ -13,7 +13,11 @@ Copy the \<sid>adm user record in both the /etc/passwd and /etc/shadow files to 
 
 **2. In the /etc/passwd file, change the login shell for the new user into: /sbin/nologin and save**
 
-![Cloned user smcadm](<../../../.gitbook/assets/image (27).png>)
+<div align="center">
+
+<img src="../../../.gitbook/assets/image (27).png" alt="Cloned user smcadm">
+
+</div>
 
 ​In the example above, the smdadm user record was copied to a new user called smcadm and the login shell was changed to: /sbin/nologin.
 

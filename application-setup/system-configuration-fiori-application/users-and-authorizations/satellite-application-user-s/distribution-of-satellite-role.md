@@ -14,11 +14,19 @@ Download the required Protect4S satellite role from the Solution Manager in whic
 
 Log in on the system on which Protect4S Threat Detection solution has been installed and execute transaction **PFCG**. Select the appropriate role **TDWO\_SATELLITE** and select from the menu "Role", "Download":
 
-![Enter the role you wish to download](<../../../../.gitbook/assets/image (65) (1) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (65) (1) (1).png" alt="Enter the role you wish to download">
+
+</div>
 
 From the PFCG menu, select "Role", "Download":
 
-![Performing a download](<../../../../.gitbook/assets/image (49).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (49).png" alt="Performing a download">
+
+</div>
 
 Confirm the popup:
 
@@ -34,7 +42,11 @@ You may repeat this step for roles **TDWO\_SATELLITE\_PUSH** if you use the auto
 
 Login to the satellite system, execute transaction PFCG and select Role, Upload from the PFCG menu:
 
-![Select Role, Upload from the PFCG menu](<../../../../.gitbook/assets/image (1) (1) (1) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="Select Role, Upload from the PFCG menu">
+
+</div>
 
 Select the role file you downloaded to your PC in the previous step:
 
@@ -42,11 +54,15 @@ Select the role file you downloaded to your PC in the previous step:
 
 Provide permission to upload the file:
 
-![Provide permission for upload](<../../../../.gitbook/assets/image (2) (1) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="Provide permission for upload">
+
+</div>
 
 Overwrite the old version if the role that exists to update:
 
-![Ignore warning and overwrite old role version](<../../../../.gitbook/assets/image (16).png>)
+![Ignore warning and overwrite old role version](<../../../../.gitbook/assets/image (16) (1).png>)
 
 Make sure the color status for **Menu**, **Authorization** and **User** are green in PFCG:
 

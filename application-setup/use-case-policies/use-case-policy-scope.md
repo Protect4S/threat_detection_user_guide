@@ -10,18 +10,13 @@ description: This page explains the scope of use case policies
 
 When selecting a specific policy you can see the details such as the scope, description and several other attributes of the policy.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (2) (1).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>Use Case Policy details</p></figcaption></figure>
 
 ### Hierarchy of the scope
 
 Each use case policy can be tailered to your own needs. This can also be done via the scope. By duplicating the default use case policy (since the default delivered policy is not editable) and setting the scope you can define a subset of Threat values and exceptions only applicable for that scope. The following is an overview of the different scopes and hierarchy they have:
 
-| Rank | Scope         |
-| ---- | ------------- |
-| 1    | Single System |
-| 2    | System group  |
-| 3    | System role   |
-| 4    | All Systems   |
+<table><thead><tr><th width="100">Rank</th><th>Scope</th></tr></thead><tbody><tr><td>1</td><td>Single System</td></tr><tr><td>2</td><td>System group</td></tr><tr><td>3</td><td>System role</td></tr><tr><td>4</td><td>All Systems</td></tr></tbody></table>
 
 * Select **Single System** to only change the use case policy specifically for one system.&#x20;
 * Select **Systems group** to change the use case policy for all systems in this group.

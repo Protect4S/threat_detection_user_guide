@@ -8,11 +8,19 @@ Within the Use Case Policy application you can work with [groups](../group-appli
 
 In this example we will be re-using the PRD\_GROUP we created in our example shown earlier.
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/image (1) (6).png" alt=""><figcaption><p>System group</p></figcaption></figure>
+
+</div>
 
 Depending on what kind of group you have created, you can use that group for the particular group exemptions in the use case policies. To use a group in the policy, simply enter the group name for the corresponding threat value you would like to create an exception for, for example:
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Only 1 group can be assigned per threat value, should you have multiple groups, you can define different lines with each a different group per threat value.
 

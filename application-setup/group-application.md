@@ -6,7 +6,11 @@ description: Creating and using groups to simplify TD usage
 
 
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>Group configuration application</p></figcaption></figure>
+
+</div>
 
 A group is a collection of values to assign a set of users, hosts, clients or systems together. Using a group simplifies and eases the administrative work. Depending on the situation and purpose, it might be easier to use a group instead of individual entries in policies.
 
@@ -47,5 +51,9 @@ In this initial screen you first have to define what kind of group you would lik
 
 
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Dropdown menu for Group Type</p></figcaption></figure>
+
+</div>
 
